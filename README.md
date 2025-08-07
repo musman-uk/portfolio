@@ -1,4 +1,4 @@
-📁 Portfolio Overview
+# 📁 Portfolio
 
 Below is a selection of projects that demonstrate my skills in front-end, back-end, and Python development. Each project reflects a different stage of my learning journey and showcases practical applications of core programming concepts.
 

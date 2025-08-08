@@ -6,7 +6,6 @@ A selection of my projects that demonstrate my skills in front-end, back-end, an
 ✅ ToDo List
 - Tech Stack: Python
 - Description: A simple task manager that allows users to add, complete, and delete tasks. Demonstrates basic control flow and list manipulation in Python.  
-- Source Code: [View on Mimo](https://mimo.org/web/shared/6947703)
 - Source Code: [View on Mimo](https://mimo.org/web/shared/6947703)  
 
 

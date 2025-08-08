@@ -31,7 +31,7 @@ A selection of my projects that demonstrate my skills in front-end, back-end, an
 
 🐾 Pixel Paws
 - Tech Stack: HTML, CSS, JavaScript
-- Description: A collaborative pixel art canvas featuring cat-themed sprites. Highlights grid logic, event listeners, and creative frontend design.  
+- Description: A collaborative pixel art canvas featuring pet-themed sprites. Highlights grid logic, event listeners, and creative frontend design.  
 - Live Demo: [View](https://tzp4ra.mimo.run/index.html)
 - Source Code: [View](https://mimo.org/web/shared/6626147)  
 
@@ -39,7 +39,7 @@ A selection of my projects that demonstrate my skills in front-end, back-end, an
 🖼️ Interactive Gallery  
 - Tech Stack: HTML, CSS, JavaScript
 - Description:  A responsive image gallery featuring modal previews and hover animations. Designed to showcase clean UI structure and interactive frontend logic.  
-- Live Demo: [View](https://c2f5gb.mimo.run/index.html)  
+- Live Demo: [View](https://mrd8ao.mimo.run/index.html)
 - Source Code: [View](https://mimo.org/web/shared/6426645)
 
 🔐 Caesar Cipher  

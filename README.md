@@ -2,7 +2,7 @@
 
 ## Welcome to my portfolio. 
 
-This repository features a selection of my programming projects developed using Python, JavaScript, HTML, CSS, and React. Each project reflects a key milestone in my learning journey and demonstrates practical applications of core development concepts.
+A collection of projects built with Python, JavaScript, HTML, CSS, and React — each one shaped by curiosity, refined through discipline, and grounded in thoughtful design.
 
 | 🧩 Project             | 🛠️ Tech Stack                     | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
 |----------------------|----------------------------------|--------------------------------------------------------------------------------|--------------|----------------|

@@ -2,7 +2,7 @@
 
 ## Welcome to my portfolio. 
 
-A collection of projects built with Python, JavaScript, HTML, CSS, and React – shaped by curiosity, refined through discipline, and grounded in a genuine love for development.
+A collection of projects built with HTML, CSS, JavaScript, React, and Python – fuelled by curiosity, honed through discipline, and anchored in an earnest dedication to development in its entirety. 
 
 | 🧩 Project             | 🛠️ Technology Stack                     | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
 |----------------------|----------------------------------|--------------------------------------------------------------------------------|--------------|----------------|

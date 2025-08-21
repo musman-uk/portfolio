@@ -4,7 +4,7 @@
 
 A collection of projects built with Python, JavaScript, HTML, CSS, and React – shaped by curiosity, refined through discipline, and grounded in a genuine love for development.
 
-| 🧩 Project             | 🛠️ Tech Stack                     | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
+| 🧩 Project             | 🛠️ Technology Stack                     | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
 |----------------------|----------------------------------|--------------------------------------------------------------------------------|--------------|----------------|
 | ✅ To Do List          | Python                           | A command-line task manager that allows users to add, complete, and delete tasks. Demonstrates control flow, user input handling, and list operations. | -            | [View](https://mimo.org/web/shared/6947703) |
 | 📊 Transaction Analyzer | Python                         | Parses transaction data to calculate totals, categorize expenses, and generate summaries. Highlights string manipulation, loops, and conditional logic. | -            | [View](https://mimo.org/web/shared/6984545) |

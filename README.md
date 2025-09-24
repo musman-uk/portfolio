@@ -10,7 +10,7 @@
 | 📘 Guided Projects | Structured exercises from learning platforms, adapted and refactored to professional standards | [View](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md) |
 | ⚙️ Workflow Process | Documentation of my development workflow, repository organization, and portfolio design decisions | [View](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md) |
 | 📜 Certificates | Verified certifications in programming languages, clean code, and IT fundamentals | [View](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md) |
-| 🙏 Acknowledgments | Credits to the platforms and tools that supported my learning and portfolio creation | [View](https://github.com/musman-uk/portfolio/blob/main/acknowledgments/README.md) |
+| 🙏 Acknowledgments | Credits to the platforms and tools that supported my learning and portfolio creation | [View](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) |
 
 
 
@@ -21,5 +21,5 @@ portfolio/
 ├── [guided-projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md)  
 ├── [workflow-process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md)  
 ├── [certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md)  
-├── [acknowledgments](https://github.com/musman-uk/portfolio/blob/main/acknowledgments/README.md)  
+├── [acknowledgments](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md)  
 └── README.md   → Main landing page

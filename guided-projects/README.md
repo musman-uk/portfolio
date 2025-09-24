@@ -1,4 +1,4 @@
-# 📘 Guided Projects
+## 📘 Guided Projects
 
 A pick of guided projects originally completed through structured learning with Mimo.
 

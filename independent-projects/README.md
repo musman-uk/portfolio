@@ -1,4 +1,4 @@
-# 🚀 Independent Projects
+## 🚀 Independent Projects
 
 A selection of my projects completed independently.
 

@@ -1,3 +1,6 @@
+## Certificates
+A collection of programming certificates earned through courses from Mimo, CodeSignal, and Programming Hub.
+
 
 | Certificate Title                              | Course Provider   | Certificate Link |
 |------------------------------------------------|-------------------|------------------|

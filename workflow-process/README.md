@@ -1,6 +1,6 @@
 # ⚙️ Workflow Process
 
-This folder documents my workflow and key process notes.
+An insight into my workflow and process.
 
 | Process Area       | Description                                             | Link |
 |--------------------|---------------------------------------------------------|------|

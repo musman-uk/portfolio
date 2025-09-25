@@ -1,7 +1,6 @@
 # 🙏 Acknowledgements
 
-This section recognizes the platforms and tools that supported the creation of my portfolio.  
-While all code, refactoring, and documentation decisions are my own, these resources provided guidance, structure, and acceleration.
+A space to recognise the people, resources, and inspirations that have shaped this work. It is written with gratitude, as no portfolio is built in isolation.
 
 ---
 

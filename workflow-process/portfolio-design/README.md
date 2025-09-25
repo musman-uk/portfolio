@@ -36,7 +36,7 @@ This redesign was not only about tidying up files. It was about creating a space
 - [Portfolio README](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-design/Portfolio%20README%20-%20Before.png)  
 
 **After:**  
-- [Portfolio Layout](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-design/Portfolio%20README%20-%20After.png)  
+- [Portfolio Layout](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-design/Portfolio%20Layout%20-%20After.png)  
 - [Portfolio README](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-design/Portfolio%20README%20-%20After.png)  
 
 </details>

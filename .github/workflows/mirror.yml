@@ -1,4 +1,4 @@
-name: Portfolio Mirror Backup (Debug with Secret Check)
+name: Portfolio Mirror Backup (with Token Check)
 
 on:
   push:
@@ -18,6 +18,16 @@ jobs:
             exit 1
           else
             echo "✅ MIRROR_TOKEN is set (value hidden)."
+          fi
+
+      - name: Test repo access with token
+        run: |
+          echo "🔎 Testing access to private repo..."
+          if git ls-remote https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git; then
+            echo "✅ Token has access to portfolio-backup."
+          else
+            echo "❌ Token does NOT have access to portfolio-backup."
+            exit 1
           fi
 
       - name: Add backup remote

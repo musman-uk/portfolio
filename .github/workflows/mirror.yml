@@ -4,7 +4,49 @@ on:
   push:
 
 jobs:
+  mirrorname: Portfolio Mirror Backup (Fine-grained PAT)
+
+on:
+  push:
+
+jobs:
   mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Check secret presence
+        run: |
+          if [ -z "${{ secrets.MIRROR_TOKEN }}" ]; then
+            echo "❌ MIRROR_TOKEN is empty!"
+            exit 1
+          else
+            echo "✅ MIRROR_TOKEN is set."
+          fi
+
+      - name: Test repo access with token
+        run: |
+          echo "🔎 Testing access to private repo..."
+          if git ls-remote https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git; then
+            echo "✅ Token has access to portfolio-backup."
+          else
+            echo "❌ Token does NOT have access to portfolio-backup."
+            exit 1
+          fi
+
+      - name: Add backup remote
+        run: |
+          git remote remove backup || true
+          git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
+          git remote -v
+
+      - name: Push to backup
+        run: |
+          echo "=== Starting mirror push ==="
+          git push --mirror backup
+
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

@@ -1,4 +1,4 @@
-name: Portfolio Mirror Backup (Debug)
+name: Portfolio Mirror Backup
 
 on:
   push:
@@ -11,25 +11,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Debug environment
-        run: |
-          echo "=== Git version ==="
-          git --version
-          echo "=== Current remotes (before adding backup) ==="
-          git remote -v
-          echo "=== Branches ==="
-          git branch -a
-
       - name: Add backup remote
         run: |
-          set -x   # enable shell debug so commands are echoed
           git remote remove backup || true
-          echo "Adding backup remote..."
           git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
-          echo "=== Remotes after adding backup ==="
           git remote -v
 
       - name: Push to backup
-        run: |
-          echo "=== Starting mirror push ==="
-          git push --mirror backup
+        run: git push --mirror backup

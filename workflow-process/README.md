@@ -1,6 +1,7 @@
 ## ⚙️ Workflow Process
 
-An insight into my workflow and process.
+An insight into my process and the documentation of workflows. This section gathers the methods and reflections that guide how I work and how I refine over time.
+
 
 | Process Area       | Description                                             | Link |
 |--------------------|---------------------------------------------------------|------|

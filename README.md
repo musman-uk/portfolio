@@ -22,7 +22,7 @@ Below you will find an overview of what this portfolio contains.
 
 
 portfolio/  
-├── [README.md]()  
+├── [README.md](https://github.com/musman-uk/portfolio/blob/main/README.md)  
 ├── [independent-projects](https://github.com/musman-uk/portfolio/blob/main/independent-projects/README.md)  
 ├── [guided-projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md)  
 ├── [workflow-process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md)  

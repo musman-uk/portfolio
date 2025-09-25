@@ -1,6 +1,6 @@
 ## 📜 Certificates
 
-A collection of programming certificates earned through courses from Mimo, CodeSignal, and Programming Hub.
+Verified milestones that mark the journey of learning. Each certificate is a record of persistence and growth, a reminder of skills earned along the way.
 
 
 

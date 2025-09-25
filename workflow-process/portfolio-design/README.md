@@ -10,7 +10,7 @@ This redesign was not only about tidying up files. It was about creating a space
 
 ---
 
-## 🛠️ Approach
+## 📝 Approach
 
 - **Clarity of navigation**  
   The main README now acts as a true landing page 🌍 with a table of contents and a tree that starts at the root.  
@@ -62,7 +62,7 @@ This redesign was not only about tidying up files. It was about creating a space
         ├── 🎨 independent-projects
         ├── 📘 guided-projects
         ├── ⚙️ workflow-process
-        ├── 🎓 certificates
+        ├── 📜 certificates
         └── 🤝 acknowledgements
 
 </details>

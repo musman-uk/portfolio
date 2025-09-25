@@ -16,7 +16,7 @@ This redesign was not only about tidying up files. It was about creating a space
   The main README now acts as a true landing page 🌍 with a table of contents and a tree that starts at the root.  
 
 - **Consistency of style**  
-  Each nested README opens with a short, human introduction. The rhythm and tone are minimal but warm.  
+  Each nested README opens with a short, descriptive introduction. The rhythm and tone are minimal but warm.  
 
 - **Balance of minimalism and warmth**  
   Words are trimmed to essentials ✂️ but never cold. Phrases such as curiosity, practice, and growth keep the structure alive.  
@@ -31,34 +31,45 @@ This redesign was not only about tidying up files. It was about creating a space
 <details>
 <summary><strong>🖼️ View Screenshots</strong></summary>
 
-**Before:**  
-- [Portfolio Layout](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-design/Porfolio%20Layout%20-%20Before.png)  
-- [Portfolio README](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-design/Portfolio%20README%20-%20Before.png)  
+### Before
 
-**After:**  
-- [Portfolio Layout](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-design/Portfolio%20Layout%20-%20After.png)  
-- [Portfolio README](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-design/Portfolio%20README%20-%20After.png)  
+**Portfolio Layout**  
+![Portfolio Layout – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Porfolio%20Layout%20-%20Before.png)  
+
+**Portfolio Readme**  
+![Portfolio README – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20README%20-%20Before.png)  
+
+---
+
+### After
+
+**Portfolio Layout**  
+![Portfolio Layout – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20Layout%20-%20After.png)  
+
+**Portfolio Readme**  
+![Portfolio README – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20README%20-%20After.png)  
 
 </details>
 
 <details>
 <summary><strong>🌳 View Tree Structures</strong></summary>
 
-    📂 Portfolio (Before)
-        └── README.md
+    📂 portfolio (before)
+    └── 📄 readme.md
 
-    📂 Portfolio (After)
-        └── README.md
-            ├── Independent Projects
-            ├── Guided Projects
-            ├── Workflow Process
-            ├── Certificates
-            └── Acknowledgements
+    📂 portfolio (after)
+    └── 📄 readme.md
+        ├── 🎨 independent-projects
+        ├── 📘 guided-projects
+        ├── ⚙️ workflow-process
+        ├── 🎓 certificates
+        └── 🤝 acknowledgements
 
 </details>
 
+
 ---
 
-## 💭 Reflection
+## 💭 Reflections
 
 This redesign shows that structure is never neutral. The way things are arranged shapes how they are understood. By refining tone, navigation, and consistency, the portfolio has become more than a record of projects. It is a reflection of process and principle. Clarity and warmth belong together, and this portfolio will continue to grow with patience and care.

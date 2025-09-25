@@ -1,4 +1,4 @@
-name: Portfolio Mirror Backup
+name: Portfolio Mirror Backup (Debug with Secret Check)
 
 on:
   push:
@@ -11,11 +11,23 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Check secret presence
+        run: |
+          if [ -z "${{ secrets.MIRROR_TOKEN }}" ]; then
+            echo "❌ MIRROR_TOKEN is empty or not injected!"
+            exit 1
+          else
+            echo "✅ MIRROR_TOKEN is set (value hidden)."
+          fi
+
       - name: Add backup remote
         run: |
           git remote remove backup || true
           git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
+          echo "=== Remotes after adding backup ==="
           git remote -v
 
       - name: Push to backup
-        run: git push --mirror backup
+        run: |
+          echo "=== Starting mirror push ==="
+          git push --mirror backup

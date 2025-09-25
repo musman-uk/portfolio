@@ -1,0 +1,18 @@
+name: Mirror to Private Backup
+
+on:
+  push:
+    branches:
+      - main   
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Push to backup
+        run: |
+          git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
+          git push --mirror backup

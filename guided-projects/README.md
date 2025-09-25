@@ -1,6 +1,6 @@
 ## 📘 Guided Projects
 
-A pick of guided projects originally completed through structured learning with Mimo.
+Coursework and structured tutorials that trace the path of learning. They show how guidance becomes practice, and how practice becomes personal understanding.
 
 
 | 🧩 Project             | 🛠️ Technology Stack           | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |

@@ -1,4 +1,4 @@
-## 🙏 Acknowledgements
+## 🤝 Acknowledgements
 
 A space to recognise the people, resources, and inspirations that have shaped this work. It is written with gratitude, as no portfolio is built in isolation.
 

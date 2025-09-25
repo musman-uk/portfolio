@@ -22,7 +22,9 @@ jobs:
 
       - name: Add backup remote
         run: |
+          set -x   # enable shell debug so commands are echoed
           git remote remove backup || true
+          echo "Adding backup remote..."
           git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
           echo "=== Remotes after adding backup ==="
           git remote -v

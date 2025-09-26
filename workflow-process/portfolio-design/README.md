@@ -40,13 +40,13 @@ The redesign was guided by a set of clear aims:
 The blockers below highlight the main challenges faced during the redesign process. They shaped the final approach and informed design decisions.
 
 - **Formatting Consistency**  
-  Ensuring collapsible sections, indentation, and tree diagrams rendered correctly across GitHub required repeated testing and adjustment.
+  Ensuring collapsible sections, indentation, and tree diagrams rendered correctly across GitHub required repeated testing and adjustment, pre tags can help format then in a singular markdown.
 
 - **Centralised Acknowledgements**  
   Aligning acknowledgements and dedications across documents required restraint to avoid duplication. The solution was to maintain a single central section.
 
 - **Markdown Limitations**  
-  Certain visual elements were difficult to implement within GitHub’s renderer. Compromises were necessary to balance clarity with maintainability.
+  Certain visual elements were more challenging to implement within GitHub’s renderer. Compromises were necessary to balance clarity with maintainability.
 
 - **Balancing Detail and Restraint**  
   Capturing enough transparency to reflect process integrity without overwhelming the reader required careful judgement.

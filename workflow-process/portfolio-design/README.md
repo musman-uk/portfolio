@@ -35,7 +35,7 @@ The redesign was guided by a set of clear aims:
 
 ---
 
-## 🖼️ Evidence
+## 🏁 Outcome
 The following screenshots and tree structures illustrate the changes made, showing the portfolio layout and README before and after the redesign.  
 
 <details>

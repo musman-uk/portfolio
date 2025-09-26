@@ -1,31 +1,22 @@
-name: Debug Mirror Secret
+name: Portfolio Mirror Backup
 
 on:
-  workflow_dispatch:
+  push:
+  workflow_dispatch:   # lets you trigger it manually too
 
 jobs:
-  debug:
+  mirror:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Check if secret is present
-        run: |
-          if [ -z "${{ secrets.MIRROR_TOKEN }}" ]; then
-            echo "❌ Secret MIRROR_TOKEN is EMPTY or not injected"
-            exit 1
-          else
-            echo "✅ Secret MIRROR_TOKEN is present (value masked)"
-          fi
+        with:
+          fetch-depth: 0
 
       - name: Add backup remote
         run: |
           git remote remove backup || true
           git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
-
-      - name: Show remotes
-        run: |
-          echo "=== Git remotes configured ==="
           git remote -v
-          echo "=== Backup remote URL (masked) ==="
-          git remote get-url backup
+
+      - name: Push to backup
+        run: git push --mirror backup

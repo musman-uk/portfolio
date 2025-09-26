@@ -12,7 +12,8 @@ A space to recognise the people, resources, and inspirations that have shaped th
 ---
 
 ### 🛠️ Tools
-- **Copilot** – used as an AI pair programmer and thinking partner to accelerate boilerplate, suggest alternatives, and spark ideas, while ensuring all final code was refactored and documented by me.
+
+- **Copilot** – as an AI collaborator that accelerated drafts, refined structure, and suggested alternatives, with all final work authored and approved by me. 
 - **GitHub Codespaces** – for providing a consistent, cloud-based development environment across projects. 
 - **GitHub** – for version control, repository management, and portfolio presentation.
 - **GitHub Actions** – for automating workflows such as mirroring the public repository into the private backup repository.  

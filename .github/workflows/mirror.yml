@@ -11,22 +11,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Check secret presence
-        run: |
-          if [ -z "${{ secrets.MIRROR_TOKEN }}" ]; then
-            echo "❌ MIRROR_TOKEN is empty!"
-            exit 1
-          else
-            echo "✅ MIRROR_TOKEN is set."
-          fi
-
       - name: Add backup remote
         run: |
           git remote remove backup || true
           git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
-          git remote -v
 
       - name: Push to backup (force overwrite)
-        run: |
-          echo "=== Starting mirror push with --force ==="
-          git push --mirror backup --force
+        run: git push --mirror backup --force

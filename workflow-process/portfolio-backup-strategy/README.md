@@ -37,17 +37,7 @@ The backup strategy was guided by a set of clear aims:
 ---
 
 ## 🖼️ Evidence
-The following screenshots and tree structures illustrate the changes made, showing the portfolio backup setup before and after the strategy was implemented.  
-
-<details>
-<summary><strong>View Screenshots</strong></summary>
-
-| Before | After |
-|--------|-------|
-| ![Backup – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/backup-strategy/Backup%20-%20Before.png) | ![Backup – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/backup-strategy/Backup%20-%20After.png) |
-| *Single public repository only* | *Public plus Private plus OneDrive layers* |
-
-</details>
+The following tree structures illustrate the changes made, showing the portfolio backup setup before and after the strategy was implemented.  
 
 <details>
 <summary><strong>View Tree Structures</strong></summary>

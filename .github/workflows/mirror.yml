@@ -2,8 +2,8 @@ name: Portfolio Mirror Backup
 
 on:
   push:
-  workflow_dispatch:   # lets you trigger it manually too
-
+  workflow_dispatch:   
+  
 jobs:
   mirror:
     runs-on: ubuntu-latest

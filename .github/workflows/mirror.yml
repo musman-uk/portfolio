@@ -1,10 +1,10 @@
-name: Portfolio Mirror Backup
+name: Debug Mirror Setup
 
 on:
-  push:
+  workflow_dispatch:   # run manually from the Actions tab
 
 jobs:
-  mirror:
+  debug:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -15,7 +15,10 @@ jobs:
         run: |
           git remote remove backup || true
           git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
-          git remote -v
 
-      - name: Push to backup
-        run: git push --mirror backup
+      - name: Show remotes
+        run: |
+          echo "=== Git remotes configured ==="
+          git remote -v
+          echo "=== Backup remote URL (masked) ==="
+          git remote get-url backup

@@ -1,15 +1,22 @@
-name: Debug Mirror Setup
+name: Debug Mirror Secret
 
 on:
-  workflow_dispatch:   # run manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   debug:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+
+      - name: Check if secret is present
+        run: |
+          if [ -z "${{ secrets.MIRROR_TOKEN }}" ]; then
+            echo "❌ Secret MIRROR_TOKEN is EMPTY or not injected"
+            exit 1
+          else
+            echo "✅ Secret MIRROR_TOKEN is present (value masked)"
+          fi
 
       - name: Add backup remote
         run: |

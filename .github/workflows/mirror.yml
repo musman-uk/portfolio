@@ -16,5 +16,5 @@ jobs:
           git remote remove backup || true
           git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
 
-      - name: Push to backup (force overwrite)
-        run: git push --mirror backup --force
+      - name: Push to backup
+        run: git push --mirror backup

@@ -15,6 +15,7 @@ jobs:
         run: |
           git remote remove backup || true
           git remote add backup https://musman-uk:${{ secrets.MIRROR_TOKEN }}@github.com/musman-uk/portfolio-backup.git
+          git remote -v
 
       - name: Push to backup
         run: git push --mirror backup

@@ -35,6 +35,28 @@ The redesign was guided by a set of clear aims:
 
 ---
 
+## 🚧 Blockers
+
+The blockers below highlight the main challenges faced during the redesign process. They shaped the final approach and informed design decisions.
+
+- **Formatting Consistency**  
+  Ensuring collapsible sections, indentation, and tree diagrams rendered correctly across GitHub required repeated testing and adjustment.
+
+- **Centralised Acknowledgements**  
+  Aligning acknowledgements and dedications across documents required restraint to avoid duplication. The solution was to maintain a single central section.
+
+- **Markdown Limitations**  
+  Certain visual elements were difficult to implement within GitHub’s renderer. Compromises were necessary to balance clarity with maintainability.
+
+- **Balancing Detail and Restraint**  
+  Capturing enough transparency to reflect process integrity without overwhelming the reader required careful judgement.
+
+
+---
+
+
+
+
 ## 🏁 Outcome
 The following screenshots and tree structures illustrate the changes made, showing the portfolio layout and README before and after the redesign.  
 

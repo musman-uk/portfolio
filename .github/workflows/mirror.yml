@@ -1,8 +1,10 @@
 name: Portfolio Backup
 
 on:
-  push:
-  workflow_dispatch:
+  push:                # run on every push
+  workflow_dispatch:   # allow manual runs from Actions tab
+  schedule:            # run nightly at 2 AM UTC
+    - cron: "0 2 * * *"
 
 jobs:
   backup:
@@ -19,7 +21,7 @@ jobs:
           git remote -v
 
       - name: Push main branch
-        run: git push backup main:main --force
+        run: git push backup HEAD:main --force
 
       - name: Push tags
         run: git push backup --tags --force

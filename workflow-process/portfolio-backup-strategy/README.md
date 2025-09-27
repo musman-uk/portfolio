@@ -5,7 +5,7 @@
 ## 📑 Overview
 This process captures the design and implementation of a backup strategy for my portfolio repository. The original setup relied solely on the public GitHub repository, which meant there was no redundancy if something went wrong. While functional, it left the portfolio vulnerable to data loss, outages, or accidental deletion.  
 
-The backup strategy introduces a private GitHub mirror and a OneDrive synced local copy. Together, these layers create a system that is more resilient, secure, and transparent. The portfolio is no longer just a single point of truth but a distributed, multi layered workflow that reflects principles of reliability and maintainability.
+The backup strategy introduces a private GitHub mirror and a OneDrive synced local copy. Together, these layers create a system that is more resilient, secure, and clear. The portfolio is no longer just a single point of truth but a distributed, multi layered workflow that reflects principles of reliability and maintainability.
 
 ---
 
@@ -40,7 +40,7 @@ The backup strategy was guided by a set of clear aims:
 
 The blockers below highlight the main challenges faced during implementation. Supporting screenshots are at the bottom of this section for visual reference.
 
-- **Push to Private Repo Failed**  
+- **Push to Private Repository Failed**  
   Attempted push based mirroring failed due to token scope and permission issues. The resolution was to invert the flow so the private repository pulls from the public source instead.  
 
 - **OneDrive Limitations**  
@@ -49,8 +49,11 @@ The blockers below highlight the main challenges faced during implementation. Su
 - **Automation Trade offs**  
   Task Scheduler requires the laptop to be on, while Power Automate produces zip snapshots rather than full Git clones with history.  
 
-- **Accidental Files**  
-  Stray files such as `-l` created during testing required manual cleanup.  
+- **Accidental Files**   
+  Stray files such as `-l` created during testing required manual cleanup.
+
+- **Additional Security Concerns**          
+  Backups could be exposed to exploitation or attacks if left unprotected, hence caution was applied and they are now secured with device PIN, strong passwords, and private repositiory visibility to prevent unauthorized access.
 
 <details>
 <summary><strong>View Supporting Screenshots</strong></summary>
@@ -80,13 +83,14 @@ The portfolio backup strategy transformed from a single‑point setup into a lay
 
 <pre>
 📂 portfolio (before)
-└── 📄 Public GitHub Repo (main)
+└── 📄 Public GitHub Repostiory (main)
 </pre>
 
 <pre>
 📂 portfolio (after)
-├── 📄 Public GitHub Repo (main)
-├── 🔒 Private GitHub Backup Repo (automated pull from public)
+├── 📄 Public GitHub Repository (main)
+├── 🔒 Private GitHub Backup Repository (automated pull from public)
+├── 💻 Local Folder In Laptop That Syncs to OneDrive Cloud
 └── ☁️ OneDrive Cloud Copy (local clone synced to OneDrive cloud)
 </pre>
 

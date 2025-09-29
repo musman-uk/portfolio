@@ -1,7 +1,6 @@
 ## 📘 Guided Projects
 
-Coursework and structured tutorials that trace the path of learning. They show how guidance becomes practice, and how practice becomes personal understanding.
-
+Projects completed through structured coursework and tutorials. They demonstrate how step‑by‑step guidance builds practical skills, and how those skills evolve into independent understanding.
 
 | 🧩 Project             | 🛠️ Technology Stack           | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
 |------------------------|-------------------------------|--------------------------------------------------------------------------------|--------------|----------------|

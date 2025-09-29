@@ -3,7 +3,7 @@
 Coursework and structured tutorials that trace the path of learning. They show how guidance becomes practice, and how practice becomes personal understanding.
 
 
-| 🧩 Project             | 🛠️ Technology Stack           | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
+| 🧩 Project             | 🛠️ Technology           | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
 |------------------------|-------------------------------|--------------------------------------------------------------------------------|--------------|----------------|
 | ✅ To Do List          | Python                        | A command-line task manager that allows users to add, complete, and delete tasks. Demonstrates control flow, user input handling, and list operations. |              |                |
 | 📊 Transaction Analyzer | Python                       | Parses transaction data to calculate totals, categorize expenses, and generate summaries. Highlights string manipulation, loops, and conditional logic. |              |                |

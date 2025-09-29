@@ -1,0 +1,36 @@
+name: Backup Portfolio
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # nightly at 12:00 AM UTC
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout private repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Add public source remote
+        run: |
+          git remote add source https://github.com/musman-uk/portfolio.git
+          git fetch source
+
+      - name: Backup workflow before reset
+        run: |
+          cp -r .github/workflows /tmp/workflows-backup || true
+
+      - name: Reset private repo to match public
+        run: |
+          git reset --hard source/main
+
+      - name: Restore workflow after reset
+        run: |
+          mkdir -p .github
+          cp -r /tmp/workflows-backup .github/ || true
+          git add .github/workflows || true
+          git diff --cached --quiet || git commit --quiet --allow-empty -m ""
+          git push origin main --force

@@ -2,7 +2,7 @@
 
 Projects completed through structured coursework and tutorials. They demonstrate how step‑by‑step guidance builds practical skills, and how those skills evolve into independent understanding.
 
-| 🧩 Project             | 🛠️ Technology Stack           | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
+| 🧩 Project             | 🛠️ Stack           | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
 |------------------------|-------------------------------|--------------------------------------------------------------------------------|--------------|----------------|
 | ✅ To Do List          | Python                        | A command-line task manager that allows users to add, complete, and delete tasks. Demonstrates control flow, user input handling, and list operations. |              |                |
 | 📊 Transaction Analyzer | Python                       | Parses transaction data to calculate totals, categorize expenses, and generate summaries. Highlights string manipulation, loops, and conditional logic. |              |                |

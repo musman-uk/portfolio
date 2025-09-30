@@ -15,7 +15,7 @@ Below you will find an overview of what this portfolio contains.
 | 📘 [Guided Projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md) | Structured projects built from practical learning |
 | ⚙️ [Workflow Process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md) | Selected case studies into my thinking and approach |
 | 📜 [Certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md) | Verified milestones and credentials earned along the way |
-| 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | With gratitude for the resources that shape this portfolio |
+| 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | With gratitude for all that helps shape this portfolio |
 
 
 

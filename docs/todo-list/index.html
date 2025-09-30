@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To‑Do List Console Demo</title>
+  <style>
+    body {
+      background: #111;
+      color: #0f0;
+      font-family: monospace;
+      padding: 20px;
+    }
+    #console {
+      white-space: pre-wrap;
+      line-height: 1.4em;
+    }
+    input {
+      background: #111;
+      color: #0f0;
+      border: none;
+      border-bottom: 1px solid #0f0;
+      font-family: monospace;
+      width: 80%;
+    }
+    input:focus {
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>To‑Do List Console Demo</h1>
+  <div id="console"></div>
+  <input id="userInput" type="text" autofocus placeholder="Type here and press Enter">
+
+  <script>
+    const consoleDiv = document.getElementById("console");
+    const input = document.getElementById("userInput");
+    let todo_list = [];
+    let state = "menu"; // menu, add, remove
+    let running = true;
+
+    function print(text="") {
+      consoleDiv.innerText += text + "\n";
+      consoleDiv.scrollTop = consoleDiv.scrollHeight;
+    }
+
+    function showMenu() {
+      if (todo_list.length === 0) {
+        print("Your To Do List is empty");
+      } else {
+        todo_list.forEach((task, i) => {
+          print(`${i+1}. ${task}`);
+        });
+      }
+      print("\nOptions:");
+      print("1. Add Task");
+      print("2. Remove Task");
+      print("3. Quit");
+    }
+
+    function handleInput(value) {
+      if (!running) return;
+
+      if (state === "menu") {
+        if (value === "1") {
+          print("Adding task");
+          print("Enter the task:");
+          state = "add";
+        } else if (value === "2") {
+          print("Removing task");
+          if (todo_list.length > 0) {
+            let removed = todo_list.pop();
+            print(`Removed '${removed}'`);
+          } else {
+            print("Your To Do List is empty");
+          }
+          showMenu();
+        } else if (value === "3") {
+          print("Quitting");
+          running = false;
+        } else {
+          print("Invalid choice");
+          showMenu();
+        }
+      } else if (state === "add") {
+        todo_list.push(value);
+        print(`Task '${value}' added to the To Do List`);
+        state = "menu";
+        showMenu();
+      }
+    }
+
+    // initial
+    showMenu();
+
+    input.addEventListener("keydown", e => {
+      if (e.key === "Enter") {
+        const value = input.value.trim();
+        input.value = "";
+        handleInput(value);
+      }
+    });
+  </script>
+</body>
+</html>
 

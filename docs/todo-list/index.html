@@ -2,105 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>To‑Do List Console Demo</title>
+  <title>To‑Do List Console</title>
   <style>
     body {
-      background: #111;
-      color: #0f0;
+      background: #0d1117;
+      color: #c9d1d9;
       font-family: monospace;
-      padding: 20px;
+      padding: 2rem;
     }
-    #console {
-      white-space: pre-wrap;
-      line-height: 1.4em;
+    .console {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 1rem;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+    .line {
+      margin: 0.3rem 0;
+    }
+    .prompt {
+      color: #58a6ff;
     }
     input {
-      background: #111;
-      color: #0f0;
+      background: #0d1117;
       border: none;
-      border-bottom: 1px solid #0f0;
+      border-bottom: 1px solid #58a6ff;
+      color: #c9d1d9;
       font-family: monospace;
-      width: 80%;
-    }
-    input:focus {
+      font-size: 1rem;
+      width: 100%;
+      margin-top: 1rem; /* space between menu and input */
       outline: none;
     }
   </style>
 </head>
 <body>
-  <h1>To‑Do List Console Demo</h1>
-  <div id="console"></div>
-  <input id="userInput" type="text" autofocus placeholder="Type here and press Enter">
-
-  <script>
-    const consoleDiv = document.getElementById("console");
-    const input = document.getElementById("userInput");
-    let todo_list = [];
-    let state = "menu"; // menu, add, remove
-    let running = true;
-
-    function print(text="") {
-      consoleDiv.innerText += text + "\n";
-      consoleDiv.scrollTop = consoleDiv.scrollHeight;
-    }
-
-    function showMenu() {
-      if (todo_list.length === 0) {
-        print("Your To Do List is empty");
-      } else {
-        todo_list.forEach((task, i) => {
-          print(`${i+1}. ${task}`);
-        });
-      }
-      print("\nOptions:");
-      print("1. Add Task");
-      print("2. Remove Task");
-      print("3. Quit");
-    }
-
-    function handleInput(value) {
-      if (!running) return;
-
-      if (state === "menu") {
-        if (value === "1") {
-          print("Adding task");
-          print("Enter the task:");
-          state = "add";
-        } else if (value === "2") {
-          print("Removing task");
-          if (todo_list.length > 0) {
-            let removed = todo_list.pop();
-            print(`Removed '${removed}'`);
-          } else {
-            print("Your To Do List is empty");
-          }
-          showMenu();
-        } else if (value === "3") {
-          print("Quitting");
-          running = false;
-        } else {
-          print("Invalid choice");
-          showMenu();
-        }
-      } else if (state === "add") {
-        todo_list.push(value);
-        print(`Task '${value}' added to the To Do List`);
-        state = "menu";
-        showMenu();
-      }
-    }
-
-    // initial
-    showMenu();
-
-    input.addEventListener("keydown", e => {
-      if (e.key === "Enter") {
-        const value = input.value.trim();
-        input.value = "";
-        handleInput(value);
-      }
-    });
-  </script>
+  <div class="console">
+    <div class="line">Python 3.11.5 (default, Sep 2025)</div>
+    <div class="line">Type "help", "copyright", "credits" or "license" for more information.</div>
+    <div class="line prompt">&gt;&gt;&gt; Welcome to the To‑Do List Console</div>
+    <div class="line">1. Add Task</div>
+    <div class="line">2. View Tasks</div>
+    <div class="line">3. Remove Task</div>
+    <div class="line">4. Exit</div>
+    <input type="text" placeholder=">>> Enter choice here">
+  </div>
 </body>
 </html>
-

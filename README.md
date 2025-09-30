@@ -8,14 +8,17 @@ Below you will find an overview of what this portfolio contains.
 
 ## Table of Contents
 
-| Section              | Description                                |
-|----------------------|--------------------------------------------|
-| 📖 [About](https://github.com/musman-uk/portfolio/blob/main/about/README.md) | My journey, values and perspective |
-| 🎨 [Independent Projects](https://github.com/musman-uk/portfolio/blob/main/independent-projects/README.md) | Self‑directed explorations and case studies |
-| 📘 [Guided Projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md) | Structured learning projects with hands‑on practice |
-| ⚙️ [Workflow Process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md) | Approach and documentation of workflows |
-| 📜 [Certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md) | Verified milestones from online courses |
-| 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | With gratitude to credits where due |
+| Section | Description |
+|---------|-------------|
+| 📖 [About](https://github.com/musman-uk/portfolio/blob/main/about/README.md) | My journey, values, and perspective |
+| 🎨 [Independent Projects](https://github.com/musman-uk/portfolio/blob/main/independent-projects/README.md) | Self-directed projects that showcase initiative and applied skills |
+| 📘 [Guided Projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md) | Structured projects built from practical learning |
+| ⚙️ [Workflow Process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md) | Selected case studies into my thinking and approach |
+| 📜 [Certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md) | Verified milestones and credentials earned along the way |
+| 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | With gratitude for the resources that shape this portfolio |
+
+
+
 
 ---
 

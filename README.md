@@ -10,7 +10,7 @@ Below you will find an overview of what this portfolio contains.
 
 | Section | Description |
 |---------|-------------|
-| 📖 [About](https://github.com/musman-uk/portfolio/blob/main/about/README.md) | My journey, values, and perspective |
+| 📖 [About](https://github.com/musman-uk/portfolio/blob/main/about/README.md) | My story, values, and perspective |
 | 🎨 [Independent Projects](https://github.com/musman-uk/portfolio/blob/main/independent-projects/README.md) | Self-directed projects that showcase initiative and applied skills |
 | 📘 [Guided Projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md) | Structured projects built from practical learning |
 | ⚙️ [Workflow Process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md) | Selected case studies into my thinking and approach |

@@ -4,18 +4,19 @@ Anchored in a commitment to building ethical, purposeful, and versatile technolo
 
 ---
 
-Below you will find an overview of what this portfolio contains.
+Here is an overview of this portfolio’s contents, for those who would like to take a closer look.
 
 ## Table of Contents
 
 | Section | Description |
 |---------|-------------|
-| 📖 [About](https://github.com/musman-uk/portfolio/blob/main/about/README.md) | My story, values, and perspective |
-| 🎨 [Independent Projects](https://github.com/musman-uk/portfolio/blob/main/independent-projects/README.md) | Self-directed projects that showcase initiative and applied skills |
-| 📘 [Guided Projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md) | Structured projects built from practical learning |
-| ⚙️ [Workflow Process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md) | Selected case studies into my thinking and approach |
-| 📜 [Certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md) | Verified milestones and credentials earned along the way |
-| 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | With gratitude for all that helps shape this portfolio |
+| 📖 [About](https://github.com/musman-uk/portfolio/blob/main/about/README.md) | The story of this portfolio, and the values and perspective surrounding it |
+| 🎨 [Independent Projects](https://github.com/musman-uk/portfolio/blob/main/independent-projects/README.md) | Self‑directed projects fuelled by initiative, exploration, and passion |
+| 📘 [Guided Projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md) | Learning‑driven projects completed through structured guidance and practice |
+| ⚙️ [Workflow Process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md) | Case studies that reveal my approach to problem‑solving and workflow design |
+| 📜 [Certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md) | Credentials and milestones that mark key stages of my learning journey |
+| 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | Gratitude for the people, tools, and inspirations that shaped this portfolio |
+
 
 
 

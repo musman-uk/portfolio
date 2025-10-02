@@ -2,11 +2,6 @@
 
 Projects completed through structured coursework and tutorials. They demonstrate how step‑by‑step guidance builds practical skills, and how those skills evolve into independent understanding.
 
-
-## 📘 Guided Projects
-
-Projects completed through structured coursework and tutorials. They demonstrate how step‑by‑step guidance builds practical skills, and how those skills evolve into independent understanding.
-
 | 🧩 Project             | 🛠️ Stack                     | 📄 Description                                                                 | 🌐 Live Demo | 💻 Source Code |
 |------------------------|-------------------------------|--------------------------------------------------------------------------------|--------------|---------|
 | ✅ To Do List          | Python, HTML, CSS, JavaScript | Mock terminal interface that allows users to add, complete, and delete tasks. Demonstrates control flow, user input handling, and list operations. | [View](https://musman-uk.github.io/live-demos/todo-list/index.html) | [View](https://github.com/musman-uk/portfolio/blob/main/guided-projects/todo-list/source-code/README.md) |

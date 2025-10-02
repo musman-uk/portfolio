@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Unit Converter</title>
+  <title>🔢 Unit Converter</title>
   <style>
     /* Page foundation: dark background for strong contrast, consistent padding, and a neutral sans-serif font for readability */
     body {

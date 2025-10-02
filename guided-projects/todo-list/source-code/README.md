@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -192,4 +193,3 @@ def remove_task():
   </script>
 </body>
 </html>
-

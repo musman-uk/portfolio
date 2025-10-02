@@ -91,7 +91,7 @@
   </style>
 </head>
 <body>
-  <h1>🖼️ Interactive Gallery... of cats!</h1>
+  <h1>Interactive Gallery... of cats!</h1>
 
   <!-- Gallery items: each card combines thumbnail, name, and playful caption -->
   <div class="gallery">

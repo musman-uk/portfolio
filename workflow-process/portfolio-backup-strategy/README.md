@@ -1,15 +1,15 @@
-# 💾 Portfolio Backup Strategy
+## 💾 Portfolio Backup Strategy
 
 ---
 
-## 📑 Overview
+### 📑 Overview
 This process captures the design and implementation of a backup strategy for my portfolio repository. The original setup relied solely on the public GitHub repository, which meant there was no redundancy if something went wrong. While functional, it left the portfolio vulnerable to data loss, outages, or accidental deletion.  
 
 The backup strategy introduces a private GitHub mirror and a OneDrive synced local copy. Together, these layers create a system that is more resilient, secure, and clear. The portfolio is no longer just a single point of truth but a distributed, multi layered workflow that reflects principles of reliability and maintainability.
 
 ---
 
-## 📌 Purpose
+### 📌 Purpose
 The backup strategy was guided by a set of clear aims:  
 
 - **Redundancy**: to ensure the portfolio is always recoverable from multiple independent sources.  
@@ -19,7 +19,7 @@ The backup strategy was guided by a set of clear aims:
 
 ---
 
-## 📝 Approach
+### 📝 Approach
 - Implemented automation using GitHub Actions to mirror the public repository into a private backup repository.  
 - Encountered blockers with push based mirroring and switched to a pull based model where the private repository pulls from the public source.  
 - Created a local clone inside the OneDrive synced folder and refreshed it with `git pull` using the Git CLI, which then synced automatically to the cloud.  
@@ -28,7 +28,7 @@ The backup strategy was guided by a set of clear aims:
 
 ---
 
-## 🎯 Rationale
+### 🎯 Rationale
 - A pull based mirror simplified authentication and reduced token scope risks compared to pushing into the private repository.  
 - OneDrive integration added a non GitHub cloud layer, diversifying backup locations.  
 - Layered redundancy ensures no single point of failure.  
@@ -36,7 +36,7 @@ The backup strategy was guided by a set of clear aims:
 
 ---
 
-## 🚧 Blockers
+### 🚧 Blockers
 
 The blockers below highlight the main challenges faced during implementation. Supporting screenshots are at the bottom of this section for visual reference.
 
@@ -59,7 +59,7 @@ For Visual references to blockers encountered, please view screenshots in the ou
 
 ---
 
-## 🏁 Outcome
+### 🏁 Outcome
 
 The portfolio backup strategy transformed from a single‑point setup into a layered, resilient system. The tree structure below illustrates the change, whilst the screenshots visually reference blockers encountered.
 
@@ -101,7 +101,7 @@ The portfolio backup strategy transformed from a single‑point setup into a lay
 
 ---
 
-## 💭 Reflections
+### 💭 Reflections
 Designing and implementing the backup strategy was as much about mindset as it was about technical execution. At first I assumed that pushing directly into the private backup repository would be the most straightforward solution, but the authentication failures and token scope issues quickly revealed the hidden complexity of that approach. This prompted me to step back and reconsider the problem, and in doing so I discovered that a pull based model was not only simpler but also more secure. That shift in perspective was a reminder that the obvious path is not always the most sustainable one, and that resilience often comes from reframing the problem rather than forcing a brittle solution.  
 
 The addition of a OneDrive synced local clone introduced another layer of learning. While it may seem redundant at first glance, it provided a valuable safeguard outside of GitHub, diversifying the backup strategy and reducing reliance on a single platform. The manual git pull step, although less elegant than full automation, gave me a sense of visibility and control that was reassuring during the early stages. It also highlighted the trade off between convenience and oversight. Automation can save time, but it can also obscure what is happening under the hood.  

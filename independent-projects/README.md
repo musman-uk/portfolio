@@ -4,7 +4,7 @@ Self directed explorations that begin with curiosity and grow into case studies.
 
 | Project | Description | Link |
 |---------|-------------|------|
-| 📚 Documentation Makeover | A set of mock documentation transformations, showing how unclear or incomplete docs can be refined into professional, reader‑friendly guides. | [View]() |
+| 📚 Documentation Makeover | A set of mock documentation transformations, showing how unclear or incomplete docs can be refined into professional, reader‑friendly guides. | [View](https://github.com/musman-uk/portfolio/tree/main/independent-projects/documentation-makeover) |
 |         |             |      |
 |         |             |      |
 |         |             |      |

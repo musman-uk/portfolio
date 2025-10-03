@@ -34,17 +34,53 @@ Several challenges were encountered during the migration:
 - **Markup to Programming Transition**: The first guided project, Unit Converter, was written without comments. At that stage, the challenge was simply to produce working code. This highlighted the shift from markup‑based exercises to logic‑driven programming, and the need for a new approach to documentation.  
 - **Mock Terminal Demos**: Creating realistic console‑style demos from source code introduced formatting and user experience challenges, particularly around spacing and output realism.  
 - **Consistency Across Projects**: Each project had been built seperately, so aligning branding, emoji usage, and documentation tone required multiple passes.  
-- **Scope Creep**: The migration began as a task of transferring projects into a new structure. It expanded into a broader effort to preserve the authenticity of the original code and logic while enhancing readability and presentation for readers.  
+- **Scope Creep**: The migration began as a task of transferring projects into a new structure. It expanded into a broader effort to preserve the authenticity of the original code and logic while enhancing readability and presentation for readers.
+
+For a visual reference to a blocker encountered, please view screenshots in the outcomes section.   
 
 ---
 
-## 🏁 Outcome  
+# 🏁 Outcome  
 The migration produced a cohesive portfolio of guided projects. Each project now:  
 - Contains comments that explain intent and reasoning.  
 - Presents consistent branding and user interface alignment.  
 - Is documented with a professional structure that is easy for readers to follow.  
 
-📸 *Screenshots of the refined projects and portfolio structure will be added here to illustrate the outcome.*  
+<details>
+<summary>📸 View Screenshots</summary>
+
+### To Do List  
+**Before (Live Demo and Source Code)**  
+![To Do List Live Demo and Source Code - Before](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/To%20Do%20List%20%20Source%20Code%20and%20Live%20Demo%20-%20Before.png)  
+
+**After (Live Demo)**  
+![To Do List Live Demo - After](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/To%20Do%20List%20Live%20Demo%20-%20After.png)  
+
+**After (Source Code)**  
+![To Do List Source Code - After](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/To%20Do%20List%20Source%20Code%20-%20After.png)  
+
+---
+
+### Unit Converter  
+**Before (Live Demo)**  
+![Unit Converter Live Demo - Before](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Live%20Demo%20-%20Before.png)  
+
+**After (Live Demo)**  
+![Unit Converter Live Demo - After](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Live%20Demo%20-%20After.png)  
+
+**Before (Source Code)**  
+![Unit Converter Source Code - Before](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Source%20Code%20-%20Before.png)  
+
+**After (Source Code)**  
+![Unit Converter Source Code - After](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Source%20Code%20-%20After.png)  
+
+---
+
+### Blocker Example  
+**Formatting Issue**  
+![Guided Projects Migration Blocker Example – To Do List](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Guided%20Projects%20Migration%20-%20Blocker.png)  
+
+</details>
 
 ---
 

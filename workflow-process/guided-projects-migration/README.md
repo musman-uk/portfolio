@@ -33,7 +33,7 @@ Several challenges were encountered during the migration:
 - **Comment Quality Drift**: Early projects contained either no comments or comments that repeated code rather than explaining reasoning. These required careful rewriting.  
 - **Markup to Programming Transition**: The first guided project, Unit Converter, was written without comments. At that stage, the challenge was simply to produce working code. This highlighted the shift from markup‑based exercises to logic‑driven programming, and the need for a new approach to documentation.  
 - **Mock Terminal Demos**: Creating realistic console‑style demos from source code introduced formatting and user experience challenges, particularly around spacing and output realism.  
-- **Consistency Across Projects**: Each project had been built in isolation, so aligning branding, emoji usage, and documentation tone required multiple passes.  
+- **Consistency Across Projects**: Each project had been built seperately, so aligning branding, emoji usage, and documentation tone required multiple passes.  
 - **Scope Creep**: The migration began as a task of transferring projects into a new structure. It expanded into a broader effort to preserve the authenticity of the original code and logic while enhancing readability and presentation for readers.  
 
 ---

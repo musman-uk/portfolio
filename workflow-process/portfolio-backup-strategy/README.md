@@ -64,7 +64,7 @@ For Visual references to blockers encountered, please view screenshots in the ou
 The portfolio backup strategy transformed from a single‑point setup into a layered, resilient system. The tree structure below illustrates the change, whilst the screenshots visually reference blockers encountered.
 
 <details>
-<summary><strong>View Tree Structures</strong></summary>
+<summary><strong>🌳 View Tree Structures</strong></summary>
 
 <pre>
 📂 portfolio (before)

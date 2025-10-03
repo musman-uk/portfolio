@@ -61,7 +61,7 @@ The blockers below highlight the main challenges faced during the redesign proce
 The following screenshots and tree structures illustrate the changes made, showing the portfolio layout and README before and after the redesign.  
 
 <details>
-<summary><strong>View Screenshots</strong></summary>
+<summary><strong>📸 View Screenshots</strong></summary>
 
 | Before | After |
 |--------|-------|

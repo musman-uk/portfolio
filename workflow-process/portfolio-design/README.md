@@ -58,19 +58,7 @@ The blockers below highlight the main challenges faced during the redesign proce
 
 
 ## 🏁 Outcome
-The following screenshots and tree structures illustrate the changes made, showing the portfolio layout and README before and after the redesign.  
-
-<details>
-<summary><strong>📸 View Screenshots</strong></summary>
-
-| Before | After |
-|--------|-------|
-| ![Portfolio Layout – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Porfolio%20Layout%20-%20Before.png) | ![Portfolio Layout – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20Layout%20-%20After.png) |
-| *Portfolio Layout* | *Portfolio Layout* |
-| ![Portfolio README – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20README%20-%20Before.png) | ![Portfolio README – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20README%20-%20After.png) |
-| *Portfolio README* | *Portfolio README* |
-
-</details>
+The following tree structures and screenshots illustrate the changes made, showing the portfolio layout and README before and after the redesign.  
 
 <details>
 <summary><strong>🌳 View Tree Structures</strong></summary>
@@ -89,6 +77,18 @@ The following screenshots and tree structures illustrate the changes made, showi
     ├── 📜 certificates
     └── 🤝 acknowledgements
 </pre>
+
+</details>
+
+<details>
+<summary><strong>📸 View Screenshots</strong></summary>
+
+| Before | After |
+|--------|-------|
+| ![Portfolio Layout – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Porfolio%20Layout%20-%20Before.png) | ![Portfolio Layout – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20Layout%20-%20After.png) |
+| *Portfolio Layout* | *Portfolio Layout* |
+| ![Portfolio README – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20README%20-%20Before.png) | ![Portfolio README – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20README%20-%20After.png) |
+| *Portfolio README* | *Portfolio README* |
 
 </details>
 

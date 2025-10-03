@@ -73,7 +73,7 @@ The following screenshots and tree structures illustrate the changes made, showi
 </details>
 
 <details>
-<summary><strong>View Tree Structures</strong></summary>
+<summary><strong>🌳 View Tree Structures</strong></summary>
 
 <pre>
 📂 portfolio (before)

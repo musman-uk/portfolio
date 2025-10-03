@@ -40,8 +40,8 @@ The backup strategy was guided by a set of clear aims:
 
 The blockers below highlight the main challenges faced during implementation. Supporting screenshots are at the bottom of this section for visual reference.
 
-- **Push to Private Repository Failed**  
-  Attempted push based mirroring failed due to token scope and permission issues. The resolution was to invert the flow so the private repository pulls from the public source instead.  
+- **Push to Private Repository Unsuccesful**  
+  Attempted push based mirroring did not succeed due to token scope and permission issues. The resolution was to invert the flow so the private repository pulls from the public source instead.  
 
 - **OneDrive Limitations**  
   OneDrive cannot directly integrate with GitHub. It requires manual or scheduled `git pull` to refresh the local clone.  
@@ -55,28 +55,13 @@ The blockers below highlight the main challenges faced during implementation. Su
 - **Additional Security Concerns**          
   Backups could be exposed to exploitation or attacks if left unprotected, hence caution was applied and they are now secured with device PIN, strong passwords, and private repositiory visibility to prevent unauthorized access.
 
-<details>
-<summary><strong>View Supporting Screenshots</strong></summary>
-
-- ![Token Setup – Deleted Token, Name Only](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20%20Tokens.png)  
-  *Example of the token created for testing (now deleted, no secret visible).*
-
-- ![Push Failure – Authentication Error](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Blocker.png)  
-  *Authentication failure encountered when attempting to push directly into the private repository.*
-
-- ![Debugging Push Issue](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Debug.png)  
-  *Debug output isolating the failure to the push step, confirming the issue was authentication related.*
-
-- ![Push Success](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Strategy%20-%20Success.png)  
-  *Successful push confirming the backup workflow was functioning correctly after adjustments.*
-
-</details>
+For Visual references to blockers encountered, please view screenshots in the outcome section.
 
 ---
 
 ## 🏁 Outcome
 
-The portfolio backup strategy transformed from a single‑point setup into a layered, resilient system. The tree structure below illustrates the change.
+The portfolio backup strategy transformed from a single‑point setup into a layered, resilient system. The tree structure below illustrates the change, whilst the screenshots visually reference blockers encountered.
 
 <details>
 <summary><strong>View Tree Structures</strong></summary>
@@ -95,6 +80,24 @@ The portfolio backup strategy transformed from a single‑point setup into a lay
 </pre>
 
 </details>
+
+<details>
+<summary><strong>📸 View Screenshots</strong></summary>
+
+- ![Token Setup – Deleted Token, Name Only](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20%20Tokens.png)  
+  *Example of the token created for testing (now deleted, no secret visible).*
+
+- ![Push Failure – Authentication Error](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Blocker.png)  
+  *Authentication failure encountered when attempting to push directly into the private repository.*
+
+- ![Debugging Push Issue](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Debug.png)  
+  *Debug output isolating the failure to the push step, confirming the issue was authentication related.*
+
+- ![Push Success](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Strategy%20-%20Success.png)  
+  *Successful push confirming the backup workflow was functioning correctly after adjustments.*
+
+</details>
+
 
 ---
 

@@ -1,11 +1,11 @@
-# ✈️ Guided Projects Migration
+## ✈️ Guided Projects Migration
 
-## 📑 Overview  
+### 📑 Overview  
 The Guided Projects Migration involved consolidating and refining all guided projects into a unified portfolio section. This was not only transfer of files, it required a careful review of each project, rewriting comments to professional standards, aligning documentation, and ensuring that presentation was consistent across the portfolio. The migration created a coherent body of work where projects are both technically accurate and accessible to readers.  
 
 ---
 
-## 📌 Purpose  
+### 📌 Purpose  
 The purpose of this migration was to transform guided projects from course exercises into polished portfolio artifacts. The aims were:  
 
 - To ensure that every project demonstrates professional coding practices, with comments that explain reasoning and intent.  
@@ -15,7 +15,7 @@ The purpose of this migration was to transform guided projects from course exerc
 
 ---
 
-## 📝 Approach  
+### 📝 Approach  
 The migration was carried out in structured phases:  
 
 - **Audit Phase**: Each project was reviewed for redundant comments, inconsistent documentation, and missing rationale.  
@@ -28,7 +28,7 @@ This approach ensured that the migration was both technical and editorial, treat
 
 ---
 
-## 🚧 Blockers  
+### 🚧 Blockers  
 Several challenges were encountered during the migration:  
 - **Comment Quality Drift**: Early projects contained either no comments or comments that repeated code rather than explaining reasoning. These required careful rewriting.  
 - **Markup to Programming Transition**: The first guided project, Unit Converter, was written without comments. At that stage, the challenge was simply to produce working code. This highlighted the shift from markup‑based exercises to logic‑driven programming, and the need for a new approach to documentation.  
@@ -40,7 +40,7 @@ For a visual reference to a blocker encountered, please view screenshots in the 
 
 ---
 
-# 🏁 Outcome  
+### 🏁 Outcome  
 The migration produced a cohesive portfolio of guided projects. Each project now:  
 - Contains comments that explain intent and reasoning.  
 - Presents consistent branding and user interface alignment.  
@@ -49,7 +49,7 @@ The migration produced a cohesive portfolio of guided projects. Each project now
 <details>
 <summary>📸 View Screenshots</summary>
 
-### To Do List  
+#### To Do List  
 **Before (Live Demo and Source Code)**  
 ![To Do List Live Demo and Source Code - Before](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/To%20Do%20List%20%20Source%20Code%20and%20Live%20Demo%20-%20Before.png)  
 
@@ -61,7 +61,7 @@ The migration produced a cohesive portfolio of guided projects. Each project now
 
 ---
 
-### Unit Converter  
+#### Unit Converter  
 **Before (Live Demo)**  
 ![Unit Converter Live Demo - Before](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Live%20Demo%20-%20Before.png)  
 
@@ -76,7 +76,7 @@ The migration produced a cohesive portfolio of guided projects. Each project now
 
 ---
 
-### Blocker Example  
+#### Blocker Example  
 **Formatting Issue**  
 ![Guided Projects Migration Blocker Example – To Do List](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Guided%20Projects%20Migration%20-%20Blocker.png)  
 
@@ -84,7 +84,7 @@ The migration produced a cohesive portfolio of guided projects. Each project now
 
 ---
 
-## 💭 Reflections  
+### 💭 Reflections  
 The guided projects migration marks significant stages in my development. For example, the Unit Converter was my first guided project, and at that time I did not write comments as my focus was entirely on producing code that worked, which alone was challenging. As I progressed through later projects, I began to understand the importance of comments not as annotations of code, but as explanations of reasoning. Writing comments became part of my learning process, and through this migration I was able to revisit earlier work and bring it up to the standard I had since developed.  
 
 Another reason for preserving these projects in their original form was to create a reminder of how far I have come. I could have chosen to expand them by adding new features and complexity, but I chose instead to keep them close to their original simplicity. This decision was deliberate, it ensures that when I speak of authenticity, I do not just say it, but also mean it. The projects remain true to the stage of learning they represent, while still being enhanced for clarity and readability. Their simplicity highlights the evolution of my skills, and I can always expand on these ideas in future projects, but these guided works felt right as they are: preserved, polished, and reflective of my growth.  

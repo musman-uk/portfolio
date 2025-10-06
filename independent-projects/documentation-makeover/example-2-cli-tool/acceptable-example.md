@@ -1,4 +1,4 @@
-# CLI Tool Usage
+# CLI Tool
 
 This tool helps you manage tasks from the command line.
 

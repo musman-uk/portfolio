@@ -1,7 +1,17 @@
 # API Quickstart
 
-GET /users
+Install the SDK with your package manager:
 
-TODO: add auth details later  
-works on dev env, not sure about prod
+```bash
+npm install example-sdk
+```
 
+Then import it and call the client:
+
+```python
+import example_sdk
+client = example_sdk.Client()
+print(client.list())
+```
+
+This should return your data.  

@@ -1,6 +1,6 @@
 # API Quickstart
 
-The Example API allows you to retrieve user data securely and efficiently.  
+The `Example API` allows you to retrieve user data securely and efficiently.  
 This quickstart will help you authenticate, send your first request, and understand the response.
 
 ---

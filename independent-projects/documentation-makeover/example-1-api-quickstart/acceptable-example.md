@@ -1,29 +1,64 @@
 # API Quickstart
 
-This API lets you get a list of users.
+This guide explains how to install the Example SDK and make a basic request. It assumes you already have an API key.
 
-## Prerequisites
-- You need an API key (find it in your account dashboard).
-- Works with curl or Postman.
+## Installation
+Install the SDK using your package manager:
 
-## Example Request
 ```bash
-curl -H "Authorization: Bearer <API_KEY>" \
-     https://api.example.com/v1/users
+npm install example-sdk
 ```
+
+or
+
+```bash
+pip install example-sdk
+```
+
+Verify installation by importing the package:
+
+```bash
+python -c "import example_sdk"
+```
+
+## Authentication
+Set your API key as an environment variable:
+
+```bash
+export EXAMPLE_API_KEY="your_api_key_here"
+```
+
+On Windows:
+
+```powershell
+setx EXAMPLE_API_KEY "your_api_key_here"
+```
+
+## First Request
+The following example retrieves tasks:
+
+```python
+from example_sdk import Client
+import os
+
+client = Client(api_key=os.getenv("EXAMPLE_API_KEY"))
+tasks = client.tasks.list()
+print(tasks)
+```
+
 ## Example Response
+```json
+{
+  "tasks": [
+    {"id": 1, "title": "Buy milk"},
+    {"id": 2, "title": "Finish report"}
+  ]
+}
 ```
-json
-[
-  { "id": 1, "name": "Alice" },
-  { "id": 2, "name": "Bob" }
-]
 
-```
+This confirms the SDK is working. You can now explore other methods such as `tasks.create()` or `tasks.delete()`.
+
 ## Notes
-
-Only tested with a few accounts so far.
-
-Error codes not covered yet.
-
-More details will be added later.
+- Ensure your API key is valid.  
+- The SDK requires Python 3.10+ or Node.js 18+.  
+- For more details, see the API reference.  

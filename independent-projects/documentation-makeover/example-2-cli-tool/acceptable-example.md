@@ -1,31 +1,57 @@
 # CLI Tool
 
-This tool helps you manage tasks from the command line.
+The `example-tool` command‑line interface helps you manage tasks from the terminal. This guide covers installation and basic usage.
 
 ## Installation
-Download the binary from the releases page and add it to your PATH.
+Download the installer for your platform:
 
-## Basic Usage
+- **macOS/Linux**  
+```bash
+curl -sSL https://example.com/install.sh | bash
+```
 
-### List Tasks
+- **Windows (PowerShell)**  
+```powershell
+iwr -useb https://example.com/install.ps1 | iex
+```
+
+Verify installation:
 
 ```bash
-mytool list
+example-tool --version
+```
+
+## Basic Commands
+### List Tasks
+```bash
+example-tool list
+```
+
+Example output:
+```
+1. Buy milk
+2. Finish report
 ```
 
 ### Add a Task
 ```bash
-mytool add "Buy milk"
+example-tool add "Book dentist appointment"
 ```
-### Example Output
+
+### Remove a Task
+```bash
+example-tool remove 2
 ```
-1. Buy milk
-```
+
+## Options
+- `--help` → Show usage information  
+- `--version` → Display version  
 
 ## Notes
+The tool reads configuration from `~/.example-tool/config.yml` if present. Most users can run commands without additional setup. If you encounter errors, reinstall or check your environment. For more commands, run:
 
-Works on Linux and macOS.
+```bash
+example-tool --help
+```
 
-Windows support is limited.
-
-Error messages may not always be clear.
+This will display a list of available subcommands and options.  

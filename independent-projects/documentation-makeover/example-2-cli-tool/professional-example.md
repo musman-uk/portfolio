@@ -1,6 +1,6 @@
 # CLI Tool
 
-The `mytool` CLI helps you manage tasks quickly and consistently across environments.  
+The `example-tool` CLI helps you manage tasks quickly and consistently across environments.  
 This guide covers installation, common commands, global options, and troubleshooting.
 
 ---

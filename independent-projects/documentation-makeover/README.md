@@ -1,10 +1,10 @@
-# 📖 Context  
+## 📖 Context  
  
 This project examines how documentation quality shapes the reader experience. Through mock examples, I experiment with transforming unclear or incomplete documentation into guides that are approachable, structured, and professional.  The purpose is not to define universal standards. It is to share my own working framework for what I consider poor, acceptable, and professional documentation. This is a learning exercise as much as it is a demonstration of process and outcome.  
 
 ---
 
-# 🧪 Method  
+## 🧪 Method  
 
 To make the differences visible, I created a simple framework that shows each case at three levels. These are my interpretations, not absolute rules:  
 
@@ -16,9 +16,9 @@ The aim is not to judge anyone’s work, which is why only mock examples are use
 
 ---
 
-# 💬 Exposition  
+## 💬 Exposition  
 
-## Example 1: API Quickstart  
+### Example 1: API Quickstart  
 - [Poor Example](independent-projects/documentation-makeover/example-1-api-quickstart/poor-example.md)  
 - [Acceptable Example](independent-projects/documentation-makeover/example-1-api-quickstart/acceptable-example.md)  
 - [Professional Example](independent-projects/documentation-makeover/example-1-api-quickstart/professional-example.md)  
@@ -31,7 +31,7 @@ The professional version feels production ready. It introduces prerequisites, pr
 
 ---
 
-## Example 2: CLI Tool Usage  
+### Example 2: CLI Tool Usage  
 - [Poor Example](independent-projects/documentation-makeover/example-2-cli-tool/poor-example.md)  
 - [Acceptable Example](independent-projects/documentation-makeover/example-2-cli-tool/acceptable-example.md)  
 - [Professional Example](independent-projects/documentation-makeover/example-2-cli-tool/professional-example.md)  
@@ -44,7 +44,7 @@ The professional version is polished and empathetic. It includes installation st
 
 ---
 
-## Example 3: Configuration Guide  
+### Example 3: Configuration Guide  
 - [Poor Example](independent-projects/documentation-makeover/example-3-configuration-guide/poor-example.md)  
 - [Acceptable Example](independent-projects/documentation-makeover/example-3-configuration-guide/acceptable-example.md)  
 - [Professional Example](independent-projects/documentation-makeover/example-3-configuration-guide/professional-example.md)  
@@ -57,7 +57,7 @@ The professional version is elevated with annotated configs, option tables, vali
 
 ---
 
-# 💭 Thoughts  
+## 💭 Thoughts  
 
 
 To be added

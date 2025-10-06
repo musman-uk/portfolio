@@ -18,6 +18,7 @@ json
   { "id": 2, "name": "Bob" }
 ]
 
+```
 Notes
 Only tested with a few accounts so far.
 

@@ -10,8 +10,9 @@ This API lets you get a list of users.
 ```bash
 curl -H "Authorization: Bearer <API_KEY>" \
      https://api.example.com/v1/users
-
-Example Response
+```
+## Example Response
+```
 json
 [
   { "id": 1, "name": "Alice" },
@@ -19,7 +20,8 @@ json
 ]
 
 ```
-Notes
+## Notes
+
 Only tested with a few accounts so far.
 
 Error codes not covered yet.

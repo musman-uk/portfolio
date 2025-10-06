@@ -1,10 +1,17 @@
 # Configuration Guide
 
-Create a file called `config.yml` in your home directory:
+The Example App can be configured with a YAML file. Place the file in the default location:
+
+- Linux/macOS: `/etc/example-app/config.yml`  
+- Windows: `C:\ProgramData\ExampleApp\config.yml`  
+
+Example:
 
 ```yaml
-enabled: true
-path: /data
+server:
+  port: 8080
+logging:
+  level: info
 ```
 
-The tool will read this file automatically when it starts. You can change the values to suit your environment. Most users will only need to adjust the path. The configuration format is YAML, and the tool expects valid syntax. If the file is missing, defaults will be used. No detailed explanation of the options is provided here. The example above should be enough to get started. For additional settings, you may need to experiment or look at the source code.
+The application will read this file automatically when it starts. You can change the values to suit your environment. Most users will only need to adjust the port or logging level. Restart the app after making changes. Other options may be available but are not listed here.

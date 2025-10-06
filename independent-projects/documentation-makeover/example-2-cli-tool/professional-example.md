@@ -62,7 +62,7 @@ notifications: true
 ## 5. Troubleshooting
 `Command not found` → Ensure the binary is in your PATH.
 
-`Permission denied` → Try running with sudo or adjust file permissions.
+`Permission denied` → Try running with `sudo` or adjust file permissions.
 
 Windows issues → Use PowerShell 5.1+ or Windows Terminal.
 

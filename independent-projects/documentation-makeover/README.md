@@ -6,22 +6,26 @@ This project examines how documentation quality shapes the reader experience. Th
 
 ## 🧪 Method  
 
-To explore how documentation quality can shift the reader’s experience, I designed a framework that presents each case at three levels of maturity. The framework is not intended as a universal rulebook, but as a structured lens through which to examine clarity, empathy, and completeness in technical writing.  
+To explore how documentation quality can shift the reader’s experience, I designed a framework that establishes three tiers: **Poor, Acceptable, and Professional**. The framework is not a universal rulebook, but a structured lens for examining clarity, empathy, and completeness in technical writing.  
 
-- **Poor** → unclear, incomplete, or misleading. These cases highlight documentation that blocks progress, forces guesswork, or leaves the reader without essential context.  
-- **Acceptable** → functional but lacking empathy, structure, or polish. These cases allow a task to be completed, but they do not anticipate confusion or support the reader when problems arise.  
-- **Professional** → clear, structured, empathetic, and reader friendly. These cases demonstrate documentation that guides the reader with confidence, explains decisions, and provides pathways forward.  
+- **Poor** → unclear, incomplete, or misleading. These highlight documentation that blocks progress, forces guesswork, or omits essential context.  
+- **Acceptable** → functional but lacking empathy, structure, or polish. These showcase documentation that allow a task to be completed, but do not anticipate confusion or support the reader when problems arise.  
+- **Professional** → clear, structured, empathetic, and reader‑friendly. These demonstrate documentation that guides the reader with confidence, explains decisions, and provides pathways forward.  
 
-Each example was constructed as a mock scenario to illustrate the contrast between levels. I approached the work iteratively: drafting initial examples, reviewing them for realism, and refining them until the differences between tiers were both credible and instructive. The process emphasised not only technical accuracy but also the emotional impact on the reader, since trust and reassurance are as important as correctness.  
+To implement the framework, I created three mock scenarios based on realistic documentation subjects:  
 
-The framework therefore serves two purposes. It provides a repeatable structure for analysing documentation, and it demonstrates how incremental improvements can transform a guide from obstructive to supportive. By applying the same lens across multiple scenarios, the exercise reveals consistent patterns of weakness and strength, and shows how deliberate choices in structure and tone can elevate the reader’s experience.  
+- **API Quickstart**: a short guide showing how minimal setup and first‑call instructions can vary in clarity and empathy.  
+- **CLI Tool Guide**: a command‑line reference where structure, examples, and error handling highlight the difference between levels.  
+- **Configuration Guide**: a setup document illustrating how defaults, options, and troubleshooting can either confuse or reassure the reader.  
+
+Each scenario was drafted, reviewed for realism, and refined until the contrasts between levels were clear and instructive. The process emphasised both technical accuracy and the emotional impact on the reader, recognising that trust and reassurance are as important as correctness.  
 
 
 ---
 
 ## 💬 Exposition  
 
-The following examples apply the framework in practice, presented at three levels:  Poor, Acceptable, and Professional,  to illustrate how incremental improvements change the reader’s experience. The analysis for each tier explains both the strengths and the gaps, and suggests what would be required to move the documentation forward.  
+The following examples illustrate how incremental improvements change the reader’s experience. The analysis for each tier explains both the strengths and the gaps, and suggests what would be required to move the documentation forward.  
 
 
 ### Example 1: API Quickstart  

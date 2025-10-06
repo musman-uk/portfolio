@@ -1,6 +1,8 @@
 ## 📖 Context  
 
-This project examines how documentation quality shapes the reader experience. Through mock examples, I experiment with transforming unclear or incomplete documentation into guides that are approachable, structured, and professional. The goal here is not to define universal standards, but to share my own working framework for what I consider poor, acceptable, and professional documentation. This is a learning exercise for me as much as it is a demonstration of process and outcome, the aim is not to judge anyone’s work, which is why only mock examples are used to illustrate how documentation can evolve across a spectrum of quality. 
+This project explores how the quality of documentation shapes the experience of the reader. Through examples of three mock scenarios, I experiment with transforming unclear or incomplete material into guides that are approachable, structured, and professional. The intention is not to prescribe universal standards, but to share a working framework for what I consider poor, acceptable, and professional tiers of documentation. By presenting examples across different tiers, I am able to show how incremental improvements in clarity, structure, and empathy change the way a reader engages with the material.  
+
+The exercise is both a demonstration and a learning process. It allows me to test how documentation evolves when prerequisites are added, when examples are annotated, or when troubleshooting guidance is introduced. It also provides a transparent record of process, showing not only the polished outcome but also the intermediate steps that reveal how documentation grows more dependable. Because the focus is on learning rather than critique, only mock scenarios are used. This avoids passing judgment on existing work and keeps the emphasis on exploration. The project reflects my belief that documentation is not only a technical artifact but also a reader’s first point of contact with a system, and that careful stewardship can transform it from a barrier into a welcoming guide.  
 
 ---
 
@@ -27,8 +29,6 @@ Each scenario was drafted, reviewed for realism, and refined until the contrasts
 
 The following examples illustrate how incremental improvements change the reader’s experience. Each tier highlights both the strengths and the gaps, and explains what would be required to move the documentation forward. The progression shows how documentation evolves from being barely usable, to functional but limited, and finally to professional and dependable.  
 
----
-
 ### Example 1: API Quickstart  
 
 **Poor**  
@@ -43,7 +43,6 @@ Providing a working request and response allows the API to be tried. However, th
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-1-api-quickstart/professional-example.md)  
 This version includes prerequisites, annotated examples, error explanations, and next steps. A developer can install the SDK, authenticate securely, run the request, interpret the response, and continue with confidence. Troubleshooting guidance and error handling are built in, which reduces friction and builds trust. To elevate it further, a response field reference table and links to related guides could be added to support deeper exploration. It demonstrates how professional documentation anticipates questions, provides reassurance, and creates a smooth path forward.  
 
----
 
 ### Example 2: CLI Tool  
 
@@ -59,7 +58,6 @@ Including a working command and several options makes the tool usable in simple 
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/professional-example.md)  
 Installation steps, usage examples, global flags, troubleshooting, and validation commands create a complete and empathetic guide. A user can install, run, and troubleshoot the tool across scenarios with confidence. The documentation explains how to configure defaults, automate workflows, and validate the installation, which makes it both practical and reassuring. To refine it further, cross platform notes and best practices for scripting or automation could be added to extend its usefulness. This level shows how professional documentation not only explains commands but also supports real workflows and long term reliability.  
 
----
 
 ### Example 3: Configuration Guide  
 
@@ -75,6 +73,7 @@ A valid YAML example and notes on defaults make the guide functional. However, t
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-3-configuration-guide/professional-example.md)  
 Annotated configurations, option tables, validation commands, troubleshooting, and best practices create a guide that is both reliable and accessible. Readers can configure with confidence, understand trade offs, and resolve errors without guesswork. The documentation explains how to validate syntax, apply changes safely, and secure sensitive values. It also introduces advanced features such as environment variable overrides, include files, and profiles for different environments. To extend its depth further, cross platform paths and links to advanced references could be added. This version demonstrates how professional documentation transforms configuration from a risky task into a reliable and repeatable process.  
 
+---
 
 ## 💭 Thoughts  
 

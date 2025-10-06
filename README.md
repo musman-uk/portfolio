@@ -4,9 +4,9 @@ Anchored in a commitment to building ethical, purposeful, and versatile technolo
 
 ---
 
-Here is an overview of this portfolio’s contents, for those who would like to take a closer look.
+Here is an overview of this portfolio’s contents.
 
-## Table of Contents
+## 📑Table of Contents
 
 | Section | Description |
 |---------|-------------|
@@ -23,7 +23,8 @@ Here is an overview of this portfolio’s contents, for those who would like to 
 
 ---
 
-## Portfolio Navigation Tree
+##  Portfolio Navigation Tree
+
 
 portfolio/  
 ├── [README.md](https://github.com/musman-uk/portfolio/blob/main/README.md)  

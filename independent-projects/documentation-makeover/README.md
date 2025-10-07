@@ -75,7 +75,7 @@ Annotated configurations, option tables, validation commands, troubleshooting, a
 
 ---
 
-## 💭 Thoughts  
+## 💭 Afterword  
 
 This project provided a valuable opportunity to examine documentation not only as a technical artifact but also as an experience that shapes trust and confidence for the reader. Working through the tiers revealed how easily documentation can fail when it omits essential context, and how transformative it becomes when it anticipates questions, explains decisions, and guides the reader forward.  
 

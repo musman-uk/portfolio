@@ -12,7 +12,7 @@ A space to recognise the people, resources, and inspirations that have shaped th
 
 ---
 
-### 🛠️ Tools  
+### 🔧 Tools  
 - **GitHub** – for version control, repository management, and portfolio presentation.  
 - **Git servers** – as the backbone of distributed version control and redundancy.  
 - **GitHub Codespaces** – for providing a consistent, cloud-based development environment across projects.  
@@ -24,5 +24,5 @@ A space to recognise the people, resources, and inspirations that have shaped th
 
 ---
 
-### 🌐 Hosting & Deployment  
+### 📡 Hosting & Deployment  
 - **GitHub Pages** – for hosting live demos of selected projects, making them accessible directly from the browser.  

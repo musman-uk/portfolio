@@ -1,10 +1,5 @@
 ## 🧩 Quality Assurance Checkpoint
 
-A focused QA project featuring two intentionally buggy Python scripts.  
-This project demonstrates how systematic debugging builds confidence in code by showing the error, the reasoning, and the fix.
-
----
-
 ### 📌 Context
 Quality assurance is more than catching mistakes. It is about creating trust in the systems we build.  
 This project explores how small, intentional bugs can be used to illustrate a clear debugging workflow, from failure trace to resolution.

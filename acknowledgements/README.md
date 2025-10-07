@@ -1,6 +1,6 @@
 ## 🤝 Acknowledgements  
 
-A space to recognise the resources, platforms, and inspirations that have shaped this portfolio, with appreciation and respect, since no portfolio is created in isolation. While I gratefully acknowledge the support that has shaped this portfolio, the work within it has been authored and reviewed by me, and I take full responsibility for it.
+A space to recognise the resources, tools, and inspirations that have shaped this portfolio, with appreciation and respect, since no portfolio is created in isolation. While I gratefully acknowledge the support that has shaped this portfolio, the work within it has been authored and reviewed by me, and I take full responsibility for it.
 
 ---
 

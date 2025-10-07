@@ -1,5 +1,17 @@
-from examples.example_2_mutable_default_argument import fixed_script
+import importlib.util
+import pathlib
 
+# Dynamically load the fixed_script module
+SCRIPT_PATH = (
+    pathlib.Path(__file__).parent.parent
+    / "examples"
+    / "example_2_mutable_default_argument"
+    / "fixed_script.py"
+)
+
+spec = importlib.util.spec_from_file_location("fixed_script", SCRIPT_PATH)
+fixed_script = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(fixed_script)
 
 def test_collect_logs_starts_fresh_each_time():
     first = fixed_script.collect_logs("Error: Disk full")

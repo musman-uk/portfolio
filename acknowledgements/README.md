@@ -1,6 +1,6 @@
 ## 🤝 Acknowledgements  
 
-A space to recognise the resources, platforms, and inspirations that have shaped this work, written with appreciation and respect, as no portfolio is built in isolation. Although I have drawn on supporting tools and influences, the final work has been reviewed and authored by me, and I take full responsibility for its content.  
+A space to recognise the resources, platforms, and inspirations that have shaped this portfolio, with appreciation and respect, since no portfolio is created in isolation. While I gratefully acknowledge the support that has shaped this portfolio, the work within it has been authored and reviewed by me, and I take full responsibility for it.
 
 ---
 
@@ -23,7 +23,7 @@ A space to recognise the resources, platforms, and inspirations that have shaped
 ---
 
 ### 💡 AI Collaborators  
-- **Microsoft Copilot** – more than a utility, it has been a collaborator across portfolio projects: refining documentation and project write‑ups, shaping structure and flow, assisting with coding tasks, and strengthening accuracy. Its role has been to extend my thinking, not replace it, and it has served as a genuine partner in process.  
+- **Microsoft Copilot** – more than a utility, it has been a collaborator across portfolio projects: accelerating progress, helping draft and refine documentation, shaping structure and flow, sparking ideas, assisting with coding tasks, and strengthening accuracy. Its role has been to extend and elevate my thinking and work, not replace them, and it has served as a genuine partner in process.  
 
 ---
 

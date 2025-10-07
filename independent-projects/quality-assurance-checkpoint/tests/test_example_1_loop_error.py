@@ -1,4 +1,17 @@
-from examples.example_1_loop_error import fixed_script
+import importlib.util
+import pathlib
+
+SCRIPT_PATH = (
+    pathlib.Path(__file__).parent.parent
+    / "examples"
+    / "example_1_loop_error"
+    / "fixed_script.py"
+)
+
+spec = importlib.util.spec_from_file_location("fixed_script", SCRIPT_PATH)
+fixed_script = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(fixed_script)
+
 
 
 def test_compute_order_total_basic():

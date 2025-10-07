@@ -60,7 +60,7 @@ This runs the app on port 9090, makes it accessible externally, increases log de
 
 
 ## Notes
-Only `debug` and `port` are supported right now.
+Only `debug` and `port` are currently supported.
 
 Defaults: `debug = false`, `port = 3000`.
 

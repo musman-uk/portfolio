@@ -1,4 +1,3 @@
-
 from examples.example_2_mutable_default_argument import fixed_script
 
 

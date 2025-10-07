@@ -1,5 +1,5 @@
 
-from independent_projects.quality_assurance_checkpoint.examples.example_2_mutable_default_argument import fixed_script
+from examples.example_2_mutable_default_argument import fixed_script
 
 
 def test_collect_logs_starts_fresh_each_time():

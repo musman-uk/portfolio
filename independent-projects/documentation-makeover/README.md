@@ -1,4 +1,4 @@
-## 📖 Context  
+## 📍 Context  
 
 This project explores how the quality of documentation shapes the experience of the reader. Through examples of mock scenarios, I experiment with transforming unclear or incomplete material into guides that are approachable, structured, and professional. The intention is not to prescribe universal standards, but to share a working framework for what I consider poor, acceptable, and professional tiers of documentation. By presenting examples across different tiers, I am able to show how incremental improvements in clarity, structure, and empathy change the way a reader engages with the material.  
 
@@ -75,7 +75,7 @@ Annotated configurations, option tables, validation commands, troubleshooting, a
 
 ---
 
-## 💭 Afterword  
+## 🌅 Afterword  
 
 This project provided a valuable opportunity to examine documentation not only as a technical artifact but also as an experience that shapes trust and confidence for the reader. Working through the tiers revealed how easily documentation can fail when it omits essential context, and how transformative it becomes when it anticipates questions, explains decisions, and guides the reader forward. The exercise demonstrated that adequacy is rarely sufficient. A functional example may allow a task to be completed, but it does not create clarity or assurance. Professional documentation, by contrast, is distinguished by empathy. It recognises the uncertainty of the reader, addresses potential points of confusion, and provides reassurance through structure, annotation, and troubleshooting.  
 

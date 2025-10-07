@@ -1,4 +1,6 @@
-## 📍 Context  
+## 📚 Documentation Makeover
+
+### 📍 Context  
 
 This project explores how the quality of documentation shapes the experience of the reader. Through examples of mock scenarios, I experiment with transforming unclear or incomplete material into guides that are approachable, structured, and professional. The intention is not to prescribe universal standards, but to share a working framework for what I consider poor, acceptable, and professional tiers of documentation. By presenting examples across different tiers, I am able to show how incremental improvements in clarity, structure, and empathy change the way a reader engages with the material.  
 
@@ -6,7 +8,7 @@ The exercise is both a demonstration and a learning process. It allows me to tes
 
 ---
 
-## 🧪 Method  
+### 🧪 Method  
 
 To explore how documentation quality can shift the reader’s experience, I designed a framework that establishes three tiers: **Poor, Acceptable, and Professional**. The framework is not a universal rulebook, but a structured lens for examining clarity, empathy, and completeness in technical writing.  
 
@@ -25,11 +27,11 @@ Each scenario was drafted, reviewed for realism, and refined until the contrasts
 
 ---
 
-## 💬 Exposition  
+### 💬 Exposition  
 
 The following examples illustrate how incremental improvements change the reader’s experience. Each tier highlights both the strengths and the gaps, and explains what would be required to move the documentation forward. The progression shows how documentation evolves from being barely usable, to functional but limited, and finally to professional and dependable.  
 
-### Example 1: API Quickstart  
+#### Example 1: API Quickstart  
 
 **Poor**  
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-1-api-quickstart/poor-example.md)  
@@ -44,7 +46,7 @@ Providing a working request and response allows the API to be tried. However, th
 This version includes prerequisites, annotated examples, error explanations, and next steps. A developer can install the SDK, authenticate securely, run the request, interpret the response, and continue with confidence. Troubleshooting guidance and error handling are built in, which reduces friction and builds trust. To elevate it further, a response field reference table and links to related guides could be added to support deeper exploration. It demonstrates how professional documentation anticipates questions, provides reassurance, and creates a smooth path forward.  
 
 
-### Example 2: CLI Tool  
+#### Example 2: CLI Tool  
 
 **Poor**  
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/poor-example.md)  
@@ -59,7 +61,7 @@ Including a working command and several options makes the tool usable in simple 
 Installation steps, usage examples, global flags, troubleshooting, and validation commands create a complete and empathetic guide. A user can install, run, and troubleshoot the tool across scenarios with confidence. The documentation explains how to configure defaults, automate workflows, and validate the installation, which makes it both practical and reassuring. To refine it further, cross platform notes and best practices for scripting or automation could be added to extend its usefulness. This level shows how professional documentation not only explains commands but also supports real workflows and long term reliability.  
 
 
-### Example 3: Configuration Guide  
+#### Example 3: Configuration Guide  
 
 **Poor**  
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-3-configuration-guide/poor-example.md)  
@@ -75,7 +77,7 @@ Annotated configurations, option tables, validation commands, troubleshooting, a
 
 ---
 
-## 🌅 Afterword  
+### 🌅 Afterword  
 
 This project provided a valuable opportunity to examine documentation not only as a technical artifact but also as an experience that shapes trust and confidence for the reader. Working through the tiers revealed how easily documentation can fail when it omits essential context, and how transformative it becomes when it anticipates questions, explains decisions, and guides the reader forward. The exercise demonstrated that adequacy is rarely sufficient. A functional example may allow a task to be completed, but it does not create clarity or assurance. Professional documentation, by contrast, is distinguished by empathy. It recognises the uncertainty of the reader, addresses potential points of confusion, and provides reassurance through structure, annotation, and troubleshooting.  
 

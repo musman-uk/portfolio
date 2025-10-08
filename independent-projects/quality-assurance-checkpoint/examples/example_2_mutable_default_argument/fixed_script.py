@@ -32,9 +32,7 @@ def collect_logs(message: str, logs: Optional[List[str]] = None) -> List[str]:
 
 
 def summarize_logs(logs: List[str]) -> Dict[str, int]:
-    """
-    Summarize logs by counting occurrences of each message.
-    """
+    """Count occurrences of each message in the logs."""
     summary: Dict[str, int] = {}
     for msg in logs:
         summary[msg] = summary.get(msg, 0) + 1
@@ -42,6 +40,7 @@ def summarize_logs(logs: List[str]) -> Dict[str, int]:
 
 
 def main():
+    """Demonstrate the corrected logging behaviour."""
     print("=== Fixed Logging Demo ===")
     first = collect_logs("Error: Disk full")
     second = collect_logs("Warning: Low memory")
@@ -55,4 +54,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

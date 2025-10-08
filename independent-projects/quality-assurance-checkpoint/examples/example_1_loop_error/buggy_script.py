@@ -16,7 +16,7 @@ def compute_order_total(order: Dict[str, Any]) -> float:
     total = 0.0
 
     # BUG: loop goes one past the end, causing IndexError
-    for i in range(len(items) + 1):  # ❌ IndexError when i == len(items)
+    for i in range(len(items) + 1):  # IndexError when i == len(items)
         line = items[i]
         total += line["unit_price"] * line["quantity"]
     return total

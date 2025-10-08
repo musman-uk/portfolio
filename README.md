@@ -35,13 +35,3 @@ portfolio/
 ├── [certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md)  
 └── [acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md)  
 
-
-
-
-
-
-
-
-
-
----

@@ -28,7 +28,7 @@ The method applied across the project follows a consistent cycle that reflects p
 - **Step 5: Validate the fix with automated tests**  
   Each example includes a minimal but sufficient test suite. The tests demonstrate that the bug is resolved and that the corrected behaviour is consistent across edge cases. The passing tests provide confidence that the fix is effective and that the function behaves as intended.  
 
-This method ensures that the debugging process is transparent, reproducible, and easy to follow. It also demonstrates that quality assurance is not only about finding errors but about documenting the reasoning behind each correction.  
+This method ensures that the debugging process is transparent, reproducible, and easy to follow. It also demonstrates that quality assurance is not only about finding errors but about documenting the reasoning behind each correction. To illustrate this, the project includes one relatively simple bug - a loop logic error, and one relatively complex bug - a mutable default argument.
 
 ---
 
@@ -52,7 +52,7 @@ The second example highlights a Python specific pitfall: the use of a mutable de
 
 The fixed version introduces a `None` default and creates a new list inside the function when needed. This ensures that each call starts fresh unless an explicit list is provided. The associated tests confirm that the function behaves correctly in both scenarios: starting fresh each time and appending to an existing list when passed.  
 
-This example demonstrates how language specific features can introduce bugs that are not obvious at first glance. It also shows the importance of tests in making such behaviour visible. Without tests, the accumulation of log messages might not be noticed until it causes incorrect results in production.  
+This example demonstrates how language specific features can introduce bugs that are not obvious at first glance. It also shows the importance of tests in making such behaviour visible. Without tests, the accumulation of log messages might not be noticed until it causes incorrect results in production. By contrasting this more complex bug with the simpler loop error, the project shows how quality assurance applies across different levels of difficulty.
 
   [Buggy Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py)  
   [Fixed Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py)  

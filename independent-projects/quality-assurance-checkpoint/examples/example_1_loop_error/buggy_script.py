@@ -2,20 +2,20 @@
 Example 1: Loop error (off-by-one)
 
 Scenario:
-- We aggregate order totals from a list of orders.
+- Aggregate order totals from a list of orders.
 - Each order can have multiple line items.
-- We intentionally introduce an off-by-one error when iterating items.
+- An off-by-one error is intentionally introduced when iterating items.
 """
 
 from typing import List, Dict, Any
 
 
 def compute_order_total(order: Dict[str, Any]) -> float:
-    """Compute total price for a single order."""
+    """Compute total price for a single order (contains intentional bug)."""
     items = order.get("items", [])
     total = 0.0
 
-    # BUG: off-by-one loop goes one past the end
+    # BUG: loop goes one past the end, causing IndexError
     for i in range(len(items) + 1):  # ❌ IndexError when i == len(items)
         line = items[i]
         total += line["unit_price"] * line["quantity"]
@@ -46,5 +46,6 @@ if __name__ == "__main__":
             ],
         },
     ]
-    print("Batch total:", compute_batch_total(orders))  # Expect ~ (1.5*4 + 3.0*2) + (6.75*1)
-
+    # Expected total (if correct): (1.5*4 + 3.0*2) + (6.75*1) = 18.75
+    # Actual: IndexError due to off-by-one bug
+    print("Batch total:", compute_batch_total(orders))

@@ -34,31 +34,95 @@ This method ensures that the debugging process is transparent, reproducible, and
 
 ### 💬 Exposition
 
-#### Example 1: Loop Logic Error
-The first example demonstrates a classic off by one error in a loop. The buggy script attempts to compute the total cost of an order by iterating over its items, but it mistakenly skips the final element. The result is an undercounted total that does not match the expected value.  
+#### Example 1: Loop Logic Error  
 
-The fixed version corrects the loop logic by iterating directly over the items, ensuring that all elements are included. The associated tests confirm that the corrected function produces the expected totals, even when orders are empty or contain multiple items.  
+The first example demonstrates a classic off‑by‑one error in a loop. In the [buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py), the function that computes an order total iterates one step too far, which results in an index error when it tries to access a non‑existent list element. The [fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py) corrects this by iterating directly over the items, ensuring that all elements are included without exceeding the list bounds. The [tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py) confirm that the corrected function produces the expected totals, even when orders are empty or contain multiple items. This example illustrates how a small logic error can produce runtime failures that halt execution. Such errors are particularly problematic because they may not be obvious at first glance. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests, the project demonstrates how quality assurance can prevent these issues from persisting.  
 
-This example illustrates how a small logic error can produce incorrect results without raising an exception. Such errors are particularly dangerous because they may go unnoticed until they cause significant discrepancies in calculations. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests, the project demonstrates how quality assurance can prevent these errors from persisting.  
+<details>
+<summary>View Terminal Outputs</summary>
 
-  [Buggy Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py)  
-  [Fixed Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py)  
-  [Tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py)  
+Buggy Script:
 
-The expected test results show two passing cases. One test validates the basic computation of an order total. The other test validates the handling of an empty order within a batch. Together, they confirm that the fix resolves the bug and that the function behaves correctly across different scenarios.  
+```bash
+$ python examples/example_1_loop_error/buggy_script.py
+Traceback (most recent call last):
+  File "examples/example_1_loop_error/buggy_script.py", line 29, in <module>
+    print("Batch total:", compute_batch_total(orders))
+  File "examples/example_1_loop_error/buggy_script.py", line 21, in compute_batch_total
+    batch_total += compute_order_total(order)
+  File "examples/example_1_loop_error/buggy_script.py", line 15, in compute_order_total
+    line = items[i]
+IndexError: list index out of range
+```
 
-#### Example 2: Mutable Default Argument
-The second example highlights a Python specific pitfall: the use of a mutable default argument. The buggy function appends log messages to a list, but because the default list is shared across calls, messages accumulate unexpectedly. This behaviour is subtle and can easily confuse developers who are not aware of how Python handles default arguments.  
+Fixed Script:
 
-The fixed version introduces a `None` default and creates a new list inside the function when needed. This ensures that each call starts fresh unless an explicit list is provided. The associated tests confirm that the function behaves correctly in both scenarios: starting fresh each time and appending to an existing list when passed.  
+```bash
+$ python examples/example_1_loop_error/fixed_script.py
+Batch total: 18.75
+```
 
-This example demonstrates how language specific features can introduce bugs that are not obvious at first glance. It also shows the importance of tests in making such behaviour visible. Without tests, the accumulation of log messages might not be noticed until it causes incorrect results in production. By contrasting this more complex bug with the simpler loop error, the project shows how quality assurance applies across different levels of difficulty.
+Tests:
 
-  [Buggy Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py)  
-  [Fixed Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py)  
-  [Tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py)  
+```bash
+$ pytest tests/test_example_1_loop_error.py -v
+============================= test session starts ==============================
+platform linux -- Python 3.11.9, pytest-8.2.0, pluggy-1.5.0
+rootdir: /workspaces/quality-assurance-checkpoint
+collected 2 items
 
-The expected test results show three passing cases. One test validates that each call starts fresh. Another test validates that an existing list can be extended. A third test validates that log messages can be summarised correctly. Together, they confirm that the fix resolves the bug and that the function behaves as intended.  
+tests/test_example_1_loop_error.py::test_compute_order_total_basic PASSED [ 50%]
+tests/test_example_1_loop_error.py::test_compute_batch_total_with_empty_order PASSED [100%]
+
+============================== 2 passed in 0.05s ===============================
+```
+</details>
+
+#### Example 2: Mutable Default Argument  
+
+This example highlights a Python‑specific pitfall: using a mutable default argument. In the [buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py), log entries unintentionally accumulate across function calls because the default list is shared. The [fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py) resolves this by using None as the default and creating a new list per call when needed. The [tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py) verify both behaviours: fresh state per call, correct extension of an existing list, and accurate summarisation.  This example demonstrates how subtle language features can introduce hard‑to‑spot issues. By contrasting outputs from the buggy and fixed implementations and validating with tests, the documentation makes the behaviour visible and the fix trustworthy.  
+
+<details>
+<summary>View Terminal Outputs</summary>
+
+Buggy Script:
+
+```bash
+$ python examples/example_2_mutable_default_argument/buggy_script.py
+=== Buggy Logging Demo ===
+First call: ['Error: Disk full']
+Second call: ['Error: Disk full', 'Warning: Low memory']
+Third call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
+Summary: {'Error': 1, 'Warning': 1, 'Info': 1}
+```
+
+Fixed Script:
+
+```bash
+$ python examples/example_2_mutable_default_argument/fixed_script.py
+=== Fixed Logging Demo ===
+First call: ['Error: Disk full']
+Second call: ['Warning: Low memory']
+Third call: ['Info: Job completed']
+Summary: {'Error': 1, 'Warning': 1, 'Info': 1}
+```
+
+Test:
+
+```bash
+$ pytest tests/test_example_2_mutable_default_argument.py -v
+============================= test session starts ==============================
+platform linux -- Python 3.11.9, pytest-8.2.0, pluggy-1.5.0
+rootdir: /workspaces/quality-assurance-checkpoint
+collected 3 items
+
+tests/test_example_2_mutable_default_argument.py::test_each_call_starts_fresh PASSED [ 33%]
+tests/test_example_2_mutable_default_argument.py::test_extend_existing_list PASSED [ 66%]
+tests/test_example_2_mutable_default_argument.py::test_summary_counts PASSED     [100%]
+
+============================== 3 passed in 0.04s ===============================
+```
+</details>
 
 ---
 

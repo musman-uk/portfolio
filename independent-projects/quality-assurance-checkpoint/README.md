@@ -46,37 +46,42 @@ This example demonstrates a classic off‑by‑one error in a loop. In the [bugg
 Buggy Script:
 
 ```bash
-$ python examples/example_1_loop_error/buggy_script.py
+$ python independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py
 Traceback (most recent call last):
-  File "examples/example_1_loop_error/buggy_script.py", line 29, in <module>
+  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py", line 51, in <module>
     print("Batch total:", compute_batch_total(orders))
-  File "examples/example_1_loop_error/buggy_script.py", line 21, in compute_batch_total
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py", line 29, in compute_batch_total
     batch_total += compute_order_total(order)
-  File "examples/example_1_loop_error/buggy_script.py", line 15, in compute_order_total
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py", line 20, in compute_order_total
     line = items[i]
+           ~~~~~^^^
 IndexError: list index out of range
 ```
 
 Fixed Script:
 
 ```bash
-$ python examples/example_1_loop_error/fixed_script.py
+python independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py
 Batch total: 18.75
 ```
 
 Tests:
 
 ```bash
-$ pytest tests/test_example_1_loop_error.py -v
-============================= test session starts ==============================
-platform linux -- Python 3.11.9, pytest-8.2.0, pluggy-1.5.0
-rootdir: /workspaces/quality-assurance-checkpoint
-collected 2 items
+$ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py -v
+===================================== test session starts ======================================
+platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/pytest/bin/python
+cachedir: .pytest_cache
+rootdir: /workspaces/portfolio
+plugins: anyio-4.9.0
+collected 2 items                                                                              
 
-tests/test_example_1_loop_error.py::test_compute_order_total_basic PASSED [ 50%]
-tests/test_example_1_loop_error.py::test_compute_batch_total_with_empty_order PASSED [100%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test_compute_order_total_basic PASSED [ 50%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test_compute_batch_total_with_empty_order PASSED [100%]
 
-============================== 2 passed in 0.05s ===============================
+====================================== 2 passed in 0.02s =======================================
 ```
 </details>
 
@@ -92,39 +97,41 @@ This example highlights a Python‑specific pitfall: using a mutable default arg
 Buggy Script:
 
 ```bash
-$ python examples/example_2_mutable_default_argument/buggy_script.py
+$ python independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py
 === Buggy Logging Demo ===
-First call: ['Error: Disk full']
-Second call: ['Error: Disk full', 'Warning: Low memory']
+First call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
+Second call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
 Third call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
-Summary: {'Error': 1, 'Warning': 1, 'Info': 1}
+Summary: {'Error: Disk full': 1, 'Warning: Low memory': 1, 'Info: Job completed': 1}
 ```
 
 Fixed Script:
 
 ```bash
-$ python examples/example_2_mutable_default_argument/fixed_script.py
+$ python independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py
 === Fixed Logging Demo ===
 First call: ['Error: Disk full']
 Second call: ['Warning: Low memory']
 Third call: ['Info: Job completed']
-Summary: {'Error': 1, 'Warning': 1, 'Info': 1}
+Summary: {'Info: Job completed': 1}
 ```
 
 Tests:
 
 ```bash
-$ pytest tests/test_example_2_mutable_default_argument.py -v
-============================= test session starts ==============================
-platform linux -- Python 3.11.9, pytest-8.2.0, pluggy-1.5.0
-rootdir: /workspaces/quality-assurance-checkpoint
+ $ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py -v
+===================================== test session starts ======================================
+platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/pytest/bin/python
+cachedir: .pytest_cache
+rootdir: /workspaces/portfolio
+plugins: anyio-4.9.0
 collected 3 items
 
-tests/test_example_2_mutable_default_argument.py::test_each_call_starts_fresh PASSED [ 33%]
-tests/test_example_2_mutable_default_argument.py::test_extend_existing_list PASSED [ 66%]
-tests/test_example_2_mutable_default_argument.py::test_summary_counts PASSED     [100%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py::test_collect_logs_starts_fresh_each_time PASSED [ 33%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py::test_collect_logs_with_existing_list PASSED [ 66%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py::test_summarize_logs_counts_messages PASSED [100%]
 
-============================== 3 passed in 0.04s ===============================
+====================================== 3 passed in 0.02s =======================================                               
 ```
 </details>
 

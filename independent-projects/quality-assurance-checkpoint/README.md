@@ -37,8 +37,7 @@ This ensures that the debugging process is transparent, reproducible, and easy t
 
 #### Example 1: Loop Logic Error  
 
-
-The first example demonstrates a classic off‑by‑one error in a loop. In the [buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py), the function that computes an order total iterates one step too far, which results in an `IndexError` when it tries to access a non‑existent list element. The [fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py) corrects this by iterating directly over the items, ensuring all elements are included without exceeding bounds. The [tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py) confirm that the corrected function produces the expected totals, even when orders are empty or contain multiple items. This example shows how a small logic error can cause runtime failures that halt execution. Such errors are often subtle and not immediately obvious. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests, the project demonstrates how quality assurance prevents these issues from persisting.  
+This example demonstrates a classic off‑by‑one error in a loop. In the [buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py), the function that computes an order total iterates one step too far, which results in an `IndexError` when it tries to access a non‑existent list element. The [fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py) corrects this by iterating directly over the items, ensuring all elements are included without exceeding bounds. The [tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py) confirm that the corrected function produces the expected totals, even when orders are empty or contain multiple items. This example shows how a small logic error can cause runtime failures that halt execution. Such errors are often subtle and not immediately obvious. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests, the project demonstrates how quality assurance prevents these issues from persisting.  
 
 
 <details>
@@ -80,6 +79,7 @@ tests/test_example_1_loop_error.py::test_compute_batch_total_with_empty_order PA
 ============================== 2 passed in 0.05s ===============================
 ```
 </details>
+
 
 #### Example 2: Mutable Default Argument  
 
@@ -132,9 +132,8 @@ tests/test_example_2_mutable_default_argument.py::test_summary_counts PASSED    
 
 ### 🌅 Afterword
 
-The two examples illustrate how quality assurance transforms bugs into opportunities for clarity and trust. Observing the behaviour, capturing the output, diagnosing the cause, writing the fix, and validating with tests demonstrates the discipline of systematic debugging. By documenting both the error and the resolution, the project shows that debugging is not only about making code run, but about making the reasoning behind the fix visible. This transparency builds confidence for reviewers, collaborators, and future maintainers, while reducing the chance of repeating the same mistakes.
+The two examples illustrate how quality assurance transforms bugs into opportunities for clarity and trust. Observing the behaviour, capturing the output, diagnosing the cause, writing the fix, and validating with tests demonstrates the discipline of systematic debugging. By documenting both the error and the resolution, the project shows that debugging is not only about making code run but about making the reasoning behind the fix visible. This transparency builds confidence for reviewers, collaborators, and future maintainers, while reducing the chance of repeating the same mistakes.
 
 Quality assurance is a checkpoint, not an afterthought. It ensures that every piece of code contributes to a reliable system. By surfacing errors and resolving them with transparent tests, this project demonstrates how even small bugs can build confidence in the engineering process. The lessons extend beyond these examples. In larger systems the same cycle applies, even when bugs are more complex or traces harder to interpret. Quality assurance provides a structured way to move from failure to resolution, ensuring that fixes are both applied and explained.
 
-This project serves as both a demonstration and a template. It shows how intentional bugs can be used to teach, to document, and to reinforce systematic debugging as a cornerstone of professional software engineering. Above all, it frames quality assurance as a proactive discipline that builds trust in the systems we create.
-
+This project serves as both a demonstration and a template. It shows how intentional bugs can be used to teach, to document, and to reinforce systematic debugging as a cornerstone of professional software engineering. It also highlights how clarity in documentation and transparency in testing create a shared language between developers and reviewers. Above all, it frames quality assurance as a proactive discipline that strengthens trust in the systems we create and in the practices we follow.

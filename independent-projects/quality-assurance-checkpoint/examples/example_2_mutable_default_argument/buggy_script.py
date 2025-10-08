@@ -25,6 +25,11 @@ def collect_logs(message: str, logs: List[str] = []) -> List[str]:
     -------
     List[str]
         The updated list of logs.
+
+    Notes
+    -----
+    - This function contains an intentional bug: the default list is shared
+      across calls, so messages accumulate unexpectedly.
     """
     logs.append(message)
     return logs
@@ -33,6 +38,16 @@ def collect_logs(message: str, logs: List[str] = []) -> List[str]:
 def summarize_logs(logs: List[str]) -> Dict[str, int]:
     """
     Summarize logs by counting occurrences of each message.
+
+    Parameters
+    ----------
+    logs : List[str]
+        A list of log messages.
+
+    Returns
+    -------
+    Dict[str, int]
+        A dictionary mapping each unique message to its count.
     """
     summary: Dict[str, int] = {}
     for msg in logs:
@@ -41,11 +56,13 @@ def summarize_logs(logs: List[str]) -> Dict[str, int]:
 
 
 def main():
+    """Demonstration of the buggy logging behaviour."""
     print("=== Buggy Logging Demo ===")
     first = collect_logs("Error: Disk full")
     second = collect_logs("Warning: Low memory")
     third = collect_logs("Info: Job completed")
 
+    # Because of the mutable default bug, each call shares the same list
     print("First call:", first)
     print("Second call:", second)
     print("Third call:", third)
@@ -54,4 +71,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

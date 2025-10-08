@@ -1,10 +1,10 @@
-# 📋 SupportLog
+## 📋 SupportLog
 
 SupportLog is a mock technical support dashboard. It demonstrates how structured issue tracking communicates clearly, builds trust, and reduces friction. Each log captures the report, environment, diagnosis, and resolution in a format that mirrors real support workflows.
 
 ---
 
-## Log 1: Data Export Corruption
+### Log 1: Data Export Corruption
 - **Reported By:** Finance Team  
 - **Environment:** Web App v3.4, Windows 11, Chrome 118  
 - **Status:** Resolved  
@@ -14,7 +14,7 @@ SupportLog is a mock technical support dashboard. It demonstrates how structured
 
 ---
 
-## Log 2: Notification Delivery Delays
+### Log 2: Notification Delivery Delays
 - **Reported By:** Customer Support  
 - **Environment:** Mobile App v2.1, iOS 17  
 - **Status:** Resolved  

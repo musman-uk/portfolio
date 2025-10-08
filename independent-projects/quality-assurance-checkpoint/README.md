@@ -11,7 +11,8 @@ The aim is to show that debugging is not an afterthought or a reactive scramble,
 ---
 
 ### 🧪 Method
-The method applied across the project follows a consistent cycle that reflects professional debugging practice:  
+
+The method was applied across the project and attempts to follow a consistent cycle that reflects professional debugging practice:  
 
 - **Step 1: Introduce a bug intentionally**  
   Each bug is chosen to represent a common category of error that developers encounter in real projects. The intention is not to create contrived mistakes but to highlight issues that are subtle enough to escape casual review yet significant enough to cause incorrect results.  
@@ -28,7 +29,7 @@ The method applied across the project follows a consistent cycle that reflects p
 - **Step 5: Validate the fix with automated tests**  
   Each example includes a minimal but sufficient test suite. The tests demonstrate that the bug is resolved and that the corrected behaviour is consistent across edge cases. The passing tests provide confidence that the fix is effective and that the function behaves as intended.  
 
-This method ensures that the debugging process is transparent, reproducible, and easy to follow. It also demonstrates that quality assurance is not only about finding errors but about documenting the reasoning behind each correction. To illustrate this, the project includes one relatively simple bug - a loop logic error, and one relatively complex bug - a mutable default argument.
+This ensures that the debugging process is transparent, reproducible, and easy to follow. It also demonstrates that quality assurance is not only about finding errors but about documenting the reasoning behind each correction. To illustrate this, the project includes one relatively simple bug - a loop logic error, and one relatively complex bug - a mutable default argument.
 
 ---
 
@@ -36,7 +37,9 @@ This method ensures that the debugging process is transparent, reproducible, and
 
 #### Example 1: Loop Logic Error  
 
-The first example demonstrates a classic off‑by‑one error in a loop. In the [buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py), the function that computes an order total iterates one step too far, which results in an index error when it tries to access a non‑existent list element. The [fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py) corrects this by iterating directly over the items, ensuring that all elements are included without exceeding the list bounds. The [tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py) confirm that the corrected function produces the expected totals, even when orders are empty or contain multiple items. This example illustrates how a small logic error can produce runtime failures that halt execution. Such errors are particularly problematic because they may not be obvious at first glance. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests, the project demonstrates how quality assurance can prevent these issues from persisting.  
+
+The first example demonstrates a classic off‑by‑one error in a loop. In the [buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py), the function that computes an order total iterates one step too far, which results in an index error when it tries to access a non‑existent list element. The [fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py) corrects this by iterating directly over the items, ensuring all elements are included without exceeding bounds. The [tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py) confirm that the corrected function produces the expected totals, even when orders are empty or contain multiple items. This example shows how a small logic error can cause runtime failures that halt execution. Such errors are often subtle and not immediately obvious. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests, the project demonstrates how quality assurance prevents these issues from persisting.  
+
 
 <details>
 <summary>View Terminal Outputs</summary>
@@ -80,7 +83,8 @@ tests/test_example_1_loop_error.py::test_compute_batch_total_with_empty_order PA
 
 #### Example 2: Mutable Default Argument  
 
-This example highlights a Python‑specific pitfall: using a mutable default argument. In the [buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py), log entries unintentionally accumulate across function calls because the default list is shared. The [fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py) resolves this by using None as the default and creating a new list per call when needed. The [tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py) verify both behaviours: fresh state per call, correct extension of an existing list, and accurate summarisation.  This example demonstrates how subtle language features can introduce hard‑to‑spot issues. By contrasting outputs from the buggy and fixed implementations and validating with tests, the documentation makes the behaviour visible and the fix trustworthy.  
+This example highlights a Python‑specific pitfall: using a mutable default argument. In the [buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py), log entries unintentionally accumulate across function calls because the default list is shared. The [fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py) resolves this by using `None` as the default and creating a new list for each call. The [tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py) verify both behaviours: fresh state per call, correct extension of an existing list, and accurate summarisation. This example illustrates how subtle language features can introduce hard‑to‑spot bugs. By contrasting the outputs of the buggy and fixed implementations and validating with tests, the documentation makes the behaviour visible and the correction trustworthy.  
+
 
 <details>
 <summary>View Terminal Outputs</summary>

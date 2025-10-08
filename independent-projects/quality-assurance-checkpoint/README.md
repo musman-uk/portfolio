@@ -111,7 +111,7 @@ Third call: ['Info: Job completed']
 Summary: {'Error': 1, 'Warning': 1, 'Info': 1}
 ```
 
-Test:
+Tests:
 
 ```bash
 $ pytest tests/test_example_2_mutable_default_argument.py -v

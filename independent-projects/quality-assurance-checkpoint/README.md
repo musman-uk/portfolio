@@ -72,14 +72,17 @@ Tests:
 ```bash
 $ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py -v
 ===================================== test session starts ======================================
-platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/pytest/bin/python
+platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/p
+ytest/bin/python
 cachedir: .pytest_cache
 rootdir: /workspaces/portfolio
 plugins: anyio-4.9.0
 collected 2 items                                                                              
 
-independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test_compute_order_total_basic PASSED [ 50%]
-independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test_compute_batch_total_with_empty_order PASSED [100%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test
+_compute_order_total_basic PASSED [ 50%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test
+_compute_batch_total_with_empty_order PASSED [100%]
 
 ====================================== 2 passed in 0.02s =======================================
 ```
@@ -119,17 +122,21 @@ Summary: {'Info: Job completed': 1}
 Tests:
 
 ```bash
- $ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py -v
+$ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py -v
 ===================================== test session starts ======================================
-platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/pytest/bin/python
+platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/py
+test/bin/python
 cachedir: .pytest_cache
 rootdir: /workspaces/portfolio
 plugins: anyio-4.9.0
 collected 3 items
 
-independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py::test_collect_logs_starts_fresh_each_time PASSED [ 33%]
-independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py::test_collect_logs_with_existing_list PASSED [ 66%]
-independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py::test_summarize_logs_counts_messages PASSED [100%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
+ument.py::test_collect_logs_starts_fresh_each_time PASSED [ 33%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
+ument.py::test_collect_logs_with_existing_list PASSED [ 66%]
+independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
+ument.py::test_summarize_logs_counts_messages PASSED [100%]
 
 ====================================== 3 passed in 0.02s =======================================                               
 ```

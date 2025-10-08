@@ -42,7 +42,7 @@ The first example demonstrates a classic off‑by‑one error in a loop. In the 
 
 
 <details>
-<summary>View Terminal Outputs</summary>
+<summary>🖥️ View Terminal Outputs</summary>
 
 Buggy Script:
 
@@ -87,7 +87,7 @@ This example highlights a Python‑specific pitfall: using a mutable default arg
 
 
 <details>
-<summary>View Terminal Outputs</summary>
+<summary>🖥️ View Terminal Outputs</summary>
 
 Buggy Script:
 

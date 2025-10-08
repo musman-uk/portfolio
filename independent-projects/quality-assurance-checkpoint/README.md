@@ -1,4 +1,4 @@
-## 🧩 Quality Assurance Checkpoint
+## 🚩 Quality Assurance Checkpoint
 
 ### 📍 Context
 

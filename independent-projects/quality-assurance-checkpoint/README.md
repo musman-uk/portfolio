@@ -46,15 +46,19 @@ This example demonstrates a classic off‑by‑one error in a loop. In the [bugg
 Buggy Script:
 
 ```bash
-$ python independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py
+$ python independent-projects/quality-assurance-
+checkpoint/examples/example_1_loop_error/buggy_script.py
 Traceback (most recent call last):
-  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py", line 51, in <module>
+  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/examples/e
+xample_1_loop_error/buggy_script.py", line 51, in <module>
     print("Batch total:", compute_batch_total(orders))
                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py", line 29, in compute_batch_total
+  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/e
+xamples/example_1_loop_error/buggy_script.py", line 29, in compute_batch_total
     batch_total += compute_order_total(order)
                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py", line 20, in compute_order_total
+  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/e
+xamples/example_1_loop_error/buggy_script.py", line 20, in compute_order_total
     line = items[i]
            ~~~~~^^^
 IndexError: list index out of range

@@ -5,6 +5,6 @@ Self directed explorations that begin with curiosity and grow into case studies.
 |🎨 Project | 📄 Description | 🔗 Link |
 |---------|-------------|------|
 | 📚 Documentation Makeover | A set of mock documentation transformations, showing how unclear or incomplete documents can be refined into professional, reader‑friendly guides. | [View](https://github.com/musman-uk/portfolio/tree/main/independent-projects/documentation-makeover) |
-| 🚩 Quality Assurance Checkpoint | A QA case study featuring two intentionally buggy Python scripts. Demonstrates systematic debugging: identifying errors, annotating issues, applying fixes, and validating with tests. | [View](https://github.com/musman-uk/portfolio/tree/main/independent-projects/quality-assurance-checkpoint) |
+| 🚩 Quality Assurance Checkpoint | A QA featuring two intentionally buggy Python scripts. Demonstrates systematic debugging: identifying errors, annotating issues, applying fixes, and validating with tests. | [View](https://github.com/musman-uk/portfolio/tree/main/independent-projects/quality-assurance-checkpoint) |
 |         |             |      |
 |         |             |      |

@@ -41,9 +41,9 @@ The fixed version corrects the loop logic by iterating directly over the items, 
 
 This example illustrates how a small logic error can produce incorrect results without raising an exception. Such errors are particularly dangerous because they may go unnoticed until they cause significant discrepancies in calculations. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests, the project demonstrates how quality assurance can prevent these errors from persisting.  
 
-  [Buggy Script]()  
-  [Fixed Script]()  
-  [Tests]()  
+  [Buggy Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py)  
+  [Fixed Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py)  
+  [Tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py)  
 
 The expected test results show two passing cases. One test validates the basic computation of an order total. The other test validates the handling of an empty order within a batch. Together, they confirm that the fix resolves the bug and that the function behaves correctly across different scenarios.  
 
@@ -54,9 +54,9 @@ The fixed version introduces a `None` default and creates a new list inside the 
 
 This example demonstrates how language specific features can introduce bugs that are not obvious at first glance. It also shows the importance of tests in making such behaviour visible. Without tests, the accumulation of log messages might not be noticed until it causes incorrect results in production.  
 
-  [Buggy Script]()  
-  [Fixed Script]()  
-  [Tests]()  
+  [Buggy Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py)  
+  [Fixed Script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py)  
+  [Tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py)  
 
 The expected test results show three passing cases. One test validates that each call starts fresh. Another test validates that an existing list can be extended. A third test validates that log messages can be summarised correctly. Together, they confirm that the fix resolves the bug and that the function behaves as intended.  
 

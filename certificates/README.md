@@ -4,7 +4,7 @@ Verified milestones that mark the journey of learning. Each certificate is a rec
 
 
 
-| Certificate Title                              | Course Provider   | Certificate Link |
+| Course Title                              | Learning Platform   | Certificate Link |
 |------------------------------------------------|-------------------|------------------|
 | Full-Stack Development                         | Mimo              | [View](https://github.com/musman-uk/portfolio/blob/main/certificates/Mimo%20-%20Full-Stack%20Development%20-%20Mohammed%20Usman.pdf) |
 | Python Development                             | Mimo              | [View](https://github.com/musman-uk/portfolio/blob/main/certificates/Mimo%20-%20Python%20Development%20-%20Mohammed%20Usman.pdf) |

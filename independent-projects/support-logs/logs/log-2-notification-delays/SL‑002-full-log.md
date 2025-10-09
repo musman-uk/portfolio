@@ -1,5 +1,6 @@
 ## Log 2: Notification Delivery Delays
 
+- **Ticket Reference:** [ticket‑002-CS](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/tickets/ticket-002-CS/full-ticket.md) 
 - **Reported By:** Customer Support  
 - **Date Opened:** 2025-09-22  
 - **Environment:** Mobile App v2.1 · iOS 17  

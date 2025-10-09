@@ -7,7 +7,7 @@ Support Logs is a mock technical support dashboard. It demonstrates how structur
 ## 📓 Logbook
 
 ### Log 1: Data Export Corruption (ID: SL‑001, Opened: 2025‑09‑14)
-📎 **Ticket Reference:** [ticket‑001-FT](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-1-data-export/%20SL%E2%80%91001-full-log.md)  
+📎 **Ticket Reference:** [ticket‑001-FT](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/tickets/ticket-001-FT/full-ticket.md)  
 💼 **Reported By:** Finance Team  
 🖥️ **Environment:** Web App v3.4 · Windows 11 · Chrome 118  
 ✔️ **Status:** Resolved

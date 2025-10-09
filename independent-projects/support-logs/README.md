@@ -17,7 +17,7 @@ Support Logs is a mock technical support dashboard. It demonstrates how structur
 - **Diagnosis:** Root cause analysis traced the issue to a recent update in the CSV serialization library, which mishandled UTF‑8 characters and corrupted field alignment.  
 - **Resolution:** The team rolled back to a stable library version, implemented regression tests for export formatting, and added monitoring to ensure future updates do not silently break reporting processes.  
 
-→ [View Full Log](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-1-data-export/full-log.md)
+→ [View Full Log](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-1-data-export/SL-001-full-log.md)
 
 ---
 
@@ -32,7 +32,7 @@ Support Logs is a mock technical support dashboard. It demonstrates how structur
 - **Diagnosis:** Investigation revealed a queue backlog caused by a misconfigured retry policy in the message broker, which compounded under peak load.  
 - **Resolution:** Engineers adjusted retry thresholds, scaled the broker cluster, and introduced latency monitoring with proactive alerts, ensuring customers receive critical notifications promptly and restoring confidence in the service.  
 
-→ [View Full Log](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-2-notification-delays/full-log.md)
+→ [View Full Log](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-2-notification-delays/SL-002-full-log.md)
 
 ---
 

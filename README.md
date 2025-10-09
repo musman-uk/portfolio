@@ -1,6 +1,6 @@
 # Welcome to my Portfolio 📂
 
-Anchored in a commitment to ethical, purposeful, and versatile technology.  
+Anchored in a commitment to building ethical, purposeful, and versatile technology.  
 
 ---
 

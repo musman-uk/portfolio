@@ -32,7 +32,7 @@ Support Logs is a mock technical support dashboard. It demonstrates how structur
 - **Diagnosis:** Investigation revealed a queue backlog caused by a misconfigured retry policy in the message broker, which compounded under peak load.  
 - **Resolution:** Engineers adjusted retry thresholds, scaled the broker cluster, and introduced latency monitoring with proactive alerts, ensuring customers receive critical notifications promptly and restoring confidence in the service.  
 
-→ [View Full Log](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-2-notification-delays/SL-002-full-log.md)
+→ [View Full Log](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-2-notification-delays/SL%E2%80%91002-full-log.md)
 
 ---
 

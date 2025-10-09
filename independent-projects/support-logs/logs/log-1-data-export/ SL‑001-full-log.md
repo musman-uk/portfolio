@@ -1,5 +1,6 @@
 ## Log 1: Data Export Corruption
 
+- **Ticket Reference:** [ticket‑001-FT](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/tickets/ticket-001-FT/full-ticket.md)  
 - **Reported By:** Finance Team  
 - **Date Opened:** 2025-09-14  
 - **Environment:** Web App v3.4 · Windows 11 · Chrome 118  

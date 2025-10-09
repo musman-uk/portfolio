@@ -1,6 +1,6 @@
-## 📋 SupportLog
+## 📋 Support Logs
 
-SupportLog is a mock technical support dashboard. It demonstrates how structured issue tracking communicates clearly, builds trust, and reduces friction. Each log captures the report, environment, diagnosis, and resolution in a format that mirrors real support workflows.
+Support Logs is a mock technical support dashboard. It demonstrates how structured issue tracking communicates clearly, builds trust, and reduces friction. Each log captures the report, environment, diagnosis, and resolution in a format that mirrors real support workflows.
 
 ---
 

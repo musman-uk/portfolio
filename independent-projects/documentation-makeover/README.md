@@ -29,9 +29,21 @@ Each scenario was drafted, reviewed for realism, and refined until the contrasts
 
 ### 💬 Exposition  
 
-The following examples illustrate how incremental improvements change the reader’s experience. Each tier highlights both the strengths and the gaps, and explains what would be required to move the documentation forward. The progression shows how documentation evolves from being barely usable, to functional but limited, and finally to professional and dependable.  
+The following table illustrate how incremental improvements change the reader’s experience. Each tier highlights both the strengths and the gaps, and explains what would be required to move the documentation forward. The progression shows how documentation evolves from being barely usable, to functional but limited, and finally to professional and dependable.  
 
-#### Example 1: API Quickstart  
+
+### Tier Progression View
+
+| Example              | Poor | Acceptable | Professional |
+|----------------------|------|------------|--------------|
+| **1. API Quickstart**   | [View](#api-quickstart-poor)<br>Missing prerequisites & auth; unusable. | [View](#api-quickstart-acceptable)<br>Runnable request, but no field/error guidance. | [View](#api-quickstart-professional)<br>Complete flow with prerequisites, annotated examples, and troubleshooting. |
+| **2. CLI Tool**         | [View](#cli-tool-poor)<br>Single unexplained command; no context. | [View](#cli-tool-acceptable)<br>Basic usage with options, but limited workflows. | [View](#cli-tool-professional)<br>Full install, usage, flags, troubleshooting, and workflow support. |
+| **3. Configuration Guide** | [View](#configuration-guide-poor)<br>File path + options with no context. | [View](#configuration-guide-acceptable)<br>Valid YAML with defaults, but no troubleshooting. | [View](#configuration-guide-professional)<br>Annotated configs, option tables, validation, and best practices. |
+
+---
+
+<details>
+<summary>Example 1: API Quickstart - Detailed View</summary>
 
 **Poor**  
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-1-api-quickstart/poor-example.md)  
@@ -45,8 +57,10 @@ Providing a working request and response allows the API to be tried. However, th
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-1-api-quickstart/professional-example.md)  
 This version includes prerequisites, annotated examples, error explanations, and next steps. A developer can install the SDK, authenticate securely, run the request, interpret the response, and continue with confidence. Troubleshooting guidance and error handling are built in, which reduces friction and builds trust. To elevate it further, a response field reference table and links to related guides could be added to support deeper exploration. It demonstrates how professional documentation anticipates questions, provides reassurance, and creates a smooth path forward.  
 
+</details>
 
-#### Example 2: CLI Tool  
+<details>
+<summary>Example 2: CLI Tool - Detailed View</summary>
 
 **Poor**  
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/poor-example.md)  
@@ -60,8 +74,10 @@ Including a working command and several options makes the tool usable in simple 
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/professional-example.md)  
 Installation steps, usage examples, global flags, troubleshooting, and validation commands create a complete and empathetic guide. A user can install, run, and troubleshoot the tool across scenarios with confidence. The documentation explains how to configure defaults, automate workflows, and validate the installation, which makes it both practical and reassuring. To refine it further, cross platform notes and best practices for scripting or automation could be added to extend its usefulness. This level shows how professional documentation not only explains commands but also supports real workflows and long term reliability.  
 
+</details>
 
-#### Example 3: Configuration Guide  
+<details>
+<summary>Example 3: Configuration Guide - Detailed View</summary>
 
 **Poor**  
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-3-configuration-guide/poor-example.md)  
@@ -75,8 +91,10 @@ A valid YAML example and notes on defaults make the guide functional. However, t
 [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-3-configuration-guide/professional-example.md)  
 Annotated configurations, option tables, validation commands, troubleshooting, and best practices create a guide that is both reliable and accessible. Readers can configure with confidence, understand trade offs, and resolve errors without guesswork. The documentation explains how to validate syntax, apply changes safely, and secure sensitive values. It also introduces advanced features such as environment variable overrides, include files, and profiles for different environments. To extend its depth further, cross platform paths and links to advanced references could be added. This version demonstrates how professional documentation transforms configuration from a risky task into a reliable and repeatable process.  
 
----
+</details>
 
+
+---
 ### 🌅 Afterword  
 
 This project provided a valuable opportunity to examine documentation not only as a technical artifact but also as an experience that shapes trust and confidence for the reader. Working through the tiers revealed how easily documentation can fail when it omits essential context, and how transformative it becomes when it anticipates questions, explains decisions, and guides the reader forward. The exercise demonstrated that adequacy is rarely sufficient. A functional example may allow a task to be completed, but it does not create clarity or assurance. Professional documentation, by contrast, is distinguished by empathy. It recognises the uncertainty of the reader, addresses potential points of confusion, and provides reassurance through structure, annotation, and troubleshooting.  

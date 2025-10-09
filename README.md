@@ -4,8 +4,6 @@ Anchored in a commitment to building ethical, purposeful, and versatile technolo
 
 ---
 
-Here is an overview of this portfolio’s contents.
-
 ## ☰ Table of Contents
 
 | Section | Description |

@@ -16,7 +16,7 @@ Support Logs is a mock technical support dashboard. It demonstrates how structur
 - **Diagnosis:** Root cause analysis traced the issue to a recent update in the CSV serialization library, which mishandled UTF‑8 characters and corrupted field alignment.  
 - **Resolution:** The team rolled back to a stable library version, implemented regression tests for export formatting, and added monitoring to ensure future updates do not silently break reporting workflows.  
 
-→ [View Full Log](logs/log-1-data-export/LOG1.md)
+→ [View Full Log](logs/log-1-data-export/full-log.md)
 
 ---
 
@@ -30,7 +30,7 @@ Support Logs is a mock technical support dashboard. It demonstrates how structur
 - **Diagnosis:** Investigation revealed a queue backlog caused by a misconfigured retry policy in the message broker, which compounded under peak load.  
 - **Resolution:** Engineers adjusted retry thresholds, scaled the broker cluster, and introduced latency monitoring with proactive alerts, ensuring customers receive critical notifications promptly and restoring confidence in the service.  
 
-→ [View Full Log](logs/log-2-notification-delays/LOG2.md)
+→ [View Full Log](logs/log-2-notification-delays/full-log.md)
 
 
 ### Log 3: Authentication Timeout (ID: SL‑003, Planned)

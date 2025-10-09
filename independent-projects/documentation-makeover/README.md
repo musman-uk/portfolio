@@ -29,20 +29,20 @@ Each scenario was drafted, reviewed for realism, and refined until the contrasts
 
 ### 💬 Exposition
 
-The following examples illustrates how incremental improvements change the reader’s experience. Each tier highlights both the strengths and the gaps, and explains what would be required to move the documentation forward. The progression shows how documentation evolves from being barely usable, to functional but limited, and finally to professional and dependable.
+The following examples illustrate how incremental improvements change the reader’s experience. Each tier highlights both the strengths and the gaps, and explains what would be required to move the documentation forward. The progression shows how documentation evolves from being barely usable, to functional but limited, and finally to professional and dependable.
 
 #### Table View
 
 | Example | Poor | Acceptable | Professional |
 |---|---|---|---|
 | **1. API Quickstart** | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-1-api-quickstart/poor-example.md)<br>Missing prerequisites & auth; unusable. | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-1-api-quickstart/acceptable-example.md)<br>Runnable request, but no field/error guidance. | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-1-api-quickstart/professional-example.md)<br>Complete flow with prerequisites, annotated examples, and troubleshooting. |
-| **2. CLI Tool** | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/poor-example.md)<br>Single unexplained command; no context. | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/acceptable-example.md)<br>Basic usage with options, but limited workflows. | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/professional-example.md)<br>Full install, usage, flags, troubleshooting, and workflow support. |
+| **2. CLI Tool** | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/poor-example.md)<br>Single unexplained command; no context. | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/acceptable-example.md)<br>Basic usage with options, but limited use cases. | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-2-cli-tool/professional-example.md)<br>Full install, usage, flags, troubleshooting, and workflow support. |
 | **3. Configuration Guide** | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-3-configuration-guide/poor-example.md)<br>File path + options with no context. | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-3-configuration-guide/acceptable-example.md)<br>Valid YAML with defaults, but no troubleshooting. | [View](https://github.com/musman-uk/portfolio/blob/main/independent-projects/documentation-makeover/example-3-configuration-guide/professional-example.md)<br>Annotated configs, option tables, validation, and best practices. |
 
 #### Detailed View
 
 <details>
-<summary>View Example 1: API Quickstart</summary>
+<summary>Example 1: API Quickstart</summary>
 
 **Poor**  
 Omitting prerequisites, authentication details, and a runnable request leaves the reader unable to begin. A developer is forced to guess how to authenticate or even set up the environment. The absence of these essentials makes the guide unusable. To make it workable, it would need a clear prerequisites section, an example showing how to include the API key, and a complete request and response pair that can be run without guesswork.  
@@ -56,7 +56,7 @@ This version includes prerequisites, annotated examples, error explanations, and
 </details>
 
 <details>
-<summary>View Example 2: CLI Tool</summary>
+<summary>Example 2: CLI Tool</summary>
 
 **Poor**  
 A single command is presented without context, flags, or explanation. A new user cannot understand what the tool does or how to use it. The documentation fails to provide even the most basic orientation. A usage section, a description of the tool’s purpose, and a few introductory flags would provide the minimum clarity required to make it usable.  
@@ -70,7 +70,7 @@ Installation steps, usage examples, global flags, troubleshooting, and validatio
 </details>
 
 <details>
-<summary>View Example 3: Configuration Guide</summary>
+<summary>Example 3: Configuration Guide</summary>
 
 **Poor**  
 Listing a file path and two unexplained options assumes prior knowledge and leaves the reader stranded. Without context or explanation, the configuration cannot be applied with confidence. A sample configuration file with defaults explained would provide a usable starting point and reduce the need for guesswork.  

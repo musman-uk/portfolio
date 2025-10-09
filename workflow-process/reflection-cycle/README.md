@@ -1,1 +1,0 @@
-## 🔮 Reflection Cycle

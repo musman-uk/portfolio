@@ -11,4 +11,4 @@ Customer Support has received multiple reports that push notifications for criti
 **Impact:**  
 Customers are unable to reset passwords promptly and are missing urgent account alerts. This has led to frustration, repeat support calls, and complaints about the reliability of the app. The delays are eroding user trust and increasing workload for frontline support staff. Given the security implications, this issue is classified as critical and requires immediate resolution.  
 
-**Linked Log:** [Log‑002: Notification Delivery Delays](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-2-notification-delays/full-log.md)
+**Linked Log:** [SL-002](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-2-notification-delays/SL%E2%80%91002-full-log.md)

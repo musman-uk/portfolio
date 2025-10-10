@@ -1,14 +1,11 @@
 ## ⏳ Retrospective Cycle
 
-
----
-
 ### 🔄 Cycle Framing  
 This cycle brought together projects that tested different aspects of my craft — from documentation clarity to psychology‑informed design. What follows is not a summary of those projects, but a meta‑analysis of the lessons, surprises, and influences that surfaced while creating them. These reflections are about what the projects revealed to me, rather than what they were on the surface.  
 
 ---
 
-### 🧠 Meta Analysis  
+### 🎛️ Meta Analysis  
 
 **Support Logs**  
 While writing up the Support Logs project, I encountered the irony of GitHub itself experiencing a server error (503 on their API endpoints). It was a reminder that even the most robust systems can falter. What impressed me was how quickly and smoothly the issue was resolved, almost imperceptibly. It highlighted the invisible resilience of infrastructure — the kind of reliability that is only noticed when it briefly disappears. This experience deepened my appreciation for the unseen labour behind platforms we take for granted.  

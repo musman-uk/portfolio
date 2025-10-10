@@ -1,4 +1,4 @@
-## Ticket‑002: Delayed Push Notifications
+## ticket‑002: Delayed Push Notifications
 
 - **Opened By:** Customer Support  
 - **Date:** 2025‑09‑22  

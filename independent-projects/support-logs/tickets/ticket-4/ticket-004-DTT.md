@@ -13,5 +13,5 @@ The Developer Tools Team identified that API requests to a third‑party integra
 - There is no direct impact on production users at this stage.  
 - If left unresolved, the misconfiguration could affect future production deployments that rely on this integration.  
 
-*Linked Log:** [SL-004](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-4/SL--004.md)
+**Linked Log:** [SL-004](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-4/SL--004.md)
 

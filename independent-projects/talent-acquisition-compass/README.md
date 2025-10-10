@@ -5,7 +5,7 @@ Talent acquisition in technology is often presented as a numbers game. Pipelines
 
 The Ethical Compass Dashboard reframes recruitment as a trust building journey. It draws on psychology to highlight how fairness, transparency, and alignment influence long term outcomes. When candidates are matched to roles that fit their skills, motivations, and values, organisations reduce turnover, avoid burnout, and strengthen commitment.  
 
-This project demonstrates how psychological principles such as person–environment fit (Holland, 1997), equity theory (Adams, 1965), organisational commitment (Meyer & Allen, 1991), and fairness in selection systems (Gilliland, 1993) can be applied to hiring practices. It is not a rigid metric. It is a directional tool that helps organisations navigate toward ethical and sustainable outcomes.  
+This project demonstrates how psychological principles such as person–environment fit (Holland, 1997), equity theory (Adams, 1965), organisational commitment (Meyer & Allen, 1991), fairness in selection systems (Gilliland, 1993), and caution around new talent signals (Chamorro‑Premuzic et al., 2016) can be applied to hiring practices. It is not a rigid metric. It is a directional tool that helps organisations navigate toward ethical and sustainable outcomes.  
 
 ---
 
@@ -13,31 +13,37 @@ This project demonstrates how psychological principles such as person–environm
 
 | Stage | Scenario | Candidate Experience | Compass Reading | Action |
 |-------|----------|----------------------|-----------------|--------|
-| Application | Automated résumé screening rejects non traditional CVs | Candidates feel unseen and discouraged | ☹️ | Introduce structured scoring and human review to reduce bias |
+| Application | Automated résumé screening rejects non traditional CVs | Candidates feel unseen and discouraged | 😞 | Introduce structured scoring and human review to reduce bias |
 | Interview | Panel interruptions and unequal speaking time | Stress, perception of bias, reduced confidence | 😐 | Train panel on structured questioning and add fairness observer |
 | Offer | Lack of transparency in salary bands | Anxiety and reduced trust in employer | 😐 | Publish salary ranges and standardise negotiation practices |
 | Onboarding | Clear communication of expectations and support | Candidate feels welcomed and secure | 😀 | Maintain structured welcome plan and mentorship |
-| Retention | Role demands misaligned with candidate motivations | Risk of burnout, disengagement, and turnover | ☹️ | Use values based assessments during hiring and adjust role design |
+| Retention | Role demands misaligned with candidate motivations | Risk of burnout, disengagement, and turnover | 😞 | Use values based assessments during hiring and adjust role design |
 
 **Legend:**  
-😀 Aligned · 😐 Needs Attention · ☹️ Off Course  
+😀 Aligned · 😐 Needs Attention · 😞 Off Course  
 
 ---
 
 ### 🧩 Psychological foundations  
-The Compass is grounded in well established psychological theories that explain why ethical hiring practices matter.  
+
+The Compass is grounded in established psychological theories that explain why ethical hiring practices matter. Each theory contributes a different lens for understanding how candidates and organisations interact.  
 
 - **Person–Environment Fit**  
-  Individuals experience higher satisfaction, stronger performance, and lower turnover when their values and skills align with organisational culture (Holland, 1997).  
+  Holland (1997) demonstrated that when individuals’ values, interests, and skills align with their work environment, they experience higher satisfaction, stronger performance, and lower turnover. The Compass incorporates this principle by encouraging structured assessments that consider not only technical competence but also values and motivations.  
 
 - **Equity Theory**  
-  Candidates evaluate fairness by outcomes and by process. If they perceive inequity, such as opaque pay bands or biased interviews, trust erodes (Adams, 1965).  
+  Adams (1965) argued that people evaluate fairness by comparing their input–output ratios with those of others. In hiring, this means candidates judge fairness not only by the outcome (such as job offer or salary) but also by the process. If they perceive inequity, trust erodes. The Compass highlights these off course moments and prescribes corrective actions, such as transparent salary bands and structured interviews.  
 
 - **Organisational Commitment**  
-  Fair treatment during recruitment fosters affective commitment, the emotional bond that makes employees want to stay (Meyer & Allen, 1991).  
+  Meyer and Allen (1991) described three forms of commitment: affective, continuance, and normative. Affective commitment, the emotional bond that makes employees want to stay, is particularly influenced by fair and respectful treatment during recruitment. By embedding transparency and respect at each stage, the Compass strengthens long term retention.  
 
 - **Fairness in Selection Systems**  
-  Research on organisational justice highlights that candidates judge not only the outcome of hiring but also the fairness of the process itself. Structured, transparent systems increase perceptions of justice and trust (Gilliland, 1993).  
+  Gilliland (1993) extended organisational justice theory to recruitment, showing that candidates judge not only the outcome but also the fairness of the selection system itself. Structured, transparent, and consistent processes increase perceptions of justice, which in turn enhance trust and organisational reputation. The Compass operationalises this by embedding fairness checkpoints at each stage.  
+
+- **New Talent Signals**  
+  Chamorro‑Premuzic, Winsborough, Sherman, and Hogan (2016) examined the rise of novel data sources and AI driven assessments in hiring. They cautioned against over reliance on shiny new objects without validation. The Compass incorporates this insight by treating new signals as supplementary rather than determinative, ensuring that innovation does not undermine fairness or transparency.  
+
+Together, these foundations create a framework that is both academically rigorous and practically applicable. They show that ethical hiring is not only a moral imperative but also a strategic advantage, reducing turnover, strengthening trust, and enhancing organisational performance.  
 
 ---
 
@@ -50,7 +56,7 @@ The Compass is directional. It does not reduce candidates to numbers. It signals
 - **Needs Attention (😐)**  
   Practices that function but risk undermining candidate experience.  
 
-- **Off Course (☹️)**  
+- **Off Course (😞)**  
   Practices that actively harm trust or fairness.  
 
 The Compass is designed in Markdown dashboards and templates for portability and clarity. It can plug into existing applicant tracking systems or operate as a standalone documentation layer. Navigation, annotation density, and tone are tuned for reviewer comfort to ensure the Compass is as usable as it is ethical.  
@@ -76,7 +82,7 @@ The Compass evolves with organisational needs and ethical expectations. Potentia
   Ensure recruitment practices meet inclusivity standards.  
 
 - **New talent signals**  
-  As organisations adopt novel data sources and AI driven assessments, there is a need to distinguish between meaningful predictors of success and distracting novelty. Research warns against over reliance on shiny new objects without validation (Chamorro‑Premuzic et al., 2016).  
+  As organisations adopt novel data sources and AI driven assessments, there is a need to distinguish between meaningful predictors of success and distracting novelty. Research warns against over reliance on unvalidated tools (Chamorro‑Premuzic et al., 2016).  
 
 These are suggestive pathways that help the Compass remain relevant as hiring landscapes evolve.  
 

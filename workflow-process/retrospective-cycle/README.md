@@ -10,25 +10,32 @@ This cycle brought together projects that tested different aspects of my craft, 
 ### 🎛️ Meta Analysis  
 
 **Documentation Makeover**  
+
 Working on documentation redesign made me reflect on how good documentation is often invisible. When it is clear, consistent, and well structured, it fades into the background, enabling the reader to focus on the work itself. It is only when documentation is missing or poorly designed that its absence becomes glaring. This project reinforced my belief that clarity is not ornamental but foundational to trust and professionalism.  
 
 The process also reminded me that documentation is not static. It evolves with the work, and its tone and structure can either invite the reader in or push them away. The makeover was not just about tidying text. It was about creating a rhythm and voice that makes the portfolio feel coherent and welcoming. I became more aware of how documentation can shape the emotional experience of the reader. A well designed README can feel like an open door, while a poorly designed one can feel like a barrier.  
 
 A key decision was to provide both a table view and a detailed view for examples. This gave readers the freedom to skim quickly or dive into depth depending on their preference. The choice reminded me of gameplay design in video games, where in an open world design, or even linear, players are often given freedom in how they approach challenges. They can follow the main path or explore side areas for more detail. In the same way, the documentation was designed to empower choice, not dictate a single path.  
 
+
 **Quality Assurance Checkpoint**  
+
 The QA Checkpoint project reminded me that quality is not just a safeguard at the end of a process. It is a mindset that runs through every stage of creation. Reviewing this project made me think differently about iteration and care. Quality is less about catching mistakes and more about cultivating attentiveness. It reframed QA as stewardship, not just control.  
 
 Expanding this project also made me reflect on how quality is perceived by others. A well tested and carefully reviewed project communicates respect for the reader and signals that the work has been handled with care. It is not only about technical correctness but also about trust. The checkpoint became a reminder that quality is relational. It is about how the reader feels when they encounter the work.  
 
 I also decided to include terminal outputs alongside the structured explanations. This gave readers the option to see the raw detail if they wished, or to stay with the higher level summaries. Again, the video game analogy came to mind. Just as players can choose whether to explore optional areas or stick to the main storyline, readers here could choose their level of engagement. This flexibility reinforced my belief that documentation should adapt to the reader, not the other way around.  
 
+
 **Support Logs**  
+
 While writing up the Support Logs project, I encountered the irony of GitHub itself experiencing a server side error. Their API endpoints returned a 503 status code, which meant the service was temporarily unavailable. It was a reminder that even the most robust and widely trusted systems can falter. What impressed me was how quickly and smoothly the issue was resolved. The transition from disruption to stability was almost imperceptible. Their status system was also a lesson in design. It was clear, transparent, and effective, providing real time updates that reassured users.  
 
 Support Logs also carried lessons about scope and naming. The project was initially going to be called *SupportLog*, but I discovered that there is a registered company with that name. This highlighted the importance of legal and copyright awareness, and of ensuring that naming choices leave little room for violation or misinterpretation. The scope also expanded during development. What began as a simple log evolved into a system that included both tickets and logs, as well as a table emulating a dashboard. This addition gave the project a more realistic feel and improved readability and ease of access for future reviewers.  
 
+
 **Talent Acquisition Compass**  
+
 This project pushed me to refresh my psychology knowledge and apply it in a new context. It became my first attempt at blending psychology and technology into a single framework. The process reminded me that theory is not static. It can be re interpreted and operationalised in new domains. The Compass was not only a project but also a bridge between disciplines. It showed me how documentation can carry both technical clarity and psychological depth, and how ethical considerations can be embedded directly into design choices.  
 
 What stood out most was how this project embodied the idea of navigation. Just as a compass provides orientation, this framework was designed to guide organisations through ethical hiring practices. It reminded me of the principle of freedom in navigation, which I had already applied in my portfolio structure. The Compass was designed to give organisations a sense of direction without forcing a single rigid path. It was a reminder that guidance should empower choice, not restrict it.  

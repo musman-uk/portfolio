@@ -1,13 +1,21 @@
-## 🧭 Talent Acquisition Compass  
+## 🧭 Talent Acquisition Compass
+  
+#### Summary  
 
-### 🌱 Introduction  
-Talent acquisition in technology is often presented as a numbers game. Pipelines, funnels, and metrics dominate the conversation. Yet hiring is not only about filling vacancies. It is about building trust, aligning values, and creating conditions where both candidates and organisations can thrive.  
-
-The Ethical Compass Dashboard reframes recruitment as a trust building journey. It draws on psychology to highlight how fairness, transparency, and alignment influence long term outcomes. When candidates are matched to roles that fit their skills, motivations, and values, organisations reduce turnover, avoid burnout, and strengthen commitment.  
-
-This project demonstrates how psychological principles such as person–environment fit (Holland, 1997), equity theory (Adams, 1965), organisational commitment (Meyer and Allen, 1991), fairness in selection systems (Gilliland, 1993), and caution around new talent signals (Chamorro‑Premuzic et al., 2016) can be applied to hiring practices. It is not a rigid metric. It is a directional tool that helps organisations navigate toward ethical and sustainable outcomes.  
+The Talent Acquisition Compass reframes recruitment as a trust‑building journey rather than a transactional process. It integrates psychological theory, ethical design, and practical documentation to help organisations align hiring practices with fairness, transparency, and long‑term success. Presented as a mock dashboard, the Compass highlights checkpoints where candidate experience can be strengthened, supported by illustrative vignettes and grounded in both academic research and industry practice. It is both a practical tool for today and a vision for sustainable, human‑centred recruitment.  
 
 ---
+
+### 🌱 Introduction  
+
+Talent acquisition in technology is often presented as a numbers game. Pipelines, funnels, and metrics dominate the conversation. Yet hiring is not only about filling vacancies. It is about building trust, aligning values, and creating conditions where both candidates and organisations can thrive.  
+
+The Ethical Compass Dashboard reframes recruitment as a trust building journey. It draws on psychology to highlight how fairness, transparency, and alignment influence long term outcomes. When candidates are matched to roles that fit their skills, motivations, and values, organisations reduce turnover, avoid burnout, and strengthen commitment. Industry surveys confirm that resourcing strategies must now balance efficiency with fairness and inclusivity (CIPD, 2021).  
+
+This project demonstrates how psychological principles such as person–environment fit (Holland, 1997), equity theory (Adams, 1965), organisational commitment (Meyer and Allen, 1991), fairness in selection systems (Gilliland, 1993), and caution around new talent signals (Chamorro‑Premuzic et al., 2016) can be applied to hiring practices. It also acknowledges contemporary challenges, including the risks of algorithmic bias in recruitment (Bogen & Rieke, 2018) and the persistent reliance on intuition over evidence in selection decisions (Highhouse, 2008). The Compass is not a rigid metric. It is a directional tool that helps organisations navigate toward ethical and sustainable outcomes.  
+
+---
+
 ### 📈 Ethical Compass Dashboard  
 
 The Compass is presented here as a mock dashboard to illustrate how ethical checkpoints can be documented and applied.
@@ -37,7 +45,7 @@ To complement the dashboard, the following mock vignettes illustrate how these p
 
 ---
 
-### 🧩 Psychological foundations  
+### 🧩 Psychological Foundations  
 
 The Compass is grounded in established psychological theories that explain why ethical hiring practices matter. Each theory contributes a different lens for understanding how candidates and organisations interact.  
 
@@ -51,16 +59,19 @@ Adams (1965) argued that people evaluate fairness by comparing their input–out
 Meyer and Allen (1991) described three forms of commitment: affective, continuance, and normative. Affective commitment, the emotional bond that makes employees want to stay, is particularly influenced by fair and respectful treatment during recruitment. Respectful hiring practices can therefore build loyalty before day one.  
 
 - **Fairness in Selection Systems**  
-Gilliland (1993) extended organisational justice theory to recruitment, showing that candidates judge not only the outcome but also the fairness of the selection system itself. Structured, consistent, and transparent processes enhance both trust and organisational reputation.  
+Gilliland (1993) extended organisational justice theory to recruitment, showing that candidates judge not only the outcome but also the fairness of the selection system itself. Structured, consistent, and transparent processes enhance both trust and organisational reputation. Contemporary critiques also highlight how over‑reliance on intuition undermines fairness, despite decades of evidence for structured methods (Highhouse, 2008).  
 
 - **New Talent Signals**  
-Chamorro‑Premuzic, Winsborough, Sherman, and Hogan (2016) examined the rise of novel data sources and AI‑driven assessments in hiring. They cautioned against over‑reliance on unvalidated tools. Innovation can enrich recruitment, but only when balanced with validation to avoid undermining fairness.  
+Chamorro‑Premuzic, Winsborough, Sherman, and Hogan (2016) examined the rise of novel data sources and AI‑driven assessments in hiring. They cautioned against over‑reliance on unvalidated tools. Innovation can enrich recruitment, but only when balanced with validation to avoid undermining fairness. Recent analyses of hiring algorithms warn of systemic bias if such tools are not carefully audited (Bogen & Rieke, 2018).  
+
+- **Industry Perspectives**  
+Professional bodies emphasise that ethical hiring is not only theoretical but operational. Surveys show that organisations are rethinking resourcing strategies to balance efficiency with fairness and inclusivity (CIPD, 2021). Similarly, guidance from HR practitioners stresses the importance of embedding fairness checks into applicant tracking systems and AI‑enabled recruitment workflows (SHRM, 2020).  
 
 **Overall Key Point:** Taken together, these foundations show that ethical hiring is not only a moral imperative but also a strategic advantage. Fairness, alignment, and transparency reduce turnover, strengthen trust, and enhance organisational performance.  
 
 ---
 
-### ⚒️ Practical design  
+### ⚒️ Practical Design  
 
 The Compass is directional. It does not reduce candidates to numbers. It signals whether practices are aligned, need attention, or are off course.  
 
@@ -80,7 +91,7 @@ The Compass is designed in Markdown dashboards and templates for portability and
 
 ---
 
-### 🌌 Future considerations  
+### 🌌 Future Considerations  
 
 The Compass evolves with organisational needs and ethical expectations. Potential directions include the following.  
 
@@ -100,7 +111,7 @@ The Compass evolves with organisational needs and ethical expectations. Potentia
   Ensure recruitment practices meet inclusivity standards, from digital platforms to physical interview spaces.  
 
 - **New talent signals**  
-  As organisations adopt novel data sources and AI driven assessments, there is a need to distinguish between meaningful predictors of success and distracting novelty. Research warns against over reliance on unvalidated tools (Chamorro‑Premuzic et al., 2016).  
+  As organisations adopt novel data sources and AI‑driven assessments, there is a need to distinguish between meaningful predictors of success and distracting novelty. Research warns against over‑reliance on unvalidated tools (Chamorro‑Premuzic et al., 2016). More recent commentary highlights that employers must also question whether emerging signals — such as educational credentials or digital footprints — genuinely predict workplace success, or simply reinforce existing inequities (Chamorro‑Premuzic & Frankiewicz, 2019).  
 
 - **Ethical dilemmas**  
   Organisations will face tensions between efficiency and fairness, innovation and validation, speed and reflection. The Compass does not resolve these dilemmas but provides a framework for surfacing them and making intentional choices.  
@@ -128,8 +139,22 @@ In this way, the Compass is both practical and aspirational. It provides a frame
 
 #### References  
 
-- Adams, J. S. (1965). Inequity in social exchange. *Advances in Experimental Social Psychology, 2*, 267–299.  
-- Gilliland, S. W. (1993). The perceived fairness of selection systems: An organizational justice perspective. *Academy of Management Review, 18*(4), 694–734.  
-- Holland, J. L. (1997). *Making vocational choices: A theory of vocational personalities and work environments*. Psychological Assessment Resources.  
-- Meyer, J. P., & Allen, N. J. (1991). A three component conceptualization of organizational commitment. *Human Resource Management Review, 1*(1), 61–89.  
-- Chamorro‑Premuzic, T., Winsborough, D., Sherman, R. A., & Hogan, R. (2016). New talent signals: Shiny new objects or a brave new world? *Industrial and Organizational Psychology, 9*(3), 621–640.  
+Adams, J. S. (1965). Inequity in social exchange. *Advances in Experimental Social Psychology, 2*, 267–299. https://doi.org/10.1016/S0065-2601(08)60108-2  
+
+Bogen, M., & Rieke, A. (2018). *Help wanted: An examination of hiring algorithms, equity, and bias*. Upturn. https://www.upturn.org/reports/2018/hiring-algorithms  
+
+Chamorro‑Premuzic, T., & Frankiewicz, B. (2019, January 7). Does higher education still prepare people for jobs? *Harvard Business Review*. https://hbr.org/2019/01/does-higher-education-still-prepare-people-for-jobs  
+
+Chamorro‑Premuzic, T., Winsborough, D., Sherman, R. A., & Hogan, R. (2016). New talent signals: Shiny new objects or a brave new world? *Industrial and Organizational Psychology, 9*(3), 621–640. https://doi.org/10.1017/iop.2016.9  
+
+Chartered Institute of Personnel and Development (CIPD). (2021). *Resourcing and talent planning survey*. https://www.cipd.org/uk/knowledge/reports/resourcing-talent-planning  
+
+Gilliland, S. W. (1993). The perceived fairness of selection systems: An organizational justice perspective. *Academy of Management Review, 18*(4), 694–734. https://doi.org/10.5465/amr.1993.9402210155  
+
+Highhouse, S. (2008). Stubborn reliance on intuition and subjectivity in employee selection. *Industrial and Organizational Psychology, 1*(3), 333–342. https://doi.org/10.1111/j.1754-9434.2008.00058.x  
+
+Holland, J. L. (1997). *Making vocational choices: A theory of vocational personalities and work environments* (3rd ed.). Psychological Assessment Resources.  
+
+Meyer, J. P., & Allen, N. J. (1991). A three‑component conceptualization of organizational commitment. *Human Resource Management Review, 1*(1), 61–89. https://doi.org/10.1016/1053-4822(91)90011-Z  
+
+Society for Human Resource Management (SHRM). (2020). *Employing AI in recruitment: Opportunities and risks*. https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/ai-in-recruitment.aspx  

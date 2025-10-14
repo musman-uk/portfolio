@@ -5,7 +5,7 @@ A space to recognise the resources, tools, and inspirations that shape this port
 ---
 
 ### 🎓 Learning Platforms  
-- **Mimo** – for guided projects that help me practise and apply core programming concepts.  
+- **Mimo** – delivers guided projects that help me practise and apply core programming concepts.  
 - **CodeSignal** – provides structured assessments and clean code practice challenges.  
 - **Programming Hub** – offers foundational certifications in IT and programming.  
 
@@ -23,7 +23,7 @@ A space to recognise the resources, tools, and inspirations that shape this port
 ---
 
 ### 💡 AI Collaborator  
-- **Microsoft Copilot** – supports me across portfolio projects: accelerating progress, refining documentation, shaping structure and flow, sparking ideas, assisting with coding tasks, and strengthening accuracy. It extends and elevates my thinking and work rather than replacing them.  
+- **Microsoft Copilot** – assists me across portfolio projects: refining documentation, shaping structure and flow, sparking ideas, supporting coding tasks, and strengthening accuracy. It extends my thinking and work rather than replacing them.  
 
 ---
 

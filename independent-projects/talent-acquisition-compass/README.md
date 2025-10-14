@@ -41,27 +41,22 @@ To complement the dashboard, the following mock vignettes illustrate how these p
 
 The Compass is grounded in established psychological theories that explain why ethical hiring practices matter. Each theory contributes a different lens for understanding how candidates and organisations interact.  
 
-#### Person–Environment Fit  
-Holland (1997) demonstrated that when individuals’ values, interests, and skills align with their work environment, they experience higher satisfaction, stronger performance, and lower turnover.  
-**Takeaway:** Hiring should consider values and motivations alongside technical competence.  
+- **Person–Environment Fit**  
+Holland (1997) demonstrated that when individuals’ values, interests, and skills align with their work environment, they experience higher satisfaction, stronger performance, and lower turnover. This highlights the importance of considering values and motivations alongside technical competence during hiring.  
 
-#### Equity Theory  
-Adams (1965) argued that people evaluate fairness by comparing their input–output ratios with those of others. In hiring, this means candidates judge fairness not only by the outcome but also by the process.  
-**Takeaway:** Transparent processes and equitable treatment are as important as final offers.  
+- **Equity Theory**  
+Adams (1965) argued that people evaluate fairness by comparing their input–output ratios with those of others. In recruitment, candidates judge fairness not only by the outcome but also by the process itself. Transparent procedures and equitable treatment therefore become as critical as the final offer.  
 
-#### Organisational Commitment  
-Meyer and Allen (1991) described three forms of commitment: affective, continuance, and normative. Affective commitment, the emotional bond that makes employees want to stay, is particularly influenced by fair and respectful treatment during recruitment.  
-**Takeaway:** Respectful recruitment builds loyalty before day one.  
+- **Organisational Commitment**  
+Meyer and Allen (1991) described three forms of commitment: affective, continuance, and normative. Affective commitment, the emotional bond that makes employees want to stay, is particularly influenced by fair and respectful treatment during recruitment. Respectful hiring practices can therefore build loyalty before day one.  
 
-#### Fairness in Selection Systems  
-Gilliland (1993) extended organisational justice theory to recruitment, showing that candidates judge not only the outcome but also the fairness of the selection system itself.  
-**Takeaway:** Structured, consistent, and transparent processes enhance trust and reputation.  
+- **Fairness in Selection Systems**  
+Gilliland (1993) extended organisational justice theory to recruitment, showing that candidates judge not only the outcome but also the fairness of the selection system itself. Structured, consistent, and transparent processes enhance both trust and organisational reputation.  
 
-#### New Talent Signals  
-Chamorro‑Premuzic, Winsborough, Sherman, and Hogan (2016) examined the rise of novel data sources and AI driven assessments in hiring. They cautioned against over reliance on unvalidated tools.  
-**Takeaway:** Innovation must be balanced with validation to avoid undermining fairness.  
+- **New Talent Signals**  
+Chamorro‑Premuzic, Winsborough, Sherman, and Hogan (2016) examined the rise of novel data sources and AI‑driven assessments in hiring. They cautioned against over‑reliance on unvalidated tools. Innovation can enrich recruitment, but only when balanced with validation to avoid undermining fairness.  
 
-**Key Points:** Together, these foundations show that ethical hiring is not only a moral imperative but also a strategic advantage. Fairness, alignment, and transparency reduce turnover, strengthen trust, and enhance organisational performance.  
+**Overall Key Point:** Taken together, these foundations show that ethical hiring is not only a moral imperative but also a strategic advantage. Fairness, alignment, and transparency reduce turnover, strengthen trust, and enhance organisational performance.  
 
 ---
 
@@ -113,7 +108,7 @@ The Compass evolves with organisational needs and ethical expectations. Potentia
 - **Global variation**  
   Hiring practices differ across cultures and legal systems. The Compass can be adapted to reflect local norms while maintaining universal principles of fairness and respect.  
 
-**Key Points:** Future development is not only about adding features but about deepening ethical reflection. The Compass must remain adaptable, evidence‑based, and sensitive to context.  
+**Overall Key Point:** Future development is not only about adding features but about deepening ethical reflection. The Compass must remain adaptable, evidence‑based, and sensitive to context.  
 
 ---
 

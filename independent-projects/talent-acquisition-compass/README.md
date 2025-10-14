@@ -8,28 +8,32 @@ The Ethical Compass Dashboard reframes recruitment as a trust building journey. 
 This project demonstrates how psychological principles such as person–environment fit (Holland, 1997), equity theory (Adams, 1965), organisational commitment (Meyer and Allen, 1991), fairness in selection systems (Gilliland, 1993), and caution around new talent signals (Chamorro‑Premuzic et al., 2016) can be applied to hiring practices. It is not a rigid metric. It is a directional tool that helps organisations navigate toward ethical and sustainable outcomes.  
 
 ---
-
-### 📈 Ethical Compass Dashboard 
+### 📈 Ethical Compass Dashboard  
 
 The Compass is presented here as a mock dashboard to illustrate how ethical checkpoints can be documented and applied.
 
-| Stage | Scenario | Candidate Experience | Compass Reading | Action |
-|-------|----------|----------------------|-----------------|--------|
-| Application | Automated résumé screening rejects non traditional CVs | Candidates feel unseen and discouraged | 😞 | Introduce structured scoring and human review to reduce bias |
-| Interview | Panel interruptions and unequal speaking time | Stress, perception of bias, reduced confidence | 😐 | Train panel on structured questioning and add fairness observer |
-| Offer | Lack of transparency in salary bands | Anxiety and reduced trust in employer | 😐 | Publish salary ranges and standardise negotiation practices |
-| Onboarding | Clear communication of expectations and support | Candidate feels welcomed and secure | 😀 | Maintain structured welcome plan and mentorship |
-| Retention | Role demands misaligned with candidate motivations | Risk of burnout, disengagement, and turnover | 😞 | Use values based assessments during hiring and adjust role design |
-
-**Additional examples per stage:**  
-- **Application:** jargon‑heavy job descriptions; inaccessible online forms.  
-- **Interview:** overemphasis on cultural “fit”; lack of feedback after rejection.  
-- **Offer:** delayed communication of decisions; inconsistent negotiation practices.  
-- **Onboarding:** overwhelming paperwork without guidance; lack of peer support.  
-- **Retention:** absence of career development pathways; inequitable promotion practices.  
+| Stage       | Scenario                                           | Candidate Experience                        | Compass Reading | Action                                                                 |
+|-------------|----------------------------------------------------|---------------------------------------------|-----------------|------------------------------------------------------------------------|
+| Application | Automated résumé screening rejects non traditional CVs | Candidates feel unseen and discouraged       | 😞              | Introduce structured scoring and human review to reduce bias            |
+| Interview   | Panel interruptions and unequal speaking time      | Stress, perception of bias, reduced confidence | 😐              | Train panel on structured questioning and add fairness observer         |
+| Offer       | Lack of transparency in salary bands               | Anxiety and reduced trust in employer        | 😐              | Publish salary ranges and standardise negotiation practices             |
+| Onboarding  | Clear communication of expectations and support    | Candidate feels welcomed and secure          | 😀              | Maintain structured welcome plan and mentorship                         |
+| Retention   | Role demands misaligned with candidate motivations | Risk of burnout, disengagement, and turnover | 😞              | Use values based assessments during hiring and adjust role design       |
 
 **Legend:**  
 😀 Aligned · 😐 Needs Attention · 😞 Off Course  
+
+---
+
+### 🎙️ Candidate Feedback  
+
+To complement the dashboard, the following mock vignettes illustrate how these practices might feel from a candidate’s perspective. They are illustrative only, designed to bring the Compass to life.  
+
+- **Application:** *“I had the skills, but the jargon in the job description made me doubt myself. Then the online form would not work with my screen reader. I never even finished the application.”*  
+- **Interview:** *“The panel kept interrupting me. I left feeling like they had already decided who they wanted, and I was just filling a slot.”*  
+- **Offer:** *“When the offer came, there was no clarity on salary bands. I felt anxious negotiating, unsure if I was being treated fairly.”*  
+- **Onboarding:** *“My first week was a blur of paperwork with no guidance. I felt lost until a colleague stepped in informally to help.”*  
+- **Retention:** *“I joined for the mission, but the role turned out to be all admin. Without a path to grow, I started looking elsewhere within months.”*  
 
 ---
 

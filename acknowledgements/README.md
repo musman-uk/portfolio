@@ -1,31 +1,31 @@
 ## 🤝 Acknowledgements  
 
-A space to recognise the resources, tools, and inspirations that have shaped this portfolio, with appreciation and respect, since no portfolio is created in isolation. While I gratefully acknowledge the support that has shaped this portfolio, the work within it has been authored and reviewed by me, and I take full responsibility for it.  
+A space to recognise the resources, tools, and inspirations that shape this portfolio, with appreciation and respect, since no portfolio is created in isolation. While I gratefully acknowledge the support that informs this portfolio, the work within it is continually authored and reviewed by me, and I take full responsibility for it.  
 
 ---
 
 ### 🎓 Learning Platforms  
-- **Mimo** – guided projects that helped me practice and apply core programming concepts.  
-- **CodeSignal** – structured assessments and clean code practice challenges.  
-- **Programming Hub** – foundational certifications in IT and programming.  
+- **Mimo** – for guided projects that help me practise and apply core programming concepts.  
+- **CodeSignal** – provides structured assessments and clean code practice challenges.  
+- **Programming Hub** – offers foundational certifications in IT and programming.  
 
 ---
 
 ### 🔧 Tools  
-- **GitHub** – version control, repository management, and portfolio presentation.  
-- **Git servers** – the backbone of distributed version control and redundancy.  
-- **GitHub Codespaces** – a consistent, cloud-based development environment across projects.  
-- **GitHub Actions** – automated workflows such as mirroring the public repository into the private backup repository.  
-- **Bash and Git CLI** – direct control of repository management, running commands such as `git pull`, and troubleshooting.  
-- **GitHub Copilot** – assistance across GitHub workflows: identifying and resolving errors, suggesting fixes, and moving toward practical solutions when issues arose.  
-- **OneDrive** – a reliable cloud sync layer outside of GitHub, ensuring an additional backup copy.  
+- **GitHub** – enables version control, repository management, and portfolio presentation.  
+- **Git servers** – serve as the backbone of distributed version control and redundancy.  
+- **GitHub Codespaces** – provides a consistent, cloud-based development environment across projects.  
+- **GitHub Actions** – automates workflows such as mirroring the public repository into the private backup repository.  
+- **Bash and Git CLI** – give me direct control of repository management, running commands such as `git pull`, and troubleshooting.  
+- **GitHub Copilot** – assists across GitHub workflows: identifying and resolving errors, suggesting fixes, and moving toward practical solutions when issues arise.  
+- **OneDrive** – ensures a reliable cloud sync layer outside of GitHub, maintaining an additional backup copy.  
 
 ---
 
 ### 💡 AI Collaborator  
-- **Microsoft Copilot** – support across portfolio projects: accelerating progress, refining documentation, shaping structure and flow, sparking ideas, assisting with coding tasks, and strengthening accuracy.  
+- **Microsoft Copilot** – supports me across portfolio projects: accelerating progress, refining documentation, shaping structure and flow, sparking ideas, assisting with coding tasks, and strengthening accuracy. It extends and elevates my thinking and work rather than replacing them.  
 
 ---
 
 ### 📡 Hosting & Deployment  
-- **GitHub Pages** – hosting live demos of selected projects, making them accessible directly from the browser.  
+- **GitHub Pages** – hosts live demos of selected projects, making them accessible directly from the browser.  

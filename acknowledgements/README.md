@@ -16,7 +16,7 @@ A space to recognise the resources, tools, and inspirations that shape this port
 - **Git servers** – serve as the backbone of distributed version control and redundancy.  
 - **GitHub Codespaces** – provides a consistent, cloud-based development environment across projects.  
 - **GitHub Actions** – automates workflows such as mirroring the public repository into the private backup repository.  
-- **Bash and Git CLI** – give me direct control of repository management, running commands such as `git pull`, and troubleshooting.  
+- **Bash and Git CLI** – allows me direct control of repository management, running commands such as `git pull`, and troubleshooting.  
 - **GitHub Copilot** – assists across GitHub workflows: identifying and resolving errors, suggesting fixes, and moving toward practical solutions when issues arise.  
 - **OneDrive** – ensures a reliable cloud sync layer outside of GitHub, maintaining an additional backup copy.  
 

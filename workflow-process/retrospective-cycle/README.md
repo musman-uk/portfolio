@@ -15,7 +15,7 @@ Working on documentation redesign made me reflect on how good documentation is o
 
 The process also reminded me that documentation is not static. It evolves with the work, and its tone and structure can either invite the reader in or push them away. The makeover was not just about tidying text. It was about creating a rhythm and voice that makes the portfolio feel coherent and welcoming. I became more aware of how documentation can shape the emotional experience of the reader. A well designed README can feel like an open door, while a poorly designed one can feel like a barrier.  
 
-A key decision was to provide both a table view and a detailed view for examples. This gave readers the freedom to skim quickly or dive into depth depending on their preference. The choice reminded me of gameplay design in video games, where in an open world design, or even linear, players are often given freedom in how they approach challenges. They can follow the main path or explore side areas for more detail. In the same way, the documentation was designed to empower choice, not dictate a single path.  
+A key decision was to provide both a table view and a detailed view for examples. This gave readers the freedom to skim quickly or dive into depth depending on their preference. The choice reminded me of gameplay design in video games, where in open world games, or even games that are linear, players are often given freedom in how they approach the story and challenges. They can follow the main path or explore side areas for more detail. In the same way, the documentation was designed to empower choice, not dictate a single path.  
 
 
 **Quality Assurance Checkpoint**  

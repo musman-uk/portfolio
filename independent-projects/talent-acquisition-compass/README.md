@@ -143,11 +143,11 @@ Adams, J. S. (1965). Inequity in social exchange. *Advances in Experimental Soci
 
 Bogen, M., & Rieke, A. (2018). *Help wanted: An examination of hiring algorithms, equity, and bias*. Upturn. https://www.upturn.org/reports/2018/hiring-algorithms  
 
-Brewster, C., Sparrow, P., & Chung, C. (2016). *Globalizing human resource management* (2nd ed.). Routledge.  
+Brewster, C., Sparrow, P., & Chung, C. (2016). *Globalizing human resource management* (2nd ed.). Routledge. https://www.routledge.com/Globalizing-Human-Resource-Management/Sparrow-Brewster-Chung/p/book/9781138950696  
 
 Chamorro‑Premuzic, T., & Frankiewicz, B. (2019, January 7). Does higher education still prepare people for jobs? *Harvard Business Review*. https://hbr.org/2019/01/does-higher-education-still-prepare-people-for-jobs  
 
-Chamorro‑Premuzic, T., Winsborough, D., Sherman, R. A., & Hogan, R. (2016). New talent signals: Shiny new objects or a brave new world? *Industrial and Organizational Psychology, 9*(3), 621–640. https://doi.org/10.1017/iop.2016.9  
+Chamorro‑Premuzic, T., Winsborough, D., Sherman, R. A., & Hogan, R. (2016). New talent signals: Shiny new objects or a brave new world? *Industrial and Organizational Psychology, 9*(3), 621–640. Cambridge University Press. https://www.cambridge.org/core/journals/industrial-and-organizational-psychology/article/new-talent-signals-shiny-new-objects-or-a-brave-new-world/B301CCE93DDCFC658257E36B80B5E695  
 
 Chartered Institute of Personnel and Development (CIPD). (2021). *Resourcing and talent planning survey*. https://www.cipd.org/uk/knowledge/reports/resourcing-talent-planning  
 
@@ -157,10 +157,10 @@ Gilliland, S. W. (1993). The perceived fairness of selection systems: An organiz
 
 Highhouse, S. (2008). Stubborn reliance on intuition and subjectivity in employee selection. *Industrial and Organizational Psychology, 1*(3), 333–342. https://doi.org/10.1111/j.1754-9434.2008.00058.x  
 
-Holland, J. L. (1997). *Making vocational choices: A theory of vocational personalities and work environments* (3rd ed.). Psychological Assessment Resources.  
+Holland, J. L. (1997). *Making vocational choices: A theory of vocational personalities and work environments* (3rd ed.). Psychological Assessment Resources. https://psycnet.apa.org/record/1997-08980-000  
 
 Meyer, J. P., & Allen, N. J. (1991). A three‑component conceptualization of organizational commitment. *Human Resource Management Review, 1*(1), 61–89. https://doi.org/10.1016/1053-4822(91)90011-Z  
 
 Raghavan, M., Barocas, S., Kleinberg, J., & Levy, K. (2020). Mitigating bias in algorithmic hiring: Evaluating claims and practices. *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency,* 469–481. https://doi.org/10.1145/3351095.3372828  
 
-Society for Human Resource Management (SHRM). (2020). *Employing AI in recruitment: Opportunities and risks*. https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/ai-in-recruitment.aspx  
+Society for Human Resource Management (SHRM). (2024, April 30). *The impact of AI on talent acquisition and recruitment*. SHRM Executive Network Insights. https://www.shrm.org/executive-network/insights/the-impact-of-ai-on-talent-acquisition-and-recruitment  

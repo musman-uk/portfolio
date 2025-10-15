@@ -2,7 +2,7 @@
   
 #### Summary  
 
-The Talent Acquisition Compass reframes recruitment as a trust‑building journey rather than a transactional process. It integrates psychological theory, ethical design, and practical documentation to help organisations align hiring practices with fairness, transparency, and long‑term success. Presented as a mock dashboard, the Compass highlights checkpoints where candidate experience can be strengthened, supported by illustrative vignettes and grounded in both academic research and industry practice. It is both a practical tool for today and a vision for sustainable, human‑centred recruitment.  
+The Talent Acquisition Compass reframes recruitment as a trust‑building journey rather than a transactional process. It integrates psychological theory, ethical design, and practical documentation to help organisations align hiring practices with fairness, transparency, and long‑term success. Presented as a mock dashboard, the Compass highlights areas where candidate experience can be strengthened, supported by illustrative vignettes and grounded in both academic research and industry practice. It is both a practical tool for today and a vision for sustainable, human‑centred recruitment.  
 
 ---
 
@@ -99,13 +99,13 @@ The Compass evolves with organisational needs and ethical expectations. Potentia
   Embed Compass prompts directly into recruiter workflows so that fairness checks become routine rather than optional. This integration ensures that ethical reflection is part of everyday hiring practice rather than an additional step.  
 
 - **Bias detection analytics**  
-  Use data to identify patterns of inequity across hiring stages, such as disproportionate rejection rates for particular groups. Analytics can highlight hidden barriers and provide evidence for corrective action.  
+  Use data to identify patterns of inequity across hiring stages, such as disproportionate rejection rates for particular groups. Research on algorithmic hiring highlights the importance of systematic monitoring to surface hidden barriers and support corrective action (Raghavan, Barocas, Kleinberg, & Levy, 2020).  
 
 - **Candidate feedback loops**  
   Incorporate structured feedback from applicants to refine processes and reduce the gap between candidate perception and organisational intent. Feedback mechanisms can improve trust and strengthen the candidate experience.  
 
 - **Organisational training modules**  
-  Equip hiring panels with fairness and bias awareness training, ensuring that ethical practices are embedded in behaviour as well as policy. Training can support consistent decision making and reinforce organisational values.  
+  Equip hiring panels with fairness and bias awareness training, ensuring that ethical practices are embedded in behaviour as well as policy. Evidence shows that structured interventions can reduce implicit bias over time and improve decision‑making quality (Devine, Forscher, Austin, & Cox, 2012).  
 
 - **Accessibility audits**  
   Ensure recruitment practices meet inclusivity standards, from digital platforms to physical interview spaces. Regular audits can identify barriers for candidates with disabilities and support compliance with ethical and legal obligations.  
@@ -117,7 +117,7 @@ The Compass evolves with organisational needs and ethical expectations. Potentia
   Organisations will face tensions between efficiency and fairness, innovation and validation, speed and reflection. The Compass does not resolve these dilemmas but provides a framework for surfacing them and making intentional choices.  
 
 - **Global variation**  
-  Hiring practices differ across cultures and legal systems. The Compass can be adapted to reflect local norms while maintaining universal principles of fairness and respect. This flexibility ensures relevance across diverse contexts.  
+  Hiring practices differ across cultures and legal systems. The Compass can be adapted to reflect local norms while maintaining universal principles of fairness and respect. Comparative HRM research shows that global recruitment strategies must balance standardisation with sensitivity to local expectations (Brewster, Sparrow, & Chung, 2016).  
 
 **Overall Key Point:** Future development is not only about adding features but about deepening ethical reflection. The Compass must remain adaptable, evidence based, and sensitive to context.  
 
@@ -143,11 +143,15 @@ Adams, J. S. (1965). Inequity in social exchange. *Advances in Experimental Soci
 
 Bogen, M., & Rieke, A. (2018). *Help wanted: An examination of hiring algorithms, equity, and bias*. Upturn. https://www.upturn.org/reports/2018/hiring-algorithms  
 
+Brewster, C., Sparrow, P., & Chung, C. (2016). *Globalizing human resource management* (2nd ed.). Routledge.  
+
 Chamorro‑Premuzic, T., & Frankiewicz, B. (2019, January 7). Does higher education still prepare people for jobs? *Harvard Business Review*. https://hbr.org/2019/01/does-higher-education-still-prepare-people-for-jobs  
 
 Chamorro‑Premuzic, T., Winsborough, D., Sherman, R. A., & Hogan, R. (2016). New talent signals: Shiny new objects or a brave new world? *Industrial and Organizational Psychology, 9*(3), 621–640. https://doi.org/10.1017/iop.2016.9  
 
 Chartered Institute of Personnel and Development (CIPD). (2021). *Resourcing and talent planning survey*. https://www.cipd.org/uk/knowledge/reports/resourcing-talent-planning  
+
+Devine, P. G., Forscher, P. S., Austin, A. J., & Cox, W. T. L. (2012). Long‑term reduction in implicit race bias: A prejudice habit‑breaking intervention. *Journal of Experimental Social Psychology, 48*(6), 1267–1278. https://doi.org/10.1016/j.jesp.2012.06.003  
 
 Gilliland, S. W. (1993). The perceived fairness of selection systems: An organizational justice perspective. *Academy of Management Review, 18*(4), 694–734. https://doi.org/10.5465/amr.1993.9402210155  
 
@@ -156,5 +160,7 @@ Highhouse, S. (2008). Stubborn reliance on intuition and subjectivity in employe
 Holland, J. L. (1997). *Making vocational choices: A theory of vocational personalities and work environments* (3rd ed.). Psychological Assessment Resources.  
 
 Meyer, J. P., & Allen, N. J. (1991). A three‑component conceptualization of organizational commitment. *Human Resource Management Review, 1*(1), 61–89. https://doi.org/10.1016/1053-4822(91)90011-Z  
+
+Raghavan, M., Barocas, S., Kleinberg, J., & Levy, K. (2020). Mitigating bias in algorithmic hiring: Evaluating claims and practices. *Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency,* 469–481. https://doi.org/10.1145/3351095.3372828  
 
 Society for Human Resource Management (SHRM). (2020). *Employing AI in recruitment: Opportunities and risks*. https://www.shrm.org/resourcesandtools/hr-topics/technology/pages/ai-in-recruitment.aspx  

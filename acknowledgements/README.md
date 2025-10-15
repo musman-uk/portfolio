@@ -1,6 +1,6 @@
 ## 🤝 Acknowledgements  
 
-A space to recognise the resources, tools, and inspirations that shape this portfolio, with appreciation and respect, since no portfolio is created in isolation. While I gratefully acknowledge the support that helps shape this portfolio, the work within it is authored and continually reviewed by me, and I take full responsibility for it.  
+A space to recognise and appreciate the people, resources, and inspirations that support this portfolio, since no work is created in isolation. While I gratefully acknowledge the support that helps shape this portfolio, the work within it is authored and continually reviewed by me, and I take full responsibility for it.  
 
 ---
 
@@ -16,7 +16,7 @@ A space to recognise the resources, tools, and inspirations that shape this port
 - **Git servers** – serve as the backbone of distributed version control and redundancy.  
 - **GitHub Codespaces** – provides a consistent, cloud-based development environment across projects.  
 - **GitHub Actions** – automates workflows such as mirroring the public repository into the private backup repository.  
-- **Bash and Git CLI** – allows me direct control of repository management, running commands such as `git pull`, and troubleshooting.  
+- **Bash and Git CLI** – allows me direct control of repository management, running commands and troubleshooting.  
 - **GitHub Copilot** – assists across GitHub workflows: identifying and resolving errors, suggesting fixes, and moving toward practical solutions when issues arise.  
 - **OneDrive** – ensures a reliable cloud sync layer outside of GitHub, maintaining an additional backup copy.  
 
@@ -29,3 +29,8 @@ A space to recognise the resources, tools, and inspirations that shape this port
 
 ### 📡 Hosting & Deployment  
 - **GitHub Pages** – hosts live demos of selected projects, making them accessible directly from the browser.  
+
+---
+
+### 🌟 People  
+- **My Mum** – Perhaps there is no combination of words that could express this fully, but for the encouragement that was the catalyst for me to pursue a path I was genuinely passionate about and commit to technology with confidence and sincerity.  

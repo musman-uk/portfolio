@@ -33,4 +33,4 @@ A space to recognise and appreciate the people, resources, and inspirations that
 ---
 
 ### 🌟 People  
-- **My Mum** – Perhaps there is no combination of words that could express this fully, but for the encouragement that was the catalyst for me to pursue a path I was genuinely passionate about and commit to technology with confidence and sincerity.  
+- **My Mum** – Perhaps there is no combination of words that could express this fully, but for the encouragement that was the catalyst for me to pursue this path I am genuinely passionate about.

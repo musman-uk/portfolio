@@ -65,7 +65,7 @@ Gilliland (1993) extended organisational justice theory to recruitment, showing 
 Chamorro‑Premuzic, Winsborough, Sherman, and Hogan (2016) examined the rise of novel data sources and AI‑driven assessments in hiring. They cautioned against over‑reliance on unvalidated tools. Innovation can enrich recruitment, but only when balanced with validation to avoid undermining fairness. Recent analyses of hiring algorithms warn of systemic bias if such tools are not carefully audited (Bogen & Rieke, 2018).  
 
 - **Industry Perspectives**  
-Professional bodies emphasise that ethical hiring is not only theoretical but operational. Surveys show that organisations are rethinking resourcing strategies to balance efficiency with fairness and inclusivity (CIPD, 2021). Similarly, guidance from HR practitioners stresses the importance of embedding fairness checks into applicant tracking systems and AI‑enabled recruitment workflows (SHRM, 2020).  
+Professional bodies emphasise that ethical hiring is not only theoretical but operational. Surveys show that organisations are rethinking resourcing strategies to balance efficiency with fairness and inclusivity (CIPD, 2021). Similarly, guidance from HR practitioners stresses the importance of embedding fairness checks into applicant tracking systems and AI‑enabled recruitment workflows (SHRM, 2024).  
 
 **Overall Key Point:** Taken together, these foundations show that ethical hiring is not only a moral imperative but also a strategic advantage. Fairness, alignment, and transparency reduce turnover, strengthen trust, and enhance organisational performance.  
 
@@ -84,7 +84,7 @@ The Compass is directional. It does not reduce candidates to numbers. It signals
 - **Off Course (😞)**  
   Practices that actively harm trust or fairness.  
 
-**Practice example:**  
+**Implementation example:**  
 At the end of each hiring stage, recruiters or panel members record a Compass reading. These readings are reviewed monthly by HR leadership to identify patterns. If multiple “needs attention” or “off course” readings cluster at a stage, targeted interventions are introduced, such as panel training or redesign of job descriptions. This creates a feedback loop where fairness is continuously monitored rather than assumed.  
 
 The Compass is designed in Markdown dashboards and templates for portability and clarity. It can plug into existing applicant tracking systems or operate as a standalone documentation layer. Navigation, annotation density, and tone are tuned for reviewer comfort to ensure the Compass is as usable as it is ethical.  

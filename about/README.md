@@ -1,4 +1,4 @@
-# 📖 About
+## 📖 About
 
 My journey into technology has been anything but conventional. From a young age I was captivated by computers and video games, spending countless hours exploring them with wonder and curiosity. That early curiosity first drew me toward game development, but over time I realised my passion extended to technology as a whole. I often imagined what it might be like to communicate with computers more directly and to be part of the wider world of technology, but felt it was out of reach due to doubts about my abilities.
 

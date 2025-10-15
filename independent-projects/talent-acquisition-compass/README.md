@@ -96,30 +96,30 @@ The Compass is designed in Markdown dashboards and templates for portability and
 The Compass evolves with organisational needs and ethical expectations. Potential directions include the following.  
 
 - **Integration with applicant tracking systems**  
-  Embed Compass prompts directly into recruiter workflows to ensure fairness checks are not optional but routine.  
+  Embed Compass prompts directly into recruiter workflows so that fairness checks become routine rather than optional. This integration ensures that ethical reflection is part of everyday hiring practice rather than an additional step.  
 
 - **Bias detection analytics**  
-  Use data to surface patterns of inequity across hiring stages, such as disproportionate rejection rates for certain groups.  
+  Use data to identify patterns of inequity across hiring stages, such as disproportionate rejection rates for particular groups. Analytics can highlight hidden barriers and provide evidence for corrective action.  
 
 - **Candidate feedback loops**  
-  Incorporate structured feedback from applicants to refine processes and close the gap between candidate perception and organisational intent.  
+  Incorporate structured feedback from applicants to refine processes and reduce the gap between candidate perception and organisational intent. Feedback mechanisms can improve trust and strengthen the candidate experience.  
 
 - **Organisational training modules**  
-  Equip hiring panels with fairness and bias awareness training, ensuring that ethical practices are embedded in behaviour, not just policy.  
+  Equip hiring panels with fairness and bias awareness training, ensuring that ethical practices are embedded in behaviour as well as policy. Training can support consistent decision making and reinforce organisational values.  
 
 - **Accessibility audits**  
-  Ensure recruitment practices meet inclusivity standards, from digital platforms to physical interview spaces.  
+  Ensure recruitment practices meet inclusivity standards, from digital platforms to physical interview spaces. Regular audits can identify barriers for candidates with disabilities and support compliance with ethical and legal obligations.  
 
 - **New talent signals**  
-  As organisations adopt novel data sources and AI‑driven assessments, there is a need to distinguish between meaningful predictors of success and distracting novelty. Research warns against over‑reliance on unvalidated tools (Chamorro‑Premuzic et al., 2016). More recent commentary highlights that employers must also question whether emerging signals — such as educational credentials or digital footprints — genuinely predict workplace success, or simply reinforce existing inequities (Chamorro‑Premuzic & Frankiewicz, 2019).  
+  As organisations adopt novel data sources and AI‑driven assessments, there is a need to distinguish between meaningful predictors of success and distracting novelty. Employers must question whether emerging signals, such as educational credentials or digital footprints, genuinely predict workplace success or simply reinforce existing inequities.  
 
 - **Ethical dilemmas**  
   Organisations will face tensions between efficiency and fairness, innovation and validation, speed and reflection. The Compass does not resolve these dilemmas but provides a framework for surfacing them and making intentional choices.  
 
 - **Global variation**  
-  Hiring practices differ across cultures and legal systems. The Compass can be adapted to reflect local norms while maintaining universal principles of fairness and respect.  
+  Hiring practices differ across cultures and legal systems. The Compass can be adapted to reflect local norms while maintaining universal principles of fairness and respect. This flexibility ensures relevance across diverse contexts.  
 
-**Overall Key Point:** Future development is not only about adding features but about deepening ethical reflection. The Compass must remain adaptable, evidence‑based, and sensitive to context.  
+**Overall Key Point:** Future development is not only about adding features but about deepening ethical reflection. The Compass must remain adaptable, evidence based, and sensitive to context.  
 
 ---
 

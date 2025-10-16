@@ -1,8 +1,8 @@
 ## 🤝 Acknowledgements  
 
-This is a space to recognise and appreciate the people, resources, and inspirations that support this portfolio, since no work is created in isolation. While I am thankful for their support, the work itself is authored and continually reviewed by me, and I take full responsibility for it.  
+This is a space to recognise and appreciate the resources, inspirations, and support that help shape this portfolio, since no work is created in isolation. While I am thankful, the work itself is authored and continually reviewed by me, and I take full responsibility for it.  
 
----
+
 
 ### 🎓 Learning Platforms  
 - **Mimo** – delivers guided projects that help me practise and apply core programming concepts.  
@@ -32,5 +32,5 @@ This is a space to recognise and appreciate the people, resources, and inspirati
 
 ---
 
-### 🌟 People  
+### 🌟 Special Thanks  
 - **My Mum** – Perhaps no combination of words could express this fully, but for the support and encouragement to pursue this path I am genuinely passionate about.

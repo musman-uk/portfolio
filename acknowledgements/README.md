@@ -13,7 +13,7 @@ This is a space to recognise and appreciate the resources, influences, and suppo
 
 ### 🔧 Tools  
 - **GitHub** – enables version control, repository management, and portfolio presentation.  
-- **Git servers** – form the backbone of distributed version control and redundancy.  
+- **Git Servers** – form the backbone of distributed version control and redundancy.  
 - **GitHub Codespaces** – provides a consistent, cloud-based development environment across projects.  
 - **GitHub Actions** – automates workflows such as mirroring the public repository into the private backup repository.  
 - **Bash and Git CLI** – allows me direct control of repository management, running commands and troubleshooting.  

@@ -23,7 +23,7 @@ A space to recognise and appreciate the people, resources, and inspirations that
 ---
 
 ### 💡 AI Collaborator  
-- **Microsoft Copilot** – assists me across portfolio projects: accelerating progress, helping with early drafts, refining documentation, shaping structure and flow, sparking ideas, supporting coding tasks, and strengthening accuracy. It extends my thinking and work rather than replacing them.  
+- **Microsoft Copilot** – assists me across portfolio projects: from sparking ideas and shaping early drafts to refining documentation and code, it extends my thinking and work rather than replacing them.
 
 ---
 
@@ -33,4 +33,4 @@ A space to recognise and appreciate the people, resources, and inspirations that
 ---
 
 ### 🌟 People  
-- **My Mum** – Perhaps there is no combination of words that could express this fully, but for the support and encouragement to pursue this path I am genuinely passionate about.
+- **My Mum** – Perhaps there is no combination of words that could express this fully. For the support and encouragement to pursue this path I am genuinely passionate about.

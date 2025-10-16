@@ -1,6 +1,6 @@
 ## 🤝 Acknowledgements  
 
-This is a space to recognise and appreciate the people, resources, and inspirations that support this portfolio, since no work is created in isolation. While I am thankful for their support, the work within it is authored and continually reviewed by me, and I take full responsibility for it.  
+This is a space to recognise and appreciate the people, resources, and inspirations that support this portfolio, since no work is created in isolation. While I am thankful for their support, the work itself is authored and continually reviewed by me, and I take full responsibility for it.  
 
 ---
 

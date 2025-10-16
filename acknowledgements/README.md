@@ -22,8 +22,8 @@ This is a space to recognise and appreciate the people, resources, and inspirati
 
 ---
 
-### 💡 AI Collaborator  
-- **Microsoft Copilot** – assists me across portfolio projects with ideas, drafts, and polish, extending my thinking and work rather than replacing them.
+### 💡 AI Collaborator   
+- **Microsoft Copilot** – assists me across the portfolio with ideas, drafts, and polish, extending my thinking and work rather than replacing them.
 
 ---
 

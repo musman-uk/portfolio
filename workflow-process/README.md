@@ -1,6 +1,6 @@
 ## ⚙️ Workflow Process
 
-Insighta into my process and the documentation of workflows. This section combines wonder with initiative to reveal how I work and how I refine over time.
+Insights into my process and the documentation of workflows. This section combines wonder with initiative to reveal how I work and how I refine over time.
 
 
 | Focus              | Summary                              | Result                                  | Details |

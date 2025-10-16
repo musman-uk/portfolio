@@ -1,6 +1,6 @@
 ## 🤝 Acknowledgements  
 
-A space to recognise and appreciate the people, resources, and inspirations that support this portfolio, since no work is created in isolation. While I gratefully acknowledge the support that helps shape this portfolio, the work within it is authored and continually reviewed by me, and I take full responsibility for it.  
+This is a space to recognise and appreciate the people, resources, and inspirations that support this portfolio, since no work is created in isolation. While I am thankful for their support, the work within it is authored and continually reviewed by me, and I take full responsibility for it.  
 
 ---
 
@@ -33,4 +33,4 @@ A space to recognise and appreciate the people, resources, and inspirations that
 ---
 
 ### 🌟 People  
-- **My Mum** – Perhaps there is no combination of words that could express this fully, but for the support and encouragement to pursue this path I am genuinely passionate about.
+- **My Mum** – Perhaps no combination of words could express this fully, but for the support and encouragement to pursue this path I am genuinely passionate about.

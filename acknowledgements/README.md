@@ -33,4 +33,4 @@ This is a space to recognise and appreciate the resources, inspirations, and sup
 ---
 
 ### 🌟 Special Thanks  
-- **My Mum** – Perhaps no combination of words could express this fully, but for the support and encouragement to pursue this path I am genuinely passionate about.
+- **My Mum** – No amount or combination of words could express this fully, but I am profoundly thankful for the support and encouragement to pursue this path I am genuinely passionate about.

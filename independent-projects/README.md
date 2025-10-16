@@ -1,6 +1,6 @@
 ##  🎨 Independent Projects
 
-Self‑directed explorations that begin with curiosity and grow into projects. They show how I test ideas, learn through making, and culminate in lessons that guide future work.
+Self‑directed explorations that begin with curiosity and grow into independently carried-out projects. They show how I test ideas, learn through making, and distil lessons that guide future work.
 
 | 🎨 Project | 🧾 Description | 🔗 Link |
 |------------|----------------|---------|

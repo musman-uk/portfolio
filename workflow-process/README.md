@@ -1,4 +1,4 @@
-## ⚙️ Workflow Process
+## 🔍 Workflow Process
 
 Insights into my process and the documentation of workflows. This section combines wonder with initiative to reveal how I work and how I refine over time.
 

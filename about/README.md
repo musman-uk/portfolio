@@ -1,6 +1,6 @@
 ## 📖 About
 
-My journey into technology has been purposeful rather than conventional. What began as curiosity with computers and video games has grown into a deeper, combined passion for technology as a whole, shaped by diverse study and experience that strengthens my resilience, expands my perspective, and fosters my commitment to ethical practice.
+My journey into technology has been purposeful rather than conventional. What began as curiosity with computers and video games has grown into a deeper, combined passion for technology as a whole, shaped by diverse study and experience that strengthens my resilience, expands my perspective, and affirms my commitment to ethical practice.
 
 This portfolio is now a part of that journey – not a showcase of perfection, but a living record of persistence and learning. It reflects not only technical practice but also more versatile ways of engaging with technology, showing how different disciplines and perspectives come together in my work. I endeavour for it to be impactful, transparent, and intentional, so that it not only demonstrates what I have built, but also the thinking and influences behind it.
 

@@ -13,7 +13,7 @@ Anchored in a commitment to building ethical, purposeful, and versatile technolo
 | 📘 [Guided Projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md) | Learning‑driven projects completed through structured courses |
 | 🔍 [Workflow Process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md) | Case studies that demonstrate my working philosophy in practice |
 | 📜 [Certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md) | Credentials and milestones that mark key stages of my learning |
-| 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | Gratitude for the resources, influences, and support informing this portfolio |
+| 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | Gratitude for the resources and support informing this portfolio |
 
 
 

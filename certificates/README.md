@@ -1,8 +1,5 @@
 ## 📜 Certificates
 
-Verified milestones that mark the journey of learning. Each certificate is a record of persistence and growth, a reminder of skills earned along the way.
-
-
 
 | Course Title                              | Learning Platform   | Certificate Link |
 |------------------------------------------------|-------------------|------------------|

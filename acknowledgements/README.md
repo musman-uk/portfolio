@@ -1,8 +1,8 @@
 ## 🤝 Acknowledgements  
 
-This is a space to recognise and appreciate the resources, influences, and support that inform this portfolio, since no work is created in isolation. Although I am deeply grateful for this, the work itself is authored and continually reviewed by me, and I take full responsibility for it.  
+This section is a space that recognises and appreciates the resources, influences, and support that are informing this portfolio, since no work is created in isolation. Although I am deeply grateful for this, the work itself is authored and continually reviewed by me, and I take full responsibility for it.  
 
-
+---
 
 ### 🎓 Learning Platforms  
 - **Mimo** – delivers guided projects that apply core programming concepts.  

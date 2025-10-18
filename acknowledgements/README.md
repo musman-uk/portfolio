@@ -1,6 +1,6 @@
 ## 🤝 Acknowledgements  
 
-This section is a space that recognises and appreciates the resources, influences, and support that are informing this portfolio, since no work is created in isolation. Although I am deeply grateful for this, the work itself is authored and continually reviewed by me, and I take full responsibility for it.  
+A recognition and appreciation for the resources, influences, and support that are informing this portfolio, since no work is created in isolation. Although I am deeply grateful for this, the work itself is authored and continually reviewed by me, and I take full responsibility for it.  
 
 ---
 

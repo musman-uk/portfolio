@@ -1,6 +1,6 @@
 ## 🔍 Workflow Process
 
-This section combines wonder with initiative to reveal insights into how I think and work, illustrated through case studies of my workflow process.
+This section reveal insights into how I think and work, illustrated through case studies.
 
 
 | Focus              | Summary                              | Result                                  | Details |

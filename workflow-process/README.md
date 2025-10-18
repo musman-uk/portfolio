@@ -1,6 +1,6 @@
 ## 🔍 Workflow Process
 
-This section reveal insights into how I think and work, illustrated through case studies.
+This section goes beyond the finished projects to share the reasoning, methods, and values that shape how I work. Each case study highlights not just what I built, but the thinking behind it.
 
 
 | Focus              | Summary                              | Result                                  | Details |

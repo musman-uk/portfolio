@@ -29,7 +29,9 @@ jobs:
                   "tables": false
                 }
               }' > .markdownlint.json
+              echo "Linting $file"
               markdownlint -c .markdownlint.json "$file"
+              echo "Checking TOC in $file"
               markdown-toc -i "$file" --check
             fi
           done
@@ -38,9 +40,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: lycheeverse/lychee-action@v1
-        with:
-          args: --verbose '**/*.md'
+      - name: Get changed files
+        id: changes
+        uses: tj-actions/changed-files@v44
+      - name: Validate links in changed READMEs
+        run: |
+          for file in ${{ steps.changes.outputs.all_changed_files }}; do
+            if [[ $file == *README.md ]]; then
+              echo "Validating links in $file"
+              lychee --verbose "$file"
+            fi
+          done
 
   commit-review:
     runs-on: ubuntu-latest

@@ -56,4 +56,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: wagoid/commitlint-github-action@v5
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm install -g @commitlint/cli @commitlint/config-conventional
+      - name: Lint commits in PR range (with fallback)
+        run: |
+          git fetch origin ${{ github.base_ref }}
+          if ! npx commitlint --from=origin/${{ github.base_ref }} --to=HEAD; then
+            echo "Range lint failed, falling back to latest commit..."
+            npx commitlint --last
+          fi

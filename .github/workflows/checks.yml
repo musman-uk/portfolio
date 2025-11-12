@@ -14,8 +14,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npm install -g markdownlint-cli
-      - run: markdownlint README.md
+      - run: npm install -g markdownlint-cli markdown-toc
+      - run: echo '{"MD013":{"line_length":120,"code_blocks":false,"tables":false}}' | markdownlint -c - README.md
+      - run: markdown-toc -i README.md --check
 
   link-validation:
     runs-on: ubuntu-latest
@@ -29,4 +30,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: wagoid/commitlint-github-action@v5
+      - uses: wagoid/commitlint-github-action

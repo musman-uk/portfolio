@@ -15,12 +15,9 @@ Anchored in a commitment to building ethical, purposeful, and versatile technolo
 | 📜 [Certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md) | Credentials  marking key stages of my learning |
 | 🤝 [Acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md) | Gratitude for all that is informing this portfolio |
 
-
-
 ---
 
-##  Navigation Map
-
+## Navigation Map
 
 portfolio/  
 ├── [README.md](https://github.com/musman-uk/portfolio/blob/main/README.md)  
@@ -29,5 +26,4 @@ portfolio/
 ├── [guided-projects](https://github.com/musman-uk/portfolio/blob/main/guided-projects/README.md)  
 ├── [workflow-process](https://github.com/musman-uk/portfolio/blob/main/workflow-process/README.md)  
 ├── [certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md)  
-└── [acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md)  
-
+└── [acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md)

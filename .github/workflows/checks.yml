@@ -15,7 +15,15 @@ jobs:
         with:
           node-version: '18'
       - run: npm install -g markdownlint-cli markdown-toc
-      - run: echo '{"MD013":{"line_length":120,"code_blocks":false,"tables":false}}' | markdownlint -c - README.md
+      - run: |
+          echo '{
+            "MD013": {
+              "line_length": 120,
+              "code_blocks": false,
+              "tables": false
+            }
+          }' > .markdownlint.json
+          markdownlint -c .markdownlint.json README.md
       - run: markdown-toc -i README.md --check
 
   link-validation:

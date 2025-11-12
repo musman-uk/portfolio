@@ -29,9 +29,7 @@ jobs:
                   "tables": false
                 }
               }' > .markdownlint.json
-              echo "Linting $file"
               markdownlint -c .markdownlint.json "$file"
-              echo "Checking TOC in $file"
               markdown-toc -i "$file" --check
             fi
           done
@@ -47,7 +45,6 @@ jobs:
         run: |
           for file in ${{ steps.changes.outputs.all_changed_files }}; do
             if [[ $file == *README.md ]]; then
-              echo "Validating links in $file"
               lychee --verbose "$file"
             fi
           done
@@ -60,10 +57,15 @@ jobs:
         with:
           node-version: '18'
       - run: npm install -g @commitlint/cli @commitlint/config-conventional
-      - name: Lint commits in PR range (with fallback)
+      - name: Lint commits
         run: |
-          git fetch origin ${{ github.base_ref }}
-          if ! npx commitlint --from=origin/${{ github.base_ref }} --to=HEAD; then
-            echo "Range lint failed, falling back to latest commit..."
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git fetch origin ${{ github.base_ref }}
+            if ! npx commitlint --from=origin/${{ github.base_ref }} --to=HEAD; then
+              echo "Range lint failed, falling back to latest commit..."
+              npx commitlint --last
+            fi
+          else
+            echo "Push event, linting latest commit only..."
             npx commitlint --last
           fi

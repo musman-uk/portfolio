@@ -17,8 +17,6 @@ Anchored in a commitment to building ethical, purposeful, and versatile technolo
 
 
 
-
-
 ---
 
 ##  Navigation Map
@@ -33,3 +31,4 @@ portfolio/
 ├── [certificates](https://github.com/musman-uk/portfolio/blob/main/certificates/README.md)  
 └── [acknowledgements](https://github.com/musman-uk/portfolio/blob/main/acknowledgements/README.md)  
 
+<!-- Trigger workflow run -->

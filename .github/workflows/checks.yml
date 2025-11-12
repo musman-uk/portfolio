@@ -15,16 +15,24 @@ jobs:
         with:
           node-version: '18'
       - run: npm install -g markdownlint-cli markdown-toc
-      - run: |
-          echo '{
-            "MD013": {
-              "line_length": 120,
-              "code_blocks": false,
-              "tables": false
-            }
-          }' > .markdownlint.json
-          markdownlint -c .markdownlint.json README.md
-      - run: markdown-toc -i README.md --check
+      - name: Get changed files
+        id: changes
+        uses: tj-actions/changed-files@v44
+      - name: Lint and TOC check for changed READMEs
+        run: |
+          for file in ${{ steps.changes.outputs.all_changed_files }}; do
+            if [[ $file == *README.md ]]; then
+              echo '{
+                "MD013": {
+                  "line_length": 120,
+                  "code_blocks": false,
+                  "tables": false
+                }
+              }' > .markdownlint.json
+              markdownlint -c .markdownlint.json "$file"
+              markdown-toc -i "$file" --check
+            fi
+          done
 
   link-validation:
     runs-on: ubuntu-latest
@@ -32,7 +40,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose README.md
+          args: --verbose '**/*.md'
 
   commit-review:
     runs-on: ubuntu-latest

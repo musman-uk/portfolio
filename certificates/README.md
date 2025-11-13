@@ -1,9 +1,9 @@
+<!-- markdownlint-disable MD041 -->
+
 ## 📜 Certificates
 
 | Course Title                              | Learning Platform   | Certificate Link |
 |-------------------------------------------|---------------------|------------------|
-| Front-End Development                     | Mimo                | [View](Mimo%20-%20Front-End%20Development%20-%20Mohammed%20Usman.pdf) |
-| Back-End Development                      | Mimo                | [View](Mimo%20-%20Back-End%20Development-%20Mohammed%20Usman.pdf) |
 | Full-Stack Development                    | Mimo                | [View](Mimo%20-%20Full-Stack%20Development%20-%20Mohammed%20Usman.pdf) |
 | Python Development                        | Mimo                | [View](Mimo%20-%20Python%20Development%20-%20Mohammed%20Usman.pdf) |
 | Swift                                     | Mimo                | [View](Mimo%20-%20Swift%20-%20Mohammed%20Usman.pdf) |

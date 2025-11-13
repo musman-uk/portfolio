@@ -1,18 +1,20 @@
 ## 🗄️ Portfolio Documentation
 
 ### 📑 Overview
+
 This process captures the establishment of documentation standards across the portfolio. Earlier commits had been functional
 but lacked descriptive clarity, treating documentation as peripheral rather than central. This oversight had made it harder
-to reconstruct reasoning.The process introduced rulesets, structured tests, and a reflective write‑up to embed documentation discipline into the
-workflow. This enabled demonstration of workflow maturity and async standards.
+to reconstruct reasoning.The process introduced rulesets, structured tests, and a reflective write‑up to embed 
+documentation discipline into the workflow. This enabled demonstration of workflow maturity and async standards.
 
 The work unfolded through four structured tests, each designed to simulate aspects of workflow discipline. **Test 1**
 validated automation through a YAML workflow file. **Test 2** focused on adding certificates with improved clarity and
 visibility. **Test 3** updated acknowledgments to include a new entry. **Test 4** culminated in this write‑up, capturing
-the lessons and decisions across the entire process. Together, these steps formed a test run that moved from foundation to execution to reflection,
-demonstrating how documentation standards evolve through iteration and discipline.
+the lessons and decisions across the entire process. Together, these steps formed a test run that moved from foundation to 
+execution to reflection, demonstrating how documentation standards evolve through iteration and discipline.
 
 ### 📌 Purpose
+
 The documentation process was guided by clear aims:
 
 - **Establish documentation standards**: to ensure commits, issues, and PRs follow professional standards and provide clarity.
@@ -21,6 +23,7 @@ The documentation process was guided by clear aims:
   not be the common practice. The standard workflow will be: create an issue, open a branch, draft a PR, review, and merge.
 
 ### 📝 Approach
+
 - Introduced rulesets and automated checks (commitlint, markdownlint, link validation) that established a foundation for the
   4 tests.
 - **Test 1**: validated automation through a YAML workflow file, confirming compliance with rulesets and automated checks.
@@ -30,6 +33,7 @@ The documentation process was guided by clear aims:
 - Merge strategy: rebase merges for tests to preserve detailed history.
 
 ### 🎯 Rationale
+
 Documentation is not an afterthought but a core part of workflows, especially in async environments where commit messages,
 issues, and PRs are the primary communication channels in distributed teams. By embedding rulesets and structured tests,
 the portfolio demonstrated that discipline holds across automation, content updates, and reflective analysis.
@@ -41,6 +45,7 @@ squash merges will streamline logs in production. The explicit commitment to wor
 reflects professional standards and signals maturity in workflow practice.
 
 ### 🚧 Blockers
+
 The blockers below highlight the main challenges faced during the documentation process. They shaped the final approach and
 informed design decisions.
 
@@ -57,6 +62,7 @@ Choosing between rebase and squash merges required balancing detailed simulation
 decision reflected the dual goals of transparency in testing and simplicity in delivery.
 
 ### 🏁 Outcome
+
 - Added **🗄️ Portfolio Documentation** write‑up under workflow‑process directory.
 - Updated workflow‑process README table with a new row for this entry.
 - Commit messages aligned with conventional‑commit standards.
@@ -65,6 +71,7 @@ decision reflected the dual goals of transparency in testing and simplicity in d
 - Workflow discipline codified: issues → branch → PR → review → merge.
 
 ### 💭 Reflections
+
 This process demonstrated that documentation standards evolve with the work. Rulesets enforced discipline, automation
 proved scalability, certificates highlighted clarity and better visibility, acknowledgments reinforced consistency, and the
 reflective write‑up captured meta lessons. Together, they showed that documentation is both a technical and professional

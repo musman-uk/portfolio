@@ -1,5 +1,6 @@
 ## 📜 Certificates
 
+
 | Course Title                              | Learning Platform   | Certificate Link |
 |-------------------------------------------|---------------------|------------------|
 | Full-Stack Development                    | Mimo                | [View](Mimo%20-%20Full-Stack%20Development%20-%20Mohammed%20Usman.pdf) |

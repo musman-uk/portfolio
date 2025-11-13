@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD041 -->
-
 ## 📜 Certificates
 
 | Course Title                              | Learning Platform   | Certificate Link |

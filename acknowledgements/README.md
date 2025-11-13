@@ -8,6 +8,8 @@ A recognition and appreciation for the resources, influences, and support that a
 - **Mimo** – delivers guided projects that apply core programming concepts.  
 - **CodeSignal** – provides structured assessments and clean code practice challenges.  
 - **Programming Hub** – offers foundational certifications in IT and programming.  
+- **LinkedIn Learning** – features learning pathways on CMS, including WordPress, WooCommerce, and e‑commerce workflows.
+
 
 ---
 

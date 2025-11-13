@@ -4,8 +4,8 @@
 
 This process captures the establishment of documentation standards across the portfolio. Earlier commits had been functional
 but lacked descriptive clarity, treating documentation as peripheral rather than central. This oversight had made it harder
-to reconstruct reasoning.The process introduced rulesets, structured tests, and a reflective write‑up to embed 
-documentation discipline into the workflow. This enabled demonstration of workflow maturity and async standards.
+to reconstruct reasoning. The process introduced rulesets, structured tests, and a reflective write‑up to embed documentation 
+discipline into the workflow. This enabled demonstration of workflow maturity and async standards.
 
 The work unfolded through four structured tests, each designed to simulate aspects of workflow discipline. **Test 1**
 validated automation through a YAML workflow file. **Test 2** focused on adding certificates with improved clarity and

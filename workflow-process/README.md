@@ -9,5 +9,4 @@ Beyond the finished projects to share the reasoning, methods, and values that sh
 | 💾 Portfolio Backup Strategy   | Backup and sync workflow setup            | Automated multi‑layer backup in place      | [View](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/README.md) |
 | ✈️ Guided Projects Migration   | Migration of guided projects              | Guided projects migrated to main portfolio repository | [View](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/README.md) |
 | ⏳ Retrospective Cycle            | Review of four independent projects and their making | Clearer portfolio identity, stronger documentation standards, and a more intentional project voice | [View](https://github.com/musman-uk/portfolio/blob/main/workflow-process/retrospective-cycle/README.md) |
-
-
+| 🗄️ Portfolio Documentation       | Establishment of documentation standards | Documentation discipline embedded into workflow practice | [View](workflow-process/portfolio-documentation/README.md) |

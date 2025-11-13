@@ -27,7 +27,8 @@ jobs:
                   "line_length": 120,
                   "code_blocks": false,
                   "tables": false
-                }
+                },
+                "MD041": false
               }' > .markdownlint.json
               markdownlint -c .markdownlint.json "$file"
               markdown-toc -i "$file" --check

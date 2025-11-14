@@ -1,14 +1,13 @@
-name: Sync Dev to Backup-Source
+name: Mirror Sync Dev to Backup-Source
 
 on:
-  workflow_dispatch:   # manual trigger (can be run from Actions tab)
+  workflow_dispatch:   # manual trigger
   schedule:
-    - cron: "0 21 * * *"   # every night at 21:00 UTC
+    - cron: "0 21 * * *"   # nightly at 21:00 UTC
 
 jobs:
-  sync:
-    # Guard: only run if the workflow is triggered from dev
-    if: github.ref == 'refs/heads/dev'
+  mirror:
+    if: github.ref == 'refs/heads/dev'   # only run from dev
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -19,38 +18,31 @@ jobs:
       - name: Configure Git Author
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            # Manual trigger → use your details
             git config user.name "musman-uk"
             git config user.email "196224424+musman-uk@users.noreply.github.com"
           else
-            # Scheduled run → bot identity
             git config user.name "github-actions"
             git config user.email "actions@github.com"
           fi
 
-      - name: Merge dev into backup-source (exclude workflows)
+      - name: Mirror dev into backup-source (excluding workflows)
         run: |
           git fetch origin
-          git checkout backup-source
+          git checkout dev
 
-          echo "Merging origin/dev into backup-source..."
-          # Allow merge to continue even if conflicts occur
-          git merge origin/dev --no-commit --no-ff || true
+          echo "Resetting backup-source to match dev..."
+          git checkout -B backup-source
 
-          echo "Resolving conflicts by discarding workflow files..."
-          git checkout --ours .github/workflows || true
+          # Remove workflow files before committing
           git rm -rf .github/workflows || true
-
-          echo "Changes after resolving conflicts and exclusions:"
-          git diff --name-status || true
 
           # Commit only if there are changes
           if ! git diff --quiet; then
-            git commit -m "Sync backup-source with dev (excluding workflows)"
-            git push origin backup-source
-            echo "✅ Sync complete: changes pushed to backup-source."
+            git commit -m "Mirror dev into backup-source (excluding workflows)" || true
+            git push origin backup-source --force
+            echo "✅ Mirror complete: backup-source now matches dev (excluding workflows)."
             echo "Commit summary:"
             git log -1 --stat
           else
-            echo "ℹ️ No changes to sync."
+            echo "ℹ️ No changes to mirror."
           fi

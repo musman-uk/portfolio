@@ -6,9 +6,6 @@ on:
       - dev
   schedule:
     - cron: "0 21 * * *"   # every night at 21:00 UTC (9pm)
-  push:
-    branches:
-      - dev
 
 jobs:
   sync:

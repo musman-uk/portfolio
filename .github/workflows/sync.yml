@@ -34,16 +34,28 @@ jobs:
         run: |
           git fetch origin
           git checkout backup-source
-          git merge origin/dev --no-commit --no-ff || true
+
+          echo "Merging origin/dev into backup-source..."
+          # Fail loudly if merge fails (no silent skip)
+          git merge origin/dev --no-commit --no-ff
+
+          echo "Changes after merge (before exclusions):"
+          git diff --name-status || true
 
           # Explicitly discard workflow files
           git reset HEAD .github/workflows || true
           git checkout -- .github/workflows || true
 
+          echo "Changes after excluding workflows:"
+          git diff --name-status || true
+
           # Commit only if there are changes
           if ! git diff --quiet; then
             git commit -m "Sync backup-source with dev (excluding workflows)"
             git push origin backup-source
+            echo "✅ Sync complete: changes pushed to backup-source."
+            echo "Commit summary:"
+            git log -1 --stat
           else
-            echo "No changes to sync."
+            echo "ℹ️ No changes to sync."
           fi

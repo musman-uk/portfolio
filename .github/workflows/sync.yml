@@ -1,12 +1,19 @@
 name: Sync Dev to Backup-Source
 
 on:
-  workflow_dispatch:   # manual trigger
+  workflow_dispatch:
+    branches:
+      - dev
   schedule:
     - cron: "0 21 * * *"   # every night at 21:00 UTC (9pm)
+  push:
+    branches:
+      - dev
 
 jobs:
   sync:
+    # Guard: only run if the workflow is triggered from dev
+    if: github.ref == 'refs/heads/dev'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo

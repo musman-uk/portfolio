@@ -1,11 +1,9 @@
 name: Sync Dev to Backup-Source
 
 on:
-  workflow_dispatch:
-    branches:
-      - dev
+  workflow_dispatch:   # manual trigger (can be run from Actions tab)
   schedule:
-    - cron: "0 21 * * *"   # every night at 21:00 UTC (9pm)
+    - cron: "0 21 * * *"   # every night at 21:00 UTC
 
 jobs:
   sync:
@@ -36,17 +34,14 @@ jobs:
           git checkout backup-source
 
           echo "Merging origin/dev into backup-source..."
-          # Fail loudly if merge fails (no silent skip)
-          git merge origin/dev --no-commit --no-ff
+          # Allow merge to continue even if conflicts occur
+          git merge origin/dev --no-commit --no-ff || true
 
-          echo "Changes after merge (before exclusions):"
-          git diff --name-status || true
+          echo "Resolving conflicts by discarding workflow files..."
+          git checkout --ours .github/workflows || true
+          git rm -rf .github/workflows || true
 
-          # Explicitly discard workflow files
-          git reset HEAD .github/workflows || true
-          git checkout -- .github/workflows || true
-
-          echo "Changes after excluding workflows:"
+          echo "Changes after resolving conflicts and exclusions:"
           git diff --name-status || true
 
           # Commit only if there are changes

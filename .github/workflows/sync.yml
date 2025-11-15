@@ -1,16 +1,13 @@
-name: Sync Dev to Backup-Source
+name: Sync Dev To Backup-Source
 
 on:
-  workflow_dispatch:
-    branches:
-      - dev
+  workflow_dispatch:   # manual trigger
   schedule:
-    - cron: "0 21 * * *"   # every night at 21:00 UTC (9pm)
+    - cron: "0 21 * * *"   # nightly at 21:00 UTC
 
 jobs:
   sync:
-    # Guard: only run if the workflow is triggered from dev
-    if: github.ref == 'refs/heads/dev'
+    if: github.ref == 'refs/heads/dev'   # only run from dev
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -18,32 +15,38 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Configure Git Author
+      - name: Configure Git Author (manual vs bot)
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            # Manual trigger → use your details
+            # Manual run → Mohammed (musman-uk) as author
             git config user.name "musman-uk"
             git config user.email "196224424+musman-uk@users.noreply.github.com"
           else
-            # Scheduled run → bot identity
+            # Scheduled run → GitHub Actions bot
             git config user.name "github-actions"
             git config user.email "actions@github.com"
           fi
 
-      - name: Merge dev into backup-source (exclude workflows)
+      - name: Force mirror dev into backup-source (excluding workflows)
         run: |
           git fetch origin
-          git checkout backup-source
-          git merge origin/dev --no-commit --no-ff || true
+          git checkout dev
 
-          # Explicitly discard workflow files
-          git reset HEAD .github/workflows || true
-          git checkout -- .github/workflows || true
+          # Reset backup-source to dev
+          git checkout -B backup-source
 
-          # Commit only if there are changes
-          if ! git diff --quiet; then
-            git commit -m "Sync backup-source with dev (excluding workflows)"
-            git push origin backup-source
-          else
-            echo "No changes to sync."
-          fi
+          # Remove workflow files
+          git rm -rf .github/workflows || true
+
+          # Commit removal if needed
+          git commit -am "Sync Dev To Backup-Source (excluding workflows)" || true
+
+          # Force push mirror
+          git push origin backup-source --force
+
+          echo "✅ backup-source now mirrors origin/dev (excluding workflows)."
+
+      - name: Show diff summary
+        run: |
+          git fetch origin
+          git diff --stat origin/dev origin/backup-source || true

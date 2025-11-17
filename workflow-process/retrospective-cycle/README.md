@@ -72,6 +72,7 @@ reminder that guidance should empower choice, not restrict it.
 ### 🌉 Common Themes  
 
 Looking across these reflections, several themes emerge.  
+
 - **Freedom of Navigation** – The inclusion of a table of contents and navigation tree in my portfolio reflects a belief
 that readers should be free to choose their own path. They can skim, explore deeply, or combine both approaches. This
 principle of choice is as important in documentation as it is in design. The video game analogy reinforced this idea.

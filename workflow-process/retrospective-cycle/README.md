@@ -1,7 +1,5 @@
 ## ⏳ Retrospective Cycle  
 
----
-
 ### 🔄 Cycle Framing  
 This cycle brought together projects that tested different aspects of my craft, from documentation clarity to psychology informed design. What follows is not a summary of those projects, but a meta analysis of the lessons, surprises, and influences that surfaced while creating them. These reflections are about what the projects revealed to me, rather than what they were on the surface.  
 

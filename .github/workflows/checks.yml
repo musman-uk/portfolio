@@ -28,8 +28,14 @@ jobs:
           files=$(find . -type f -name "*.md")
 
           if [ -n "$files" ]; then
-            echo "🔎 Lint results grouped by file:"
-            markdownlint -c .markdownlint.json $files \
+            echo "🔎 Running markdownlint (grouped by file)..."
+
+            # Run markdownlint once, capture output and exit code
+            output=$(markdownlint -c .markdownlint.json $files 2>&1)
+            exit_code=$?
+
+            # Group output by file
+            echo "$output" \
               | sort \
               | awk -F: '{
                   file=$1;
@@ -46,9 +52,8 @@ jobs:
               markdown-toc -i "$file" --check
             done
 
-            echo ""
-            echo "🚨 Enforcing lint (job fails if violations exist):"
-            markdownlint -c .markdownlint.json $files
+            # Fail only after printing full grouped log
+            exit $exit_code
           else
             echo "No Markdown files found."
           fi

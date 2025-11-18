@@ -2,10 +2,10 @@
 
 ### 📓 Logbook Dashboard
 
-Welcome to your logbook dashboard. This hub provides a transparent record of reported issues, their status, 
-and the actions taken. Each log links back to its originating ticket for full traceability. 
+Welcome to your logbook dashboard. This hub provides a transparent record of reported issues, their status,
+and the actions taken. Each log links back to its originating ticket for full traceability.
 
-_Last Updated: 2025‑10‑10 10:37 BST_
+Last Updated: 2025‑10‑10 10:37 BST
 
 | Log ID | Title | Ticket Reference | Reported By | Environment | Status | Severity | Summary | Log |
 |--------|-------|------------------|-------------|-------------|--------|----------|---------|-----|
@@ -20,16 +20,16 @@ _Last Updated: 2025‑10‑10 10:37 BST_
 
 ### 🗺️ Roadmap
 
-The following initiatives are tracked separately as part of long‑term improvements rather than immediate issue resolution:  
+The following initiatives are tracked separately as part of long‑term improvements rather than immediate issue resolution:
 
-- **Security Hardening Initiative**  
-  Comprehensive penetration testing, SSO rollout, and improved key management.  
+- **Security Hardening Initiative**
+  Comprehensive penetration testing, SSO rollout, and improved key management.
+  
+- **User Experience Monitoring**
+  Real‑time telemetry for latency, error rates, and notification delivery.
 
-- **User Experience Monitoring**  
-  Real‑time telemetry for latency, error rates, and notification delivery.  
+- **Disaster Recovery Drills**
+  Scheduled multi‑region failover rehearsals to validate resilience.
 
-- **Disaster Recovery Drills**  
-  Scheduled multi‑region failover rehearsals to validate resilience.  
-
-- **Accessibility Compliance**  
-  WCAG audits and screen reader validation to ensure inclusive design.  
+- **Accessibility Compliance**
+  WCAG audits and screen reader validation to ensure inclusive design.

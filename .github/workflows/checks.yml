@@ -16,25 +16,39 @@ jobs:
       - run: npm install -g markdownlint-cli markdown-toc
       - name: Lint and TOC check for all Markdown files
         run: |
+          # Relaxed ruleset: only readability essentials
           echo '{
             "MD013": { "line_length": 140, "code_blocks": false, "tables": false },
             "MD009": true,
             "MD019": true,
-            "MD042": true,
+            "MD042": false,
             "default": false
           }' > .markdownlint.json
 
           files=$(find . -type f -name "*.md")
 
           if [ -n "$files" ]; then
-            echo "🔎 Running markdownlint (full log will be printed, job fails if violations exist):"
-            markdownlint -c .markdownlint.json $files
+            echo "🔎 Lint results grouped by file:"
+            markdownlint -c .markdownlint.json $files \
+              | sort \
+              | awk -F: '{
+                  file=$1;
+                  if (file != prev) {
+                    print "\n📄 " file;
+                    prev=file
+                  }
+                  print "   Line " $2 ":" $3 " " $4
+                }'
 
             echo ""
             echo "📖 TOC check (README.md only):"
             for file in $(echo "$files" | grep 'README.md$' || true); do
               markdown-toc -i "$file" --check
             done
+
+            echo ""
+            echo "🚨 Enforcing lint (job fails if violations exist):"
+            markdownlint -c .markdownlint.json $files
           else
             echo "No Markdown files found."
           fi

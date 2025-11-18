@@ -27,7 +27,10 @@ jobs:
                   "code_blocks": false,
                   "tables": false
                 },
-                "MD041": false
+                "MD041": false,
+                "MD033": {
+                  "allowed_elements": ["details", "summary", "pre", "strong"]
+                }
               }' > .markdownlint.json
               markdownlint -c .markdownlint.json "$file"
               markdown-toc -i "$file" --check

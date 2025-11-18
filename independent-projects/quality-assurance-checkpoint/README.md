@@ -51,7 +51,7 @@ practice:
 
 This ensures that the debugging process is transparent, reproducible, and easy to follow. It also demonstrates that
 quality assurance is not only about finding errors but about documenting the reasoning behind each correction. To
-illustrate this, the project includes one relatively simple bug — a loop logic error, and one relatively complex bug — a
+illustrate this, the project includes one relatively simple bug: a loop logic error, and one relatively complex bug: a
 mutable default argument.  
 
 ---

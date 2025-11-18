@@ -22,13 +22,18 @@ jobs:
               "code_blocks": false,
               "tables": false
             },
-            "MD041": false,
+            "MD022": true,
+            "MD032": true,
+            "MD031": true,
+            "MD009": true,
+            "MD019": true,
+            "MD042": true,
             "MD033": false,
             "MD036": false,
             "MD034": false,
             "MD012": false,
-            "MD022": true,
-            "MD032": true
+            "MD041": false,
+            "MD001": false
           }' > .markdownlint.json
 
           # Find all Markdown files in the repo

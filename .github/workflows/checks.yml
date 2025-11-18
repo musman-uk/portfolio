@@ -14,26 +14,36 @@ jobs:
         with:
           node-version: '18'
       - run: npm install -g markdownlint-cli markdown-toc
-      - name: Get changed files
-        id: changes
-        uses: tj-actions/changed-files@v44
-      - name: Lint and TOC check for changed READMEs
+      - name: Lint and TOC check for all Markdown files
         run: |
-          for file in ${{ steps.changes.outputs.all_changed_files }}; do
-            if [[ $file == *README.md ]]; then
-              echo '{
-                "MD013": {
-                  "line_length": 140,
-                  "code_blocks": false,
-                  "tables": false
-                },
-                "MD041": false,
-                "MD033": false
-              }' > .markdownlint.json
-              markdownlint -c .markdownlint.json "$file"
+          echo '{
+            "MD013": {
+              "line_length": 140,
+              "code_blocks": false,
+              "tables": false
+            },
+            "MD041": false,
+            "MD033": false,
+            "MD036": false,
+            "MD034": false,
+            "MD012": false,
+            "MD022": true,
+            "MD032": true
+          }' > .markdownlint.json
+
+          # Find all Markdown files in the repo
+          files=$(find . -type f -name "*.md")
+
+          if [ -n "$files" ]; then
+            # Run markdownlint once on all Markdown files
+            markdownlint -c .markdownlint.json $files
+            # Run TOC check only on README.md files
+            for file in $(echo "$files" | grep 'README.md$' || true); do
               markdown-toc -i "$file" --check
-            fi
-          done
+            done
+          else
+            echo "No Markdown files found."
+          fi
 
   link-validation:
     runs-on: ubuntu-latest
@@ -46,7 +56,7 @@ jobs:
         run: |
           cat <<EOF > .lycheeignore
           EOF
-      - name: Validate links in changed READMEs
+      - name: Validate links in changed Markdown files
         uses: lycheeverse/lychee-action@v1
         with:
           args: --verbose --exclude-file .lycheeignore ${{ steps.changes.outputs.all_changed_files }}

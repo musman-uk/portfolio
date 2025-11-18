@@ -1,6 +1,7 @@
 ## 🏗️ Portfolio Redesign  
 
 ### 📑 Overview  
+
 This process captures the redesign of my portfolio repository. The original structure placed everything at the root,  
 which made it easy to scan but left little sense of hierarchy or rhythm. Visitors could see the files, but not the  
 relationships between them, and there was no clear invitation to explore further.  
@@ -12,6 +13,7 @@ itself. The portfolio is no longer just a container for projects, but a reflecti
 ---
 
 ### 📌 Purpose  
+
 The redesign was guided by a set of clear aims:  
 
 - **Orientation for visitors**: to give anyone arriving at the repository an immediate sense of where they are and what  
@@ -28,6 +30,7 @@ The redesign was guided by a set of clear aims:
 ---
 
 ### 📝 Approach  
+
 - Introduced a root level table of contents and tree diagram to give visitors a clear overview and freedom to navigate in  
   their own way  
 - Standardised introductions across nested READMEs to maintain consistency of tone  
@@ -37,6 +40,7 @@ The redesign was guided by a set of clear aims:
 ---
 
 ### 🎯 Rationale  
+
 - The old layout was flat, leaving visitors without hierarchy or context  
 - Categories create rhythm and scale, guiding exploration and encouraging deeper engagement  
 - Consistent tone builds trust and readability across sections  
@@ -49,6 +53,7 @@ The redesign was guided by a set of clear aims:
 ---
 
 ### 🚧 Blockers  
+
 The blockers below highlight the main challenges faced during the redesign process. They shaped the final approach and  
 informed design decisions.  
 
@@ -70,6 +75,7 @@ informed design decisions.
 ---
 
 ### 🏁 Outcome  
+
 The following tree structures and screenshots illustrate the changes made, showing the portfolio layout and README before  
 and after the redesign.  
 
@@ -108,6 +114,7 @@ and after the redesign.
 ---
 
 ### 💭 Reflections  
+
 Redesigning the portfolio was not only about tidying the layout but also about recognising that structure itself  
 communicates values. A flat list of files suggested utility, but it did not invite exploration or convey the care behind  
 the work. By introducing hierarchy, rhythm, and consistency, the portfolio now speaks more clearly about what it contains  

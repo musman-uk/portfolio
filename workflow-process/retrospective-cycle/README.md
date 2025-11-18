@@ -69,6 +69,7 @@ reminder that guidance should empower choice, not restrict it.
 ---
 
 ### 🌉 Common Themes  
+
 Looking across these reflections, several themes emerge.  
 
 - **Freedom of Navigation** – The inclusion of a table of contents and navigation tree in my portfolio reflects a belief  

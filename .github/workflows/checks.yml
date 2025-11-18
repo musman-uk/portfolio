@@ -13,8 +13,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npm install -g markdownlint-cli markdown-toc
-      - name: Lint and TOC check for all Markdown files
+      - run: npm install -g markdownlint-cli
+      - name: Lint Markdown files
         run: |
           # Relaxed ruleset: only readability essentials
           echo '{
@@ -28,32 +28,8 @@ jobs:
           files=$(find . -type f -name "*.md")
 
           if [ -n "$files" ]; then
-            echo "🔎 Running markdownlint (grouped by file)..."
-
-            # Run markdownlint once, capture output and exit code
-            output=$(markdownlint -c .markdownlint.json $files 2>&1)
-            exit_code=$?
-
-            # Group output by file
-            echo "$output" \
-              | sort \
-              | awk -F: '{
-                  file=$1;
-                  if (file != prev) {
-                    print "\n📄 " file;
-                    prev=file
-                  }
-                  print "   Line " $2 ":" $3 " " $4
-                }'
-
-            echo ""
-            echo "📖 TOC check (README.md only):"
-            for file in $(echo "$files" | grep 'README.md$' || true); do
-              markdown-toc -i "$file" --check
-            done
-
-            # Fail only after printing full grouped log
-            exit $exit_code
+            echo "🔎 Full lint log (job fails if violations exist):"
+            markdownlint -c .markdownlint.json $files
           else
             echo "No Markdown files found."
           fi

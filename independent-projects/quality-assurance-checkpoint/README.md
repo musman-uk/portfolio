@@ -72,13 +72,13 @@ This example shows how a small logic error can cause runtime failures that halt 
 and not immediately obvious. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests,
 the project demonstrates how quality assurance prevents these issues from persisting.  
 
-
 <details>
 <summary>⌨️ View Terminal Outputs</summary>
 
 Buggy Script:
 
 ```bash
+
 $ python independent-projects/quality-assurance-
 checkpoint/examples/example_1_loop_error/buggy_script.py
 Traceback (most recent call last):
@@ -95,18 +95,22 @@ xamples/example_1_loop_error/buggy_script.py", line 20, in compute_order_total
     line = items[i]
            ~~~~~^^^
 IndexError: list index out of range
+
 ```
 
 Fixed Script:
 
 ```bash
+
 python independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py
 Batch total: 18.75
+
 ```
 
 Tests:
 
 ```bash
+
 $ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py -v
 ===================================== test session starts ======================================
 platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/p
@@ -122,7 +126,9 @@ independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_erro
 _compute_batch_total_with_empty_order PASSED [100%]
 
 ====================================== 2 passed in 0.02s =======================================
+
 ```
+
 </details>
 
 #### Example 2: Mutable Default Argument  
@@ -138,24 +144,26 @@ example illustrates how subtle language features can introduce hard‑to‑spot 
 and fixed implementations and validating with tests, the documentation makes the behaviour visible and the correction
 trustworthy.  
 
-
 <details>
 <summary>⌨️ View Terminal Outputs</summary>
 
 Buggy Script:
 
 ```bash
+
 $ python independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py
 === Buggy Logging Demo ===
 First call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
 Second call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
 Third call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
 Summary: {'Error: Disk full': 1, 'Warning: Low memory': 1, 'Info: Job completed': 1}
+
 ```
 
 Fixed Script:
 
 ```bash
+
 $ python independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py
 === Fixed Logging Demo ===
 First call: ['Error: Disk full']
@@ -167,6 +175,7 @@ Summary: {'Info: Job completed': 1}
 Tests:
 
 ```bash
+
 $ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py -v
 ===================================== test session starts ======================================
 platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/py
@@ -184,7 +193,9 @@ independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_d
 ument.py::test_summarize_logs_counts_messages PASSED [100%]
 
 ====================================== 3 passed in 0.02s =======================================                               
+
 ```
+
 </details>
 
 ---

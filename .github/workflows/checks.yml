@@ -27,26 +27,14 @@ jobs:
           files=$(find . -type f -name "*.md")
 
           if [ -n "$files" ]; then
-            echo "🔎 Full lint log:"
-            markdownlint -c .markdownlint.json $files || true
-
-            echo ""
-            echo "📊 Summary by rule and file:"
-            markdownlint -c .markdownlint.json $files \
-              | awk -F: '{print $2 " → " $1}' \
-              | sort \
-              | uniq -c \
-              | sort -nr
+            echo "🔎 Running markdownlint (full log will be printed, job fails if violations exist):"
+            markdownlint -c .markdownlint.json $files
 
             echo ""
             echo "📖 TOC check (README.md only):"
             for file in $(echo "$files" | grep 'README.md$' || true); do
               markdown-toc -i "$file" --check
             done
-
-            echo ""
-            echo "🚨 Enforcing lint (job will fail if errors exist):"
-            markdownlint -c .markdownlint.json $files
           else
             echo "No Markdown files found."
           fi

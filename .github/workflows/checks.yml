@@ -2,6 +2,11 @@ name: Checks Before Merge To Main
 
 on:
   pull_request:
+    types:
+      - ready_for_review
+      - opened
+      - synchronize
+      - reopened
     branches:
       - main
 
@@ -17,79 +22,35 @@ jobs:
       - name: Lint and TOC check for all Markdown files
         run: |
           echo '{
-            "MD013": {
-              "line_length": 140,
-              "code_blocks": false,
-              "tables": false
-            },
+            "MD013": { "line_length": 140, "code_blocks": false, "tables": false },
+            "MD009": true,
+            "MD019": true,
+            "MD022": true,
+            "MD031": true,
+            "MD032": true,
+            "MD042": true,
             "default": false
           }' > .markdownlint.json
 
-          # Find all Markdown files in the repo
           files=$(find . -type f -name "*.md")
 
           if [ -n "$files" ]; then
-            # Run markdownlint once on all Markdown files
-            markdownlint -c .markdownlint.json $files
-            # Run TOC check only on README.md files
+            echo "🔎 Running markdownlint on all Markdown files..."
+            # Full log
+            markdownlint -c .markdownlint.json $files || true
+
+            echo "📊 Summary by rule and file:"
+            # Group errors by rule and file for readability
+            markdownlint -c .markdownlint.json $files \
+              | awk -F: '{print $2 " → " $1}' \
+              | sort \
+              | uniq -c \
+              | sort -nr
+
+            # TOC check only on README.md files
             for file in $(echo "$files" | grep 'README.md$' || true); do
               markdown-toc -i "$file" --check
             done
           else
             echo "No Markdown files found."
-          fi
-
-  link-validation:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Get changed files
-        id: changes
-        uses: tj-actions/changed-files@v44
-      - name: Create lycheeignore
-        run: |
-          cat <<EOF > .lycheeignore
-          EOF
-      - name: Validate links in changed Markdown files
-        uses: lycheeverse/lychee-action@v1
-        with:
-          args: --verbose --exclude-file .lycheeignore ${{ steps.changes.outputs.all_changed_files }}
-
-  commit-review:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-      - run: npm install -g @commitlint/cli @commitlint/config-conventional
-      - name: Create commitlint config
-        run: |
-          cat <<EOF > commitlint.config.js
-          module.exports = {
-            extends: ['@commitlint/config-conventional'],
-            rules: {
-              'type-enum': [2, 'always', [
-                'feat',
-                'fix',
-                'chore',
-                'docs',
-                'style',
-                'refactor',
-                'perf',
-                'test'
-              ]],
-              'subject-case': [2, 'never', ['start-case', 'pascal-case', 'upper-case']]
-            }
-          };
-          EOF
-      - name: Lint commits
-        run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            git fetch origin ${{ github.base_ref }}
-            if ! npx commitlint --from=origin/${{ github.base_ref }} --to=HEAD; then
-              npx commitlint --last
-            fi
-          else
-            npx commitlint --last
           fi

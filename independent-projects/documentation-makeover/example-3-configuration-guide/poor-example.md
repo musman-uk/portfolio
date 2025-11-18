@@ -14,4 +14,6 @@ logging:
   level: info
 ```
 
-The application will read this file automatically when it starts. You can change the values to suit your environment. Most users will only need to adjust the port or logging level. Restart the app after making changes. Other options may be available but are not listed here.
+The application will read this file automatically when it starts. You can change the values
+to suit your environment. Most users will only need to adjust the port or logging level. 
+Restart the app after making changes. Other options may be available but are not listed here.

@@ -7,7 +7,6 @@ on:
 
 jobs:
   markdown-lint:
-    if: ${{ github.event.pull_request.draft == false }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,14 +17,23 @@ jobs:
       - name: Lint and TOC check for all Markdown files
         run: |
           echo '{
-            "MD013": { "line_length": 140, "code_blocks": false, "tables": false },
+            "MD013": {
+              "line_length": 140,
+              "code_blocks": false,
+              "tables": false
+            },
+            "MD022": true,
+            "MD032": true,
+            "MD031": true,
             "MD009": true,
             "MD019": true,
-            "MD022": true,
-            "MD031": true,
-            "MD032": true,
             "MD042": true,
-            "default": false
+            "MD033": false,
+            "MD036": false,
+            "MD034": false,
+            "MD012": false,
+            "MD041": false,
+            "MD001": false
           }' > .markdownlint.json
 
           files=$(find . -type f -name "*.md")
@@ -34,6 +42,7 @@ jobs:
             echo "🔎 Full lint log:"
             markdownlint -c .markdownlint.json $files || true
 
+            echo ""
             echo "📊 Summary by rule and file:"
             markdownlint -c .markdownlint.json $files \
               | awk -F: '{print $2 " → " $1}' \
@@ -41,6 +50,8 @@ jobs:
               | uniq -c \
               | sort -nr
 
+            echo ""
+            echo "📖 TOC check (README.md only):"
             for file in $(echo "$files" | grep 'README.md$' || true); do
               markdown-toc -i "$file" --check
             done
@@ -49,7 +60,6 @@ jobs:
           fi
 
   link-validation:
-    if: ${{ github.event.pull_request.draft == false }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -66,7 +76,6 @@ jobs:
           args: --verbose --exclude-file .lycheeignore ${{ steps.changes.outputs.all_changed_files }}
 
   commit-review:
-    if: ${{ github.event.pull_request.draft == false }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

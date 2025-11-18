@@ -29,7 +29,7 @@ jobs:
                 },
                 "MD041": false,
                 "MD033": {
-                  "allowed_elements": ["details", "summary", "pre", "strong"]
+                  "allowed_elements": ["details", "summary", "pre", "strong", "br"]
                 }
               }' > .markdownlint.json
               markdownlint -c .markdownlint.json "$file"

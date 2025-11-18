@@ -6,7 +6,10 @@ Priority: Low
 Environment: 3rd‑Party API Integration  
 
 ### Description  
-The Developer Tools Team identified that API requests to a third‑party integration are being throttled earlier than expected. Investigation shows that incorrect header values are being sent, which causes the external service to apply stricter rate limits than documented. The throttling occurs after fewer requests than the provider specifies, resulting in unnecessary delays during integration testing.  
+The Developer Tools Team identified that API requests to a third‑party integration are being throttled earlier than
+expected. Investigation shows that incorrect header values are being sent, which causes the external service to apply
+stricter rate limits than documented. The throttling occurs after fewer requests than the provider specifies, 
+resulting in unnecessary delays during integration testing.  
 
 ### Impact  
 - Development teams experience slower feedback loops when testing integrations.  

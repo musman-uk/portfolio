@@ -3,7 +3,7 @@
 ### 📓 Logbook Dashboard
 
 Welcome to your logbook dashboard. This hub provides a transparent record of reported issues, their status, 
-and the actions taken. Each log links back to its originating ticket for full traceability.  
+and the actions taken. Each log links back to its originating ticket for full traceability. 
 
 _Last Updated: 2025‑10‑10 10:37 BST_
 

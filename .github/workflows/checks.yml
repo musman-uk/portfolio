@@ -17,23 +17,11 @@ jobs:
       - name: Lint and TOC check for all Markdown files
         run: |
           echo '{
-            "MD013": {
-              "line_length": 140,
-              "code_blocks": false,
-              "tables": false
-            },
-            "MD022": true,
-            "MD032": true,
-            "MD031": true,
+            "MD013": { "line_length": 140, "code_blocks": false, "tables": false },
             "MD009": true,
             "MD019": true,
             "MD042": true,
-            "MD033": false,
-            "MD036": false,
-            "MD034": false,
-            "MD012": false,
-            "MD041": false,
-            "MD001": false
+            "default": false
           }' > .markdownlint.json
 
           files=$(find . -type f -name "*.md")
@@ -55,6 +43,10 @@ jobs:
             for file in $(echo "$files" | grep 'README.md$' || true); do
               markdown-toc -i "$file" --check
             done
+
+            echo ""
+            echo "🚨 Enforcing lint (job will fail if errors exist):"
+            markdownlint -c .markdownlint.json $files
           else
             echo "No Markdown files found."
           fi

@@ -10,29 +10,47 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npm install -g markdownlint-cli
-      - name: Lint Markdown files
+
+      - name: Install dependencies
         run: |
-          # Relaxed ruleset: only readability essentials
+          npm install -g prettier@3.3.3 markdownlint-cli2@0.9.2
+
+      - name: Prettier config
+        run: |
+          echo '{
+            "printWidth": 140,
+            "proseWrap": "always"
+          }' > .prettierrc.json
+
+      - name: Markdownlint config
+        run: |
           echo '{
             "MD013": { "line_length": 140, "code_blocks": false, "tables": false },
             "MD009": true,
             "MD019": true,
-            "MD042": false,
+            "MD031": true,
+            "MD036": true,
+            "MD012": true,
+            "MD022": true,
+            "MD026": true,
             "default": false
           }' > .markdownlint.json
 
-          files=$(find . -type f -name "*.md")
+      - name: Run Prettier auto-fix
+        run: |
+          find . -type f -name "*.md" -print0 | xargs -0 prettier --write
 
-          if [ -n "$files" ]; then
-            echo "🔎 Full lint log (job fails if violations exist):"
-            markdownlint -c .markdownlint.json $files
-          else
-            echo "No Markdown files found."
-          fi
+      - name: Run markdownlint auto-fix
+        run: |
+          find . -type f -name "*.md" -print0 | xargs -0 markdownlint-cli2-fix
+
+      - name: Final markdownlint check
+        run: |
+          find . -type f -name "*.md" -print0 | xargs -0 markdownlint-cli2
 
   link-validation:
     runs-on: ubuntu-latest

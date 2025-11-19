@@ -1,7 +1,9 @@
 # API Quickstart
 
 ## 1. Introduction
-This Quickstart is designed to help you install the Example API SDK, authenticate securely, and make your first request. By the end, you will have a working environment, a successful API call, and the confidence to explore more advanced features. The guide assumes no prior experience with the SDK and is structured to anticipate common questions and pitfalls.
+This Quickstart is designed to help you install the Example API SDK, authenticate securely, and make your first request. 
+By the end, you will have a working environment, a successful API call, and the confidence to explore more advanced features. 
+The guide assumes no prior experience with the SDK and is structured to anticipate common questions and pitfalls.
 
 ---
 
@@ -58,7 +60,8 @@ setx EXAMPLE_API_KEY "your_api_key_here"
 ```
 
 ### 4.3 Best Practice
-Avoid hard‑coding API keys in your source code. Use environment variables or a secrets manager to reduce the risk of accidental exposure.
+Avoid hard‑coding API keys in your source code. Use environment variables or a secrets manager to reduce the risk
+of accidental exposure.
 
 ---
 
@@ -176,4 +179,6 @@ This Quickstart demonstrated how to:
 5. Handle common errors  
 6. Apply best practices for security and performance  
 
-By following these steps, you now have a working environment and a clear path to deeper exploration. Professional documentation anticipates your questions, provides runnable examples, and reassures you with troubleshooting and next steps. This guide is designed to do exactly that.
+By following these steps, you now have a working environment and a clear path to deeper exploration. Professional 
+documentation anticipates your questions, provides runnable examples, and reassures you with troubleshooting and 
+next steps. This guide is designed to do exactly that.

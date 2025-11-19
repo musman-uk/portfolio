@@ -1,7 +1,11 @@
 # Configuration Guide
 
 ## 1. Introduction
-The Example Web App can be customised through a configuration file that defines how the application runs in your environment. This guide explains how to create, validate, and maintain a configuration file. It covers default locations, supported options, troubleshooting, and best practices. By the end, you will have a reliable configuration that ensures the application behaves consistently across environments.
+The Example Web App can be customised through a configuration file that defines how the
+application runs in your environment. This guide explains how to create, validate, and
+maintain a configuration file. It covers default locations, supported options,
+troubleshooting, and best practices. By the end, you will have a reliable
+configuration that ensures the application behaves consistently across environments.
 
 ---
 
@@ -39,7 +43,8 @@ features:
   signup: true
 ```
 
-This configuration runs the app on port 8080, binds it to localhost, logs at `info` level, and enables the signup feature.
+This configuration runs the app on port 8080, binds it to localhost, logs at `info` level, 
+and enables the signup feature.
 
 ---
 
@@ -177,7 +182,9 @@ database:
   pool: 20
 ```
 
-This configuration runs the app on port 80, binds to all interfaces, logs only warnings and errors, disables signup, enables notifications, and connects to a production database with a larger pool.
+This configuration runs the app on port 80, binds to all interfaces, logs only
+warnings and errors, disables signup, enables notifications, and connects to
+a production database with a larger pool.
 
 ---
 
@@ -191,4 +198,7 @@ This guide demonstrated how to:
 5. Apply best practices for security and maintainability.  
 6. Extend configuration with overrides, includes, and profiles.  
 
-By following these steps, you can ensure the Example Web App runs consistently and securely across environments. Professional documentation anticipates your questions, provides annotated examples, and reassures you with validation, troubleshooting, and best practices. This guide is designed to do exactly that.
+By following these steps, you can ensure the Example Web App runs consistently and
+securely across environments. Professional documentation anticipates your questions, 
+provides annotated examples, and reassures you with validation, troubleshooting,
+and best practices. This guide is designed to do exactly that.

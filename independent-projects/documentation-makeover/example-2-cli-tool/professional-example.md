@@ -1,7 +1,11 @@
 # CLI Tool
 
 ## 1. Introduction
-The `example-tool` command‑line interface (CLI) provides a fast and consistent way to manage tasks directly from your terminal. This guide walks you through installation, verification, and common commands, and then expands into workflows, troubleshooting, and best practices. By the end, you will be able to confidently use `example-tool` for everyday task management and integrate it into your scripts or automation pipelines.
+The `example-tool` command‑line interface (CLI) provides a fast and consistent way to manage tasks
+directly from your terminal. This guide walks you through installation, verification, and common 
+commands, and then expands into workflows, troubleshooting, and best practices. By the end, you 
+will be able to confidently use `example-tool` for everyday task management and integrate it into
+your scripts or automation pipelines.
 
 ---
 
@@ -193,4 +197,7 @@ This guide covered:
 5. Troubleshooting common issues  
 6. Applying best practices and advanced features  
 
-By following these steps, you now have a reliable, cross‑platform CLI for managing tasks. Professional documentation anticipates your needs, provides runnable examples, and reassures you with troubleshooting and best practices. `example-tool` is designed to integrate seamlessly into your daily workflow, whether you are managing personal tasks or automating team processes.
+By following these steps, you now have a reliable, cross‑platform CLI for managing tasks. 
+Professional documentation anticipates your needs, provides runnable examples, and reassures
+you with troubleshooting and best practices. `example-tool` is designed to integrate seamlessly
+into your daily workflow, whether you are managing personal tasks or automating team processes.

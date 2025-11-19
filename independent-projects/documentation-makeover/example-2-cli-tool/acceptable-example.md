@@ -1,6 +1,7 @@
 # CLI Tool
 
-The `example-tool` command‑line interface helps you manage tasks from the terminal. This guide covers installation and basic usage.
+The `example-tool` command‑line interface helps you manage tasks from the terminal. This guide covers installation and 
+basic usage.
 
 ## Installation
 Download the installer for your platform:
@@ -48,7 +49,8 @@ example-tool remove 2
 - `--version` → Display version  
 
 ## Notes
-The tool reads configuration from `~/.example-tool/config.yml` if present. Most users can run commands without additional setup. If you encounter errors, reinstall or check your environment. For more commands, run:
+The tool reads configuration from `~/.example-tool/config.yml` if present. Most users can run commands without
+additional setup. If you encounter errors, reinstall or check your environment. For more commands, run:
 
 ```bash
 example-tool --help

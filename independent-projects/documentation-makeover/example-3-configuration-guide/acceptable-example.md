@@ -4,7 +4,8 @@ This tool uses a YAML configuration file located at `~/.config/tool/config.yml`.
 ## Example Config
 `yaml debug: true port: 8080 # Configuration Guide
 
-The Example Web App can be customised through a configuration file. This guide explains how to create a basic configuration so the application runs with your preferred defaults.
+The Example Web App can be customised through a configuration file. This guide explains how to
+create a basic configuration so the application runs with your preferred defaults.
 
 ## Location
 The configuration file is read automatically from the following paths:
@@ -38,7 +39,8 @@ Once the configuration file is created, restart the application to apply the set
 systemctl restart example-app
 ```
 
-The application will now run on the specified port and host, with logging and features adjusted according to the file.
+The application will now run on the specified port and host, with logging and features adjusted 
+according to the file.
 
 ## Notes
 - The configuration must be valid YAML. Invalid syntax may prevent the application from starting.  

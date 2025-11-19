@@ -1,6 +1,7 @@
 ## 📘 Guided Projects
 
-Projects completed through structured coursework and tutorials. They demonstrate how step‑by‑step guidance builds practical skills, and how those skills evolve into independent understanding.
+Projects completed through structured coursework and tutorials. They demonstrate how step‑by‑step guidance 
+builds practical skills, and how those skills evolve into independent understanding.
 
 | 📘  Project             | 🛠️ Stack                     | 🧾 Description                                                                 | ▶️ Live Demo | 📄 Source Code |
 |------------------------|-------------------------------|--------------------------------------------------------------------------------|--------------|---------|

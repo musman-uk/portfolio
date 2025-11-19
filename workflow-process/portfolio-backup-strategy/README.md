@@ -93,16 +93,16 @@ below illustrates the change, whilst the screenshots visually reference blockers
 <details>
 <summary><strong>📸 View Screenshots</strong></summary>
 
-- ![Token Setup – Deleted Token, Name Only](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20%20Tokens.png)  
+- ![Token Setup – Deleted Token, Name Only](Portfolio%20Backup%20%20Tokens.png)  
   *Example of the token created for testing (now deleted, no secret visible).*  
 
-- ![Push Failure – Authentication Error](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Blocker.png)  
+- ![Push Failure – Authentication Error](Portfolio%20Backup%20Blocker.png)  
   *Authentication failure encountered when attempting to push directly into the private repository.*  
 
-- ![Debugging Push Issue](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Debug.png)  
+- ![Debugging Push Issue](Portfolio%20Backup%20Debug.png)  
   *Debug output isolating the failure to the push step, confirming the issue was authentication related.*  
 
-- ![Push Success](https://github.com/musman-uk/portfolio/blob/main/workflow-process/portfolio-backup-strategy/Portfolio%20Backup%20Strategy%20-%20Success.png)  
+- ![Push Success](Portfolio%20Backup%20Strategy%20-%20Success.png)  
   *Successful push confirming the backup workflow was functioning correctly after adjustments.*  
 
 </details>

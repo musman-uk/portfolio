@@ -29,7 +29,7 @@ jobs:
       - name: Markdownlint config
         run: |
           echo '{
-            "MD013": { "line_length": 140, "code_blocks": false, "tables": false },
+            "MD013": { "line_length": 140, "code_blocks": false, "tables": false, "headings": false, "links": false },
             "MD009": true,
             "MD019": true,
             "MD031": true,

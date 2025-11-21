@@ -27,4 +27,3 @@
 | Getting Started with WordPress            | LinkedIn Learning   | [View](https://github.com/musman-uk/portfolio/blob/main/certificates/LinkedIn%20Learning%20-%20Getting%20Started%20with%20WordPress%20-%20Mohammed%20Usman.pdf) |
 | IT Basics Certification Course            | Programming Hub     | [View](https://github.com/musman-uk/portfolio/blob/main/certificates/Programming%20Hub%20-%20IT%20Basics%20Certification%20Course%20-%20Mohammed%20Usman.pdf) |
 | Fundamentals Certification Course         | Programming Hub     | [View](https://github.com/musman-uk/portfolio/blob/main/certificates/Programming%20Hub%20-%20Fundamentals%20Certification%20Course%20-%20Mohammed%20Usman.pdf) |
-| Fundamentals Certification Course         | Programming Hub     | [View](Programming%20Hub%20-%20Fundamentals%20Certification%20Course%20-%20Mohammed%20Usman.pdf) |

@@ -14,4 +14,4 @@ multiple machines and browsers, suggesting it was not environment‑specific.
 **Impact:**  
 The Finance Team is unable to complete month‑end reporting and regulatory submissions on time. Staff are working overtime to manually adjust data, which increases stress and the likelihood of errors. If unresolved, this could result in missed compliance deadlines and reputational risk.  
 
-**Linked Log:** [SL‑001](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-1/SL%E2%80%91001.md)
+**Linked Log:** [SL‑001](../../logs/log-1/SL%E2%80%91001.md)

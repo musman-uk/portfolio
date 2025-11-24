@@ -61,12 +61,12 @@ mutable default argument.
 #### Example 1: Loop Logic Error  
 
 This example demonstrates a classic off‑by‑one error in a loop. In the
-[buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/buggy_script.py),
+[buggy script](examples/example_1_loop_error/buggy_script.py),
 the function that computes an order total iterates one step too far, which results in an `IndexError` when it tries to
 access a non‑existent list element. The
-[fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py)
+[fixed script](examples/example_1_loop_error/fixed_script.py)
 corrects this by iterating directly over the items, ensuring all elements are included without exceeding bounds. The
-[tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py)
+[tests](tests/test_example_1_loop_error.py)
 confirm that the corrected function produces the expected totals, even when orders are empty or contain multiple items.
 This example shows how a small logic error can cause runtime failures that halt execution. Such errors are often subtle
 and not immediately obvious. By capturing the incorrect output, diagnosing the cause, and validating the fix with tests,
@@ -134,11 +134,11 @@ _compute_batch_total_with_empty_order PASSED [100%]
 #### Example 2: Mutable Default Argument  
 
 This example highlights a Python‑specific pitfall: using a mutable default argument. In the
-[buggy script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py),
+[buggy script](examples/example_2_mutable_default_argument/buggy_script.py),
 log entries unintentionally accumulate across function calls because the default list is shared. The
-[fixed script](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py)
+[fixed script](examples/example_2_mutable_default_argument/fixed_script.py)
 resolves this by using `None` as the default and creating a new list for each call. The
-[tests](https://github.com/musman-uk/portfolio/blob/main/independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py)
+[tests](tests/test_example_2_mutable_default_argument.py)
 verify both behaviours: fresh state per call, correct extension of an existing list, and accurate summarisation. This
 example illustrates how subtle language features can introduce hard‑to‑spot bugs. By contrasting the outputs of the buggy
 and fixed implementations and validating with tests, the documentation makes the behaviour visible and the correction

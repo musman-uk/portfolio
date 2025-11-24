@@ -219,8 +219,8 @@ Chamorro‑Premuzic, T., Winsborough, D., Sherman, R. A., & Hogan, R. (2016). Ne
 brave new world? *Industrial and Organizational Psychology, 9*(3), 621–640. Cambridge University Press.
 https://www.cambridge.org/core/journals/industrial-and-organizational-psychology/article/new-talent-signals-shiny-new-objects-or-a-brave-new-world/B301CCE93DDCFC658257E36B80B5E695  
 
-Chartered Institute of Personnel and Development (CIPD). (2021). *Resourcing and talent planning survey*.
-https://www.cipd.org/uk/knowledge/reports/resourcing-talent-planning  
+Chartered Institute of Personnel and Development (CIPD). (2024). *Resourcing and talent planning survey*.
+https://www.omnirms.com/knowledge-hub/cipd-resourcing-and-talent-planning-report-2024
 
 Devine, P. G., Forscher, P. S., Austin, A. J., & Cox, W. T. L. (2012). Long‑term reduction in implicit race bias: A
 prejudice habit‑breaking intervention. *Journal of Experimental Social Psychology, 48*(6), 1267–1278.

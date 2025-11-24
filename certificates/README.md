@@ -2,7 +2,6 @@
 
 The following table presents a selection of my certificates, each affirming my focused learning in key areas.
 
----
 
 | Course Title                              | Learning Platform   | Certificate Link |
 |-------------------------------------------|---------------------|------------------|

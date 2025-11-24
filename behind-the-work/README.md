@@ -1,4 +1,4 @@
-## 🔍 Workflow Process
+## 🔍 Behind the Work
 
 Beyond the finished projects to share the reasoning, methods, and values that shape how I work.  
 Each case study highlights not just what I built, but the thinking behind it.

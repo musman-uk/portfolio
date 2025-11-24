@@ -104,9 +104,9 @@ and after the redesign.
 
 | Before | After |
 |--------|-------|
-| ![Portfolio Layout – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Porfolio%20Layout%20-%20Before.png) | ![Portfolio Layout – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20Layout%20-%20After.png) |
+| ![Portfolio Layout – Before](Porfolio%20Layout%20-%20Before.png) | ![Portfolio Layout – After](Portfolio%20Layout%20-%20After.png) |
 | *Portfolio Layout* | *Portfolio Layout* |
-| ![Portfolio README – Before](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20README%20-%20Before.png) | ![Portfolio README – After](https://raw.githubusercontent.com/musman-uk/portfolio/main/workflow-process/portfolio-design/Portfolio%20README%20-%20After.png) |
+| ![Portfolio README – Before](Portfolio%20README%20-%20Before.png) | ![Portfolio README – After](Portfolio%20README%20-%20After.png) |
 | *Portfolio README* | *Portfolio README* |
 
 </details>

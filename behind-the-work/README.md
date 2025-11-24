@@ -1,8 +1,6 @@
 ## 🔍 Behind the Work
 
-The following table presents areas of focus that reveal the thinking, process, and philosophy guiding my work
-
----
+Beyond the projects, this section highlights areas of focus that reveal the thinking, process, and philosophy guiding my work
 
 | Focus              | Summary                              | Result                                  | Details |
 |-----------------------------|-------------------------------------------|-------------------------------------------|------|

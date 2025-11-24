@@ -1,12 +1,40 @@
-name: Checks Before Merge To Main
+name: Checks Before Merge to Main
 
 on:
+  workflow_dispatch:   # manual trigger
   pull_request:
     branches:
-      - exp
-  workflow_dispatch:
+      - main           # run automatically only for PRs into main
 
 jobs:
+  commit-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      - name: Install commitlint
+        run: npm install -g @commitlint/cli @commitlint/config-conventional
+      - name: Lint commits
+        run: |
+          echo "module.exports = {
+            extends: ['@commitlint/config-conventional'],
+            rules: {
+              'type-enum': [2, 'always', [
+                'feat','fix','chore','docs','style','refactor','perf','test'
+              ]],
+              'subject-case': [2, 'never', ['start-case','pascal-case','upper-case']]
+            }
+          };" > commitlint.config.js
+
+          if [ \"${{ github.event_name }}\" = \"pull_request\" ]; then
+            git fetch origin ${{ github.base_ref }}
+            npx commitlint --from=origin/${{ github.base_ref }} --to=HEAD || npx commitlint --last
+          else
+            npx commitlint --last
+          fi
+
   markdown-lint:
     runs-on: ubuntu-latest
     steps:
@@ -14,16 +42,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - name: Install dependencies
-        run: |
-          npm install -g prettier@3.3.3 markdownlint-cli2@0.9.2
-      - name: Prettier config
-        run: |
-          echo '{
-            "printWidth": 140,
-            "proseWrap": "always"
-          }' > .prettierrc.json
-      - name: Markdownlint config
+      - name: Install Prettier + markdownlint
+        run: npm install -g prettier@3.3.3 markdownlint-cli2@0.9.2
+      - name: Create markdownlint config
         run: |
           echo '{
             "MD013": { "line_length": 140, "code_blocks": false, "tables": false, "headings": false, "links": false },
@@ -36,164 +57,54 @@ jobs:
             "MD026": true,
             "default": false
           }' > .markdownlint.json
-      - name: Run Prettier auto-fix
+      - name: Run Prettier + markdownlint
         run: |
-          find . -type f -name "*.md" -print0 | xargs -0 prettier --write
-      - name: Run markdownlint auto-fix
-        run: |
+          find . -type f -name "*.md" -print0 | xargs -0 prettier --write --print-width 140 --prose-wrap always
           find . -type f -name "*.md" -print0 | xargs -0 markdownlint-cli2-fix
-      - name: Final markdownlint check
-        run: |
           find . -type f -name "*.md" -print0 | xargs -0 markdownlint-cli2
 
   link-validation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Rewrite absolute GitHub links to relative (inline Python + commit)
+      - name: Validate links (404 + relative enforcement)
         run: |
-          python3 <<'EOF'
-          import re, pathlib, os
+          python3 - <<'EOF'
+          import re, pathlib, sys, urllib.parse, requests, os
 
-          IMAGE_EXTS = (".png", ".jpg", ".jpeg", ".gif", ".svg")
+          repo_url_prefix = f"https://github.com/{os.environ.get('GITHUB_REPOSITORY','')}"
 
-          def rewrite_link(url: str, file_dir: str, in_fence: bool) -> str:
-              if in_fence:
-                  return url
-              if not url.startswith("https://github.com/"):
-                  return url
-
-              path = re.sub(r'^https://github\.com/[^/]+/[^/]+/(blob|tree)/(main|dev)/', '', url)
-              file_dir_path = pathlib.Path(file_dir)
-              target_path = pathlib.Path(path)
-
-              # Special handling for images
-              if path.lower().endswith(IMAGE_EXTS):
-                  if target_path.parent == file_dir_path:
-                      return target_path.name  # just filename if same folder
-                  try:
-                      rel = os.path.relpath(target_path, start=file_dir_path)
-                      return rel.replace("\\", "/")
-                  except Exception:
-                      return path
-
-              # Normal handling for non-images
-              try:
-                  rel = os.path.relpath(target_path, start=file_dir_path)
-                  return rel.replace("\\", "/")
-              except Exception:
-                  return path
-
-          def process_file(file_path: str):
-              file_dir = str(pathlib.Path(file_path).parent)
-              with open(file_path, encoding="utf-8") as f:
-                  lines = f.readlines()
-              new_lines, in_fence, modified = [], False, False
-              for line in lines:
-                  if re.match(r'^[ \t]*(```|~~~)', line):
-                      in_fence = not in_fence
-                  if line.startswith("    "):
-                      in_fence = True
-                  def replacer(match):
-                      return f"({rewrite_link(match.group(1), file_dir, in_fence)})"
-                  new_line = re.sub(r'\((https://github\.com/[^)]+)\)', replacer, line)
-                  if new_line != line:
-                      modified = True
-                  new_lines.append(new_line)
-                  if not line.startswith("    "):
-                      in_fence = False
-              if modified:
-                  with open(file_path, "w", encoding="utf-8") as f:
-                      f.writelines(new_lines)
-                  print(f"Converted links in {file_path}")
-                  return True
-              else:
-                  return False
-
-          if __name__ == "__main__":
-              modified = False
-              for file in pathlib.Path(".").rglob("*.md"):
-                  if process_file(str(file)):
-                      modified = True
-              if not modified:
-                  print("No absolute GitHub links found to convert.")
-          EOF
-
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "chore: convert absolute GitHub links to relative paths" || echo "No changes to commit"
-          git push || echo "No changes to push"
-
-      - name: Validate relative links (including images)
-        run: |
-          python3 <<'EOF'
-          import re, pathlib, sys, urllib.parse
-
-          def validate_file_links(file_path: str):
-              errors = []
-              base_dir = pathlib.Path(file_path).parent
-              with open(file_path, encoding="utf-8") as f:
-                  text = f.read()
-              for match in re.findall(r'\[.*?\]\((.*?)\)', text):
-                  link = match.strip()
-                  if link.startswith("http") or link.startswith("#"):
+          broken = []
+          for md in pathlib.Path(".").rglob("*.md"):
+              text = md.read_text(encoding="utf-8")
+              for link in re.findall(r'\[.*?\]\((.*?)\)', text):
+                  link = link.strip()
+                  if link.startswith("#"):
                       continue
-                  decoded = urllib.parse.unquote(link)
-                  target = (base_dir / decoded).resolve()
-                  if not target.exists():
-                      errors.append(f"{file_path}: broken relative link → {link}")
-              return errors
-
-          if __name__ == "__main__":
-              broken = []
-              for md in pathlib.Path(".").rglob("*.md"):
-                  broken.extend(validate_file_links(str(md)))
-              if broken:
-                  print("Broken relative links found:")
-                  for e in broken:
-                      print("  -", e)
-                  sys.exit(1)
-              else:
-                  print("All relative links are valid.")
+                  if link.startswith("http"):
+                      if link.startswith(repo_url_prefix):
+                          broken.append(f"{md}: internal link {link} → should be relative, not external")
+                          continue
+                      try:
+                          r = requests.head(link, allow_redirects=True, timeout=10)
+                          if r.status_code == 405:
+                              r = requests.get(link, allow_redirects=True, timeout=10)
+                          if r.status_code == 404:
+                              broken.append(f"{md}: external link {link} → 404 Not Found")
+                      except Exception as e:
+                          broken.append(f"{md}: external link {link} → error {e}")
+                  else:
+                      if link.startswith("/"):
+                          broken.append(f"{md}: relative link {link} → invalid absolute path")
+                          continue
+                      decoded = urllib.parse.unquote(link)
+                      target = (md.parent / decoded).resolve()
+                      if not target.exists():
+                          broken.append(f"{md}: relative link {link} → 404 Not Found")
+          if broken:
+              print("❌ Broken links found:")
+              for e in broken: print("  -", e)
+              sys.exit(1)
+          else:
+              print("✅ All links valid.")
           EOF
-
-  commit-review:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-      - run: npm install -g @commitlint/cli @commitlint/config-conventional
-      - name: Create commitlint config
-        run: |
-          cat <<EOF > commitlint.config.js
-          module.exports = {
-            extends: ['@commitlint/config-conventional'],
-            rules: {
-              'type-enum': [2, 'always', [
-                'feat',
-                'fix',
-                'chore',
-                'docs',
-                'style',
-                'refactor',
-                'perf',
-                'test'
-              ]],
-              'subject-case': [2, 'never', ['start-case', 'pascal-case', 'upper-case']]
-            }
-          };
-          EOF
-      - name: Lint commits
-        run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            git fetch origin ${{ github.base_ref }}
-            if ! npx commitlint --from=origin/${{ github.base_ref }} --to=HEAD; then
-              npx commitlint --last
-            fi
-          else
-            npx commitlint --last
-          fi

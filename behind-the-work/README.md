@@ -1,7 +1,8 @@
 ## 🔍 Behind the Work
 
-Beyond the finished projects to share the reasoning, methods, and values that shape how I work.  
-Each case study highlights not just what I built, but the thinking behind it.
+The following table presents areas of focus that reveal the thinking, process, and philosophy guiding my work
+
+---
 
 | Focus              | Summary                              | Result                                  | Details |
 |-----------------------------|-------------------------------------------|-------------------------------------------|------|

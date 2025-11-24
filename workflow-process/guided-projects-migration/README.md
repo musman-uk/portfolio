@@ -67,34 +67,34 @@ The migration produced a cohesive portfolio of guided projects. Each project now
 
 #### To Do List  
 **Before (Live Demo and Source Code)**  
-![To Do List Live Demo and Source Code - Before](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/To%20Do%20List%20%20Source%20Code%20and%20Live%20Demo%20-%20Before.png)  
+![To Do List Live Demo and Source Code - Before](To%20Do%20List%20%20Source%20Code%20and%20Live%20Demo%20-%20Before.png)  
 
 **After (Live Demo)**  
-![To Do List Live Demo - After](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/To%20Do%20List%20Live%20Demo%20-%20After.png)  
+![To Do List Live Demo - After](To%20Do%20List%20Live%20Demo%20-%20After.png)  
 
 **After (Source Code)**  
-![To Do List Source Code - After](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/To%20Do%20List%20Source%20Code%20-%20After.png)  
+![To Do List Source Code - After](To%20Do%20List%20Source%20Code%20-%20After.png)  
 
 ---
 
 #### Unit Converter  
 **Before (Live Demo)**  
-![Unit Converter Live Demo - Before](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Live%20Demo%20-%20Before.png)  
+![Unit Converter Live Demo - Before](Unit%20Converter%20Live%20Demo%20-%20Before.png)  
 
 **After (Live Demo)**  
-![Unit Converter Live Demo - After](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Live%20Demo%20-%20After.png)  
+![Unit Converter Live Demo - After](Unit%20Converter%20Live%20Demo%20-%20After.png)  
 
 **Before (Source Code)**  
-![Unit Converter Source Code - Before](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Source%20Code%20-%20Before.png)  
+![Unit Converter Source Code - Before](Unit%20Converter%20Source%20Code%20-%20Before.png)  
 
 **After (Source Code)**  
-![Unit Converter Source Code - After](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Unit%20Converter%20Source%20Code%20-%20After.png)  
+![Unit Converter Source Code - After](Unit%20Converter%20Source%20Code%20-%20After.png)  
 
 ---
 
 #### Blocker Example  
 **Formatting Issue**  
-![Guided Projects Migration Blocker Example – To Do List](https://github.com/musman-uk/portfolio/blob/main/workflow-process/guided-projects-migration/Guided%20Projects%20Migration%20-%20Blocker.png)  
+![Guided Projects Migration Blocker Example – To Do List](Guided%20Projects%20Migration%20-%20Blocker.png)  
 
 </details>
 

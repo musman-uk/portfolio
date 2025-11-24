@@ -16,4 +16,4 @@ multiple test runs, indicating a systemic issue rather than isolated anomalies.
 - There is a risk that similar behaviour could occur in production under high load.  
 - Test coverage for authentication workflows cannot be completed until this issue is resolved.  
 
-**Linked Log:** [SL-003](https://github.com/musman-uk/portfolio/blob/main/independent-projects/support-logs/logs/log-3/SL-003.md)
+**Linked Log:** [SL-003](../../logs/log-3/SL-003.md)

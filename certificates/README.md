@@ -13,11 +13,6 @@
 | Programming in C# for Beginners           | CodeSignal          | [View](CodeSignal%20-%20Programming%20in%20C%23%20for%20Beginners%20-%20Mohammed%20Usman.pdf) |
 | C++ Programming for Beginners             | CodeSignal          | [View](CodeSignal%20-%20C%2B%2B%20Programming%20for%20Beginners%20-%20Mohammed%20Usman.pdf) |
 | Clean Code in Python Through Hands-on Practice | CodeSignal      | [View](CodeSignal%20-%20Clean%20Code%20in%20Python%20Through%20Hands-on%20Practice%20-%20Mohammed%20Usman.pdf) |
-| JavaScript Programming for Beginners      | CodeSignal          | [View](CodeSignal%20-%20JavaScript%20Programming%20for%20Beginners%20-%20Mohammed%20Usman.pdf) |
-| PHP Programming for Beginners             | CodeSignal          | [View](CodeSignal%20-%20PHP%20Programming%20for%20Beginners%20-%20Mohammed%20Usman.pdf) |
-| Programming in C# for Beginners           | CodeSignal          | [View](CodeSignal%20-%20Programming%20in%20C%23%20for%20Beginners%20-%20Mohammed%20Usman.pdf) |
-| C++ Programming for Beginners             | CodeSignal          | [View](CodeSignal%20-%20C%2B%2B%20Programming%20for%20Beginners%20-%20Mohammed%20Usman.pdf) |
-| Clean Code in Python Through Hands-on Practice | CodeSignal      | [View](CodeSignal%20-%20Clean%20Code%20in%20Python%20Through%20Hands-on%20Practice%20-%20Mohammed%20Usman.pdf) |
 | Clean Code in C# Through Hands-on Practice | CodeSignal         | [View](CodeSignal%20-%20Clean%20Code%20in%20C%23%20Through%20Hands-on%20Practice%20-%20Mohammed%20Usman.pdf) |
 | Clean Code with C++ Through Hands-on Practice | CodeSignal       | [View](CodeSignal%20-%20Clean%20Code%20with%20C%2B%2B%20Through%20Hands-on%20Practice%20-%20Mohammed%20Usman.pdf) |
 | Comprehensive Introduction to HTML for Beginners | CodeSignal     | [View](CodeSignal%20-%20Comprehensive%20Introduction%20to%20HTML%20for%20Beginners%20-%20Mohammed%20Usman.pdf) |

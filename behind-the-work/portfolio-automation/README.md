@@ -29,8 +29,6 @@ This integration reframes quality assurance as stewardship. It reduces cognitive
 
 Reflecting on this system reveals several lessons. Minimalism matters: automation should focus only on what truly protects or empowers. Reversibility is freedom: backups are not just safety nets, they enable risk taking. Clarity builds trust: automation should be visible enough to reassure, yet unobtrusive enough not to distract. These lessons extend beyond technical workflows. They speak to how trust, clarity, and reversibility shape the relationship between people and the tools they use.
 
-**Future Directions**
-
 This automation system is a foundation rather than a finished product. Future refinements will focus on expanding workflows to cover more aspects of portfolio maintenance. Examples include automated accessibility checks to ensure inclusive design, performance monitoring to track build efficiency, and content freshness validation to highlight outdated sections. Each new workflow extends the principle of automation as a tool for clarity, trust, and empowerment, embedding resilience deeper into the portfolio’s daily rhythm.
 
 ---

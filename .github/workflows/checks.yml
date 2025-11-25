@@ -106,5 +106,5 @@ jobs:
               for e in broken: print("  -", e)
               sys.exit(1)
           else:
-              print("✅ All links valid.")
+              print("✔️ All links valid.")
           EOF

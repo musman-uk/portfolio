@@ -13,6 +13,8 @@ visibility. **Test 3** updated acknowledgments to include a new entry. **Test 4*
 the lessons and decisions across the entire process. Together, these steps formed a test run that moved from foundation to
 execution to reflection, demonstrating how documentation standards evolve through iteration and discipline.
 
+---
+
 ### 📌 Purpose
 
 The documentation process was guided by clear aims:
@@ -21,6 +23,8 @@ The documentation process was guided by clear aims:
 - **Integrate automation**: to validate that automated runs adhere to rulesets and scale without losing quality.
 - **Instill workflow discipline**: while there may be rare occasions where commits are pushed directly to `main`, this will
   not be the common practice. The standard workflow will be: create an issue, open a branch, draft a PR, review, and merge.
+
+ ---
 
 ### 📝 Approach
 
@@ -31,6 +35,8 @@ The documentation process was guided by clear aims:
 - **Test 3**: updated acknowledgments to include a new entry, applying structured issues and PR discipline.
 - **Test 4**: produced this write‑up, embedding documentation standards into the workflow process.
 - Merge strategy: rebase merges for tests to preserve detailed history.
+
+---
 
 ### 🎯 Rationale
 
@@ -43,6 +49,8 @@ documentation; second, to signal professional maturity by treating documentation
 strategies were chosen to balance traceability and simplicity. Rebase merges preserved detailed simulation history, while
 squash merges will streamline logs in production. The explicit commitment to workflow discipline ensures the portfolio
 reflects professional standards and signals maturity in workflow practice.
+
+---
 
 ### 🚧 Blockers
 
@@ -61,6 +69,8 @@ quality. Automation was proven to scale, but only when discipline was embedded.
 Choosing between rebase and squash merges required balancing detailed simulation history with clean production logs. This
 decision reflected the dual goals of transparency in testing and simplicity in delivery.
 
+---
+
 ### 🏁 Outcome
 
 - Added **🗄️ Portfolio Documentation** write‑up under workflow‑process directory.
@@ -69,6 +79,8 @@ decision reflected the dual goals of transparency in testing and simplicity in d
 - Markdownlint, commitlint, and link validation checks passed.
 - Documentation discipline embedded into workflow practice.
 - Workflow discipline codified: issues → branch → PR → review → merge.
+
+---
 
 ### 💭 Reflections
 

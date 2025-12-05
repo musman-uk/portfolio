@@ -6,7 +6,7 @@ The Talent Acquisition Compass reframes recruitment as a trust‑building journe
 integrates psychological theory, ethical design, and practical documentation to help organisations align hiring practices
 with fairness, transparency, and long‑term success. Presented as a mock dashboard, the Compass highlights areas where
 candidate experience can be strengthened, supported by illustrative vignettes and grounded in both academic research and
-industry practice. It is both a practical tool for today and a vision for sustainable, human‑centred recruitment.  
+industry practice. It is both a practical tool for today and a vision for sustainable, people‑centred recruitment.  
 
 ---
 

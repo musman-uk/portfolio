@@ -20,13 +20,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 20
+          python-version: '3.11'
 
       - name: Run backlink script
-        run: node .github/scripts/add-backlinks.js
+        run: python .github/scripts/add_backlinks.py
 
       - name: Commit changes
         run: |

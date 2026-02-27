@@ -1,9 +1,5 @@
 # Welcome to my Portfolio 📂
 
-Anchored in a commitment to building ethical, purposeful, and versatile technology.  
-
----
-
 ## ☰ Contents
 
 | Section | Summary |
@@ -15,15 +11,3 @@ Anchored in a commitment to building ethical, purposeful, and versatile technolo
 | 📜 [Certificates](certificates/README.md) | Credentials marking key stages of my learning |
 | 🤝 [Acknowledgements](acknowledgements/README.md) | Gratitude for all that is informing this portfolio |
 
----
-
-## Navigation Map
-
-portfolio/  
-├── [README.md](README.md)  
-├── [about](about/README.md)  
-├── [independent-projects](independent-projects/README.md)  
-├── [guided-projects](guided-projects/README.md)  
-├── [behind-the-work](behind-the-work/README.md)  
-├── [certificates](certificates/README.md)  
-└── [acknowledgements](acknowledgements/README.md)

@@ -5,7 +5,7 @@
 | Section | Summary |
 |---------|-------------|
 | 📖 [About](about/README.md) | This portfolio's journey, and the values and perspectives shaping it |
-| 🏷️ [Selected Pieces](selected-pieces/README.md) | A small selection of the work in this portfolio |
+| 🏷️ [Selected Pieces](selected-pieces/README.md) | A small selection of the work within this portfolio |
 | 🎨 [Independent Projects](independent-projects/README.md) | Self‑directed projects driven by curiosity, exploration, and passion |
 | 📘 [Guided Projects](guided-projects/README.md) | Learning projects completed through structured courses |
 | 🔍 [Behind the Work](behind-the-work/README.md) | Exploring the thinking, process, and philosophy guiding my practice |

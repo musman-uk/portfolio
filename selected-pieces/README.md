@@ -1,6 +1,6 @@
 ## 🏷️ Selected Pieces
 
-| 🏷️ **Title** | 🧾 **Description** | **Link** |
+| 🏷️ **Title** | 🧾 **Description** | 🔗 **Link** |
 |-----------|------------------|----------|
 | 📚 Documentation Makeover | A self‑directed independent project exploring clarity, structure, and narrative in technical documentation. | [View](../independent-projects/documentation-makeover/README.md) |
 | 🔢 Unit Converter | A guided coursework project focused on building a clean, accessible interface with a live, working demo. | [View](https://musman-uk.github.io/live-demos/unit-converter/index.html) |

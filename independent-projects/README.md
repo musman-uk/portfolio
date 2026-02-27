@@ -1,7 +1,5 @@
 ##  🎨 Independent Projects
 
-Self‑directed explorations that begin with curiosity and grow into independently carried-out projects. They show how I test ideas, learn through making, and distil lessons that guide future work.
-
 | 🎨 Project | 🧾 Description | 🔗 Link |
 |------------|----------------|---------|
 | 📚 Documentation Makeover | A set of mock documentation transformations, showing how unclear or incomplete documents can be refined into professional, reader‑friendly guides. | [View](documentation-makeover/README.md) |

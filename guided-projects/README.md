@@ -1,6 +1,6 @@
 ## 📘 Guided Projects
 
-| 📘  Project             | 🛠️ Stack                     | 🧾 Description                                                                 | ▶️ Live Demo | 📄 Source Code |
+| Project             | Stack                     | Description                                                                 | Live Demo | Source Code |
 |------------------------|-------------------------------|--------------------------------------------------------------------------------|--------------|---------|
 | ✅ To Do List          | Python, HTML, CSS, JavaScript | Mock terminal interface that allows users to add, complete, and delete tasks. | [View](https://musman-uk.github.io/live-demos/todo-list/index.html) | [View](todo-list/source-code/README.md) |
 | 📊 Transaction Analyser | Python, HTML, CSS, JavaScript | Mock terminal interface that parses transaction data to calculate totals, categorize expenses, and generate summaries.| [View](https://musman-uk.github.io/live-demos/transaction-analyser/index.html) | [View](transaction-analyser/source-code/README.md) |

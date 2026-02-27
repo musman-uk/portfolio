@@ -1,11 +1,5 @@
 ## 🤝 Acknowledgements  
 
-A recognition and appreciation for the resources, influences, and support that are informing this
-portfolio, since no work is created in isolation. Although I am deeply grateful for all of this,
-the work itself is authored and continually reviewed by me, and I take full responsibility for it.  
-
----
-
 ### 🎓 Learning Platforms  
 
 - **Mimo** – delivers guided projects that apply core programming concepts.  
@@ -48,6 +42,6 @@ the work itself is authored and continually reviewed by me, and I take full resp
 
 ### 🌟 Special Thanks  
 
-- **My Mum** – No amount or combination of words could ever express this fully, but I am profoundly
+- **My Mum** – Perhaps no amount or combination of words could ever fully express this, but I am profoundly
   thankful for the support, encouragement and inspiration to pursue this path I am genuinely
   passionate about.  

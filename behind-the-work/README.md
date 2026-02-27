@@ -1,7 +1,5 @@
 ## 🔍 Behind the Work
 
-Beyond the projects, this section highlights areas of focus that reveal the thinking, process, and philosophy guiding my work.
-
 | Focus              | Summary                              | Result                                  | Details |
 |-----------------------------|-------------------------------------------|-------------------------------------------|------|
 | 🏗️ Portfolio Redesign          | Repository structure and layout updates   | Cleaner, more maintainable repository structure  | [View](portfolio-redesign/README.md) |

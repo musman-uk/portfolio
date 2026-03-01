@@ -1,4 +1,4 @@
-# Welcome to My Portfolio 📂
+# Welcome to my portfolio 📂
 
 ## ☰ Contents
 

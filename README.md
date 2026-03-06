@@ -14,6 +14,6 @@
 
 ---
 
-© Mohammed Usman
+<sub>© Mohammed Usman</sub>
 
-All rights reserved. No commercial use, redistribution, or modification.
+<sub>All rights reserved. No commercial use, redistribution, or modification.</sub>

@@ -11,3 +11,9 @@
 | 🔍 [Behind the Work](behind-the-work/README.md) | Exploring the thinking, process, and philosophy guiding my work  |
 | 📜 [Certificates](certificates/README.md) | Credentials marking key stages of my learning |
 | 🤝 [Acknowledgements](acknowledgements/README.md) | Gratitude for all that is informing this portfolio |
+
+---
+
+© Mohammed Usman
+
+All rights reserved. No commercial use, redistribution, or modification.

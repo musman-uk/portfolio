@@ -1,4 +1,4 @@
-name: Rename Directories and Folder Titles
+name: Rename Directories, Folder Titles and Links
 
 on:
   workflow_dispatch:

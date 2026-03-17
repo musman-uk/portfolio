@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  refactor:
+  rename:
     runs-on: ubuntu-latest
 
     if: github.ref == 'refs/heads/dev'

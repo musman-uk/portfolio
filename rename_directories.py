@@ -80,7 +80,7 @@ def update_titles():
                             updated = True
 
                         # Case 3: Plain-text title with punctuation
-                        elif stripped.startswith(old + (":", "-", "—", "–", ".")):
+                        elif any(stripped.startswith(old + p) for p in (":", "-", "—", "–", ".")):
                             line = line.replace(old, new)
                             updated = True
 

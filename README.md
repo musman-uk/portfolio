@@ -4,7 +4,7 @@
 
 | Section | Summary |
 |---------|-------------|
-| 📖 [About](about/README.md) | The journey, perspective, and values that shape this portfolio |
+| 📖 [About](about/README.md) | The journey, perspective, and values shaping my craft |
 | 🏷️ [Selected Pieces](selected-pieces/README.md) | A curated selection of notable pieces |
 | 🎨 [Exploratory Projects](exploratory-projects/README.md) | Self‑directed projects centred on curiosity, exploration, and discovery |
 | 📘 [Guided Projects](guided-projects/README.md) | Learning projects completed through structured courses |

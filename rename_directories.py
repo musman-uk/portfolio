@@ -2,9 +2,15 @@ import os
 import shutil
 import re
 
-# Empty by default — safe, reusable, intentional
-RENAME_MAP = {}
-TITLE_MAP = {}
+RENAME_MAP = {
+    "independent-projects": "exploratory-projects",
+    "behind-the-work": "behind-the-craft",
+}
+
+TITLE_MAP = {
+    "Independent Projects": "Exploratory Projects",
+    "Behind the Work": "Behind the Craft",
+}
 
 def apply_folder_renames():
     for old, new in RENAME_MAP.items():
@@ -96,8 +102,8 @@ def validate_links():
                 path = os.path.join(root, file)
                 with open(path, "r", encoding="utf-8") as f:
                     content = f.read()
-                  
-              links = re.findall(r'\(([^)]+)\)', content)
+
+                links = re.findall(r'\(([^)]+)\)', content)
 
                 for link in links:
                     if "://" in link:

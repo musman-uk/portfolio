@@ -69,18 +69,14 @@ def update_titles():
 
                     for old, new in TITLE_MAP.items():
 
-                        # Case 1: Markdown heading (#, ##, ###, etc.)
-                        if stripped.startswith("#") and stripped.lstrip("# ").startswith(old):
+                        # Case 1: Heading with emoji or without, containing the old title
+                        if stripped.startswith("#") and old in stripped:
                             line = line.replace(old, new)
                             updated = True
 
-                        # Case 2: Plain-text section title (exact match)
-                        elif stripped == old:
-                            line = line.replace(old, new)
-                            updated = True
-
-                        # Case 3: Plain-text title with punctuation
-                        elif any(stripped.startswith(old + p) for p in (":", "-", "—", "–", ".")):
+                        # Case 2: Plain-text section title (emoji allowed)
+                        elif old in stripped and not stripped.startswith("#"):
+                            # e.g. "🎨 Independent Projects"
                             line = line.replace(old, new)
                             updated = True
 

@@ -1,4 +1,4 @@
-## 📜 Certificates
+## 📜 Certifications
 
 | Course Title                              | Learning Platform   | Certificate Link |
 |-------------------------------------------|---------------------|------------------|

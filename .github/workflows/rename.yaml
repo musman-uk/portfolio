@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 name: Rename Directories, Folder Titles and Links
-=======
-name: Run Directory Rename Script
->>>>>>> main
 
 on:
   workflow_dispatch:
@@ -25,7 +21,6 @@ jobs:
           python-version: '3.11'
 
       - name: Run rename script
-<<<<<<< HEAD
         run: |
           python << 'EOF'
           import os
@@ -162,18 +157,11 @@ jobs:
               update_titles()
               validate_links()
           EOF
-=======
-        run: python rename_directories.py
->>>>>>> main
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add -A
-<<<<<<< HEAD
           git commit -m " restructure: renamed directories, links, and titles (auto)" || echo "No changes to commit"
-=======
-          git commit -m "Apply directory rename and title updates" || echo "No changes to commit"
->>>>>>> main
           git push origin dev

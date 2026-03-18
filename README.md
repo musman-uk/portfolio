@@ -4,8 +4,8 @@
 
 | Section | Summary |
 |---------|-------------|
-| 📖 [About](about/README.md) | The journey, perspective, and values shaping my craft |
-| 🏷️ [Selected Pieces](selected-pieces/README.md) | A curated selection of notable pieces |
+| 📖 [About](about/README.md) | The journey, perspective, and values that are shaping my craft |
+| 🏷️ [Selected Pieces](selected-pieces/README.md) | A few pieces from across this portfolio that can be viewed here |
 | 🎨 [Exploratory Projects](exploratory-projects/README.md) | Self‑directed projects centred on curiosity, exploration, and discovery |
 | 📘 [Guided Projects](guided-projects/README.md) | Learning projects completed through structured courses |
 | 🔍 [Behind the Craft](behind-the-craft/README.md) | Insight into my thinking, process, and philosophy |

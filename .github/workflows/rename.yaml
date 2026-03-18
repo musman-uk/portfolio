@@ -27,17 +27,11 @@ jobs:
           import shutil
           import re
 
-          # Explicit, safe rename rules
-          RENAME_MAP = {
-              "independent-projects": "exploratory-projects",
-              "behind-the-work": "behind-the-craft",
-          }
+          # Explicit, safe rename rules (empty for reuse)
+          RENAME_MAP = {}
 
-          # Explicit, safe title rules
-          TITLE_MAP = {
-              "Independent Projects": "Exploratory Projects",
-              "Behind the Work": "Behind the Craft",
-          }
+          # Explicit, safe title rules (empty for reuse)
+          TITLE_MAP = {}
 
           # -----------------------------
           # 1. Rename directories safely

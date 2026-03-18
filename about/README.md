@@ -1,6 +1,6 @@
 ## 📖 About  
 
-My journey in technology began as curiosity with computers and video games
+My journey with technology began as curiosity with computers and video games
 at an early age. It has since grown into a deeper passion and my craft,
 because I believe that when technology is truthful, responsible, and kind,
 it can do something good.

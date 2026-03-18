@@ -90,7 +90,7 @@ and after the redesign.
 <pre>
 📂 portfolio (after)
 └── 📄 readme.md
-    ├── 🎨 independent-projects
+    ├── 🎨 exploratory-projects
     ├── 📘 guided-projects
     ├── ⚙️ workflow-process
     ├── 📜 certificates

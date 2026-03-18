@@ -4,16 +4,16 @@
 
 | Section | Summary |
 |---------|-------------|
-| 📖 [About](about/README.md) | This portfolio's journey, and the perspective and values shaping it |
-| 🏷️ [Selected Pieces](selected-pieces/README.md) | A small selection of the work within this portfolio |
-| 🎨 [Independent Projects](independent-projects/README.md) | Self‑directed projects driven by curiosity, exploration, and passion |
+| 📖 [About](about/README.md) | The journey, perspective, and values that are shaping my craft |
+| 🪟 [Quick Glimpse](quick-glimpse/README.md) | A few pieces from across this portfolio |
+| 🎨 [Exploratory Projects](exploratory-projects/README.md) | Self‑directed projects centred on curiosity, exploration, and discovery |
 | 📘 [Guided Projects](guided-projects/README.md) | Learning projects completed through structured courses |
-| 🔍 [Behind the Work](behind-the-work/README.md) | Exploring the thinking, process, and philosophy guiding my work  |
+| 🔍 [Behind the Craft](behind-the-craft/README.md) | Insight into my thinking, process, and philosophy |
 | 📜 [Certificates](certificates/README.md) | Credentials marking key stages of my learning |
-| 🤝 [Acknowledgements](acknowledgements/README.md) | Gratitude for all that is informing this portfolio |
+| 🤝 [Acknowledgements](acknowledgements/README.md) | Gratitude for all that is informing my craft |
 
----
 
 <sub>© Mohammed Usman</sub>
 
 <sub>All rights reserved. No commercial use, redistribution, or modification.</sub>
+

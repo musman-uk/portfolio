@@ -79,18 +79,18 @@ Buggy Script:
 
 ```bash
 
-$ python independent-projects/quality-assurance-
+$ python exploratory-projects/quality-assurance-
 checkpoint/examples/example_1_loop_error/buggy_script.py
 Traceback (most recent call last):
-  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/examples/e
+  File "/workspaces/portfolio/exploratory-projects/quality-assurance-checkpoint/examples/e
 xample_1_loop_error/buggy_script.py", line 51, in <module>
     print("Batch total:", compute_batch_total(orders))
                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/e
+  File "/workspaces/portfolio/exploratory-projects/quality-assurance-checkpoint/e
 xamples/example_1_loop_error/buggy_script.py", line 29, in compute_batch_total
     batch_total += compute_order_total(order)
                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/workspaces/portfolio/independent-projects/quality-assurance-checkpoint/e
+  File "/workspaces/portfolio/exploratory-projects/quality-assurance-checkpoint/e
 xamples/example_1_loop_error/buggy_script.py", line 20, in compute_order_total
     line = items[i]
            ~~~~~^^^
@@ -102,7 +102,7 @@ Fixed Script:
 
 ```bash
 
-python independent-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py
+python exploratory-projects/quality-assurance-checkpoint/examples/example_1_loop_error/fixed_script.py
 Batch total: 18.75
 
 ```
@@ -111,7 +111,7 @@ Tests:
 
 ```bash
 
-$ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py -v
+$ pytest exploratory-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py -v
 ===================================== test session starts ======================================
 platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/p
 ytest/bin/python
@@ -120,9 +120,9 @@ rootdir: /workspaces/portfolio
 plugins: anyio-4.9.0
 collected 2 items                                                                              
 
-independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test
+exploratory-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test
 _compute_order_total_basic PASSED [ 50%]
-independent-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test
+exploratory-projects/quality-assurance-checkpoint/tests/test_example_1_loop_error.py::test
 _compute_batch_total_with_empty_order PASSED [100%]
 
 ====================================== 2 passed in 0.02s =======================================
@@ -151,7 +151,7 @@ Buggy Script:
 
 ```bash
 
-$ python independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py
+$ python exploratory-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/buggy_script.py
 === Buggy Logging Demo ===
 First call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
 Second call: ['Error: Disk full', 'Warning: Low memory', 'Info: Job completed']
@@ -164,7 +164,7 @@ Fixed Script:
 
 ```bash
 
-$ python independent-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py
+$ python exploratory-projects/quality-assurance-checkpoint/examples/example_2_mutable_default_argument/fixed_script.py
 === Fixed Logging Demo ===
 First call: ['Error: Disk full']
 Second call: ['Warning: Low memory']
@@ -176,7 +176,7 @@ Tests:
 
 ```bash
 
-$ pytest independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py -v
+$ pytest exploratory-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_argument.py -v
 ===================================== test session starts ======================================
 platform linux -- Python 3.12.1, pytest-8.4.1, pluggy-1.6.0 -- /usr/local/py-utils/venvs/py
 test/bin/python
@@ -185,11 +185,11 @@ rootdir: /workspaces/portfolio
 plugins: anyio-4.9.0
 collected 3 items
 
-independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
+exploratory-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
 ument.py::test_collect_logs_starts_fresh_each_time PASSED [ 33%]
-independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
+exploratory-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
 ument.py::test_collect_logs_with_existing_list PASSED [ 66%]
-independent-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
+exploratory-projects/quality-assurance-checkpoint/tests/test_example_2_mutable_default_arg
 ument.py::test_summarize_logs_counts_messages PASSED [100%]
 
 ====================================== 3 passed in 0.02s =======================================                               

@@ -1,4 +1,4 @@
-##  🎨 Independent Projects
+##  🎨 Exploratory Projects
 
 |  Project |  Description |  Link |
 |------------|----------------|---------|

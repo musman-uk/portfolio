@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+name: Rename Directories, Folder Titles and Links
+=======
 name: Run Directory Rename Script
+>>>>>>> main
 
 on:
   workflow_dispatch:
@@ -21,12 +25,155 @@ jobs:
           python-version: '3.11'
 
       - name: Run rename script
+<<<<<<< HEAD
+        run: |
+          python << 'EOF'
+          import os
+          import shutil
+          import re
+
+          # ------------------------------------
+          # RENAME RULES (empty for reuse)
+          # ------------------------------------
+          RENAME_MAP = {}
+
+          TITLE_MAP = {}
+
+          # -----------------------------
+          # 1. Rename directories safely
+          # -----------------------------
+          def apply_folder_renames():
+              for old, new in RENAME_MAP.items():
+
+                  old_exists = os.path.exists(old)
+                  new_exists = os.path.exists(new)
+
+                  if not old_exists and new_exists:
+                      print(f"✓ {old} already renamed to {new}, skipping.")
+                      continue
+
+                  if not old_exists and not new_exists:
+                      print(f"⚠️ Neither {old} nor {new} exist, skipping.")
+                      continue
+
+                  if old_exists and not new_exists:
+                      print(f"Renaming {old} → {new}")
+                      shutil.move(old, new)
+                      update_markdown_links(old, new)
+                      continue
+
+                  if old_exists and new_exists:
+                      print(f"⚠️ Both {old} and {new} exist. Skipping to avoid data loss.")
+                      continue
+
+
+          # ------------------------------------
+          # 2. Update Markdown links referencing
+          #    ONLY the renamed directories
+          # ------------------------------------
+          def update_markdown_links(old, new):
+              for root, dirs, files in os.walk("."):
+                  for file in files:
+                      if file.endswith(".md"):
+                          path = os.path.join(root, file)
+                          with open(path, "r", encoding="utf-8") as f:
+                              content = f.read()
+
+                          if old in content:
+                              content = content.replace(old, new)
+                              with open(path, "w", encoding="utf-8") as f:
+                                  f.write(content)
+                              print(f"Updated links in {path}")
+
+
+          # ------------------------------------
+          # 3. Update titles (emoji-aware, safe)
+          # ------------------------------------
+          def update_titles():
+              for root, dirs, files in os.walk("."):
+                  for file in files:
+                      if file.endswith(".md"):
+                          path = os.path.join(root, file)
+
+                          with open(path, "r", encoding="utf-8") as f:
+                              lines = f.readlines()
+
+                          updated = False
+                          new_lines = []
+
+                          for line in lines:
+                              stripped = line.strip()
+
+                              for old, new in TITLE_MAP.items():
+
+                                  # Case 1: Heading with emoji or without
+                                  if stripped.startswith("#") and old in stripped:
+                                      line = line.replace(old, new)
+                                      updated = True
+
+                                  # Case 2: Plain title line (emoji allowed)
+                                  elif old in stripped and not stripped.startswith("#"):
+                                      line = line.replace(old, new)
+                                      updated = True
+
+                              new_lines.append(line)
+
+                          if updated:
+                              with open(path, "w", encoding="utf-8") as f:
+                                  f.writelines(new_lines)
+                              print(f"Updated titles in {path}")
+
+
+          # ------------------------------------
+          # 4. Validate Markdown links
+          # ------------------------------------
+          def validate_links():
+              print("\nValidating links...")
+              missing = False
+
+              for root, dirs, files in os.walk("."):
+                  for file in files:
+                      if file.endswith(".md"):
+                          path = os.path.join(root, file)
+                          with open(path, "r", encoding="utf-8") as f:
+                              content = f.read()
+
+                          links = re.findall(r'\(([^)]+)\)', content)
+
+                          for link in links:
+                              if "://" in link:
+                                  continue
+
+                              link_path = os.path.normpath(os.path.join(root, link))
+
+                              if not os.path.exists(link_path):
+                                  missing = True
+                                  print(f"⚠️ Missing file referenced in {path}: {link}")
+
+              if not missing:
+                  print("✓ No missing links found.")
+
+
+          # ------------------------------------
+          # Run all steps
+          # ------------------------------------
+          if __name__ == "__main__":
+              apply_folder_renames()
+              update_titles()
+              validate_links()
+          EOF
+=======
         run: python rename_directories.py
+>>>>>>> main
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add -A
+<<<<<<< HEAD
+          git commit -m " restructure: renamed directories, links, and titles (auto)" || echo "No changes to commit"
+=======
           git commit -m "Apply directory rename and title updates" || echo "No changes to commit"
+>>>>>>> main
           git push origin dev

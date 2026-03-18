@@ -1,4 +1,4 @@
-## 🏷️ Selected Pieces
+## 🪟 Quick Glimpse
 
 | **Title** |  **Description** | **Link** |
 |-----------|------------------|----------|

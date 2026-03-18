@@ -27,11 +27,17 @@ jobs:
           import shutil
           import re
 
-          # Explicit, safe rename rules (empty for reuse)
-          RENAME_MAP = {}
+          # ------------------------------------
+          # RENAME RULES (your custom changes)
+          # ------------------------------------
+          RENAME_MAP = {
+              "selected-pieces": "quick-glimpse"
+          }
 
-          # Explicit, safe title rules (empty for reuse)
-          TITLE_MAP = {}
+          TITLE_MAP = {
+              "Selected Pieces": "Quick Glimpse",
+              "🏷️": "🪟"
+          }
 
           # -----------------------------
           # 1. Rename directories safely

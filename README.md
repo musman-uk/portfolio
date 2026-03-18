@@ -8,9 +8,9 @@
 | 🏷️ [Selected Pieces](selected-pieces/README.md) | A curated selection of notable pieces |
 | 🎨 [Exploratory Projects](exploratory-projects/README.md) | Self‑directed projects centred on curiosity, exploration, and discovery |
 | 📘 [Guided Projects](guided-projects/README.md) | Learning projects completed through structured courses |
-| 🔍 [Behind the Craft](behind-the-craft/README.md) | Exploring the thinking, process, and philosophy guiding my craft  |
+| 🔍 [Behind the Craft](behind-the-craft/README.md) | Insight into my thinking, process, and philosophy |
 | 📜 [Certificates](certificates/README.md) | Credentials marking key stages of my learning |
-| 🤝 [Acknowledgements](acknowledgements/README.md) | Gratitude for all that is informing my path in technology |
+| 🤝 [Acknowledgements](acknowledgements/README.md) | Gratitude for all that is informing my craft |
 
 ---
 

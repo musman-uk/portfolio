@@ -20,7 +20,7 @@
 - **GitHub Codespaces** – provides a consistent, cloud‑based development environment across projects.  
 - **GitHub Copilot** – assists across GitHub workflows by identifying errors, suggesting fixes and resolving issues.  
 - **OneDrive** – maintains an additional cloud‑based backup outside GitHub.  
-- **Visual Studio Code** – serves as my primary code editor across projects.  
+- **Visual Studio Code** – serves as a primary code editor across projects.  
 
 ---
 

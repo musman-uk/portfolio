@@ -45,7 +45,9 @@
 
 ### 📡 Hosting & Deployment  
 
-- **GitHub Pages** – hosts guided projects and published work, making them accessible directly from the browser.
+- **GitHub Pages** – hosts and deploys guided projects and published websites.
+-  **gd.games** – provides a platform for sharing and playing published games.
+- **itch.io** – provides a platform to host and distribute published games.  
 
 ---
 

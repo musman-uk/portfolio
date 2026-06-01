@@ -37,13 +37,15 @@
 - **Stack Overflow** – reference for troubleshooting and implementation details.  
 - **MDN Web Docs** – reference for HTML, CSS and JavaScript standards and behaviour.  
 - **Python Documentation** – reference for syntax, standard library modules and language behaviour.  
-- **Git Documentation** – reference for commands, branching, merging and repository operations.  
+- **Git Documentation** – reference for commands, branching, merging and repository operations.
+- **Pixabay** – provides freely usable sound assets.
+- **Gemini** – outputs AI imagery and sound.
 
 ---
 
 ### 📡 Hosting & Deployment  
 
-- **GitHub Pages** – hosts live demos of selected projects, making them accessible directly from the browser.
+- **GitHub Pages** – hosts guided projects and published work, making them accessible directly from the browser.
 
 ---
 

@@ -12,3 +12,8 @@
 | 🔍 [Behind the Craft](behind-the-craft/README.md) | Insight into my thinking, process, and philosophy |
 | 📜 [Certificates](certificates/README.md) | Credentials marking key stages of my learning |
 | 🤝 [Acknowledgements](acknowledgements/README.md) | Gratitude for all that is informing my craft |
+
+<sub>© Mohammed Usman</sub>
+
+<sub>All rights reserved. No commercial use, redistribution, or derivatives.</sub>
+

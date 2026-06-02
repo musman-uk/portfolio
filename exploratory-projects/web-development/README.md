@@ -2,7 +2,7 @@
 
 ### 🌱 Introduction
 
-Web development has grown from a simple document linking system into a global medium that shapes communication, creativity, and information access. Its foundations were established in 1989 when Tim Berners Lee proposed a hypertext system for sharing documents across networks (Berners Lee, 1989). HTML emerged publicly in 1991 as a structural language for organising content. JavaScript followed in 1995, created by Brendan Eich to introduce behaviour and interactivity within the browser (Eich, 1995). Cascading Style Sheets were formalised in 1996 by Håkon Wium Lie and Bert Bos to separate content from presentation (Lie and Bos, 1996). These technologies formed the core architecture of the modern web, which has since evolved through the Document Object Model, asynchronous communication, and responsive design practices. Together, they transformed the web from static pages into dynamic, adaptive environments. This evolution provides the foundation for understanding web development as both a technical system and a psychological environment shaped by how people read, think, and interact with digital content. This essay examines web development through a psychological perspective and through the practical considerations that influence how websites are structured, designed, and experienced.
+Web development has grown from a simple document linking system into a global medium that shapes communication, creativity, and information access. Its foundations were established in 1989 when Tim Berners Lee proposed a hypertext system for sharing documents across networks (Berners Lee, 1989). HTML emerged publicly in 1991 as a structural language for organising content. JavaScript followed in 1995, created by Brendan Eich to introduce behaviour and interactivity within the browser. Cascading Style Sheets were formalised in 1996 by Håkon Wium Lie and Bert Bos to separate content from presentation (Lie and Bos, 1996). These technologies formed the core architecture of the modern web, which has since evolved through the Document Object Model, asynchronous communication, and responsive design practices. Together, they transformed the web from static pages into dynamic, adaptive environments. This evolution provides the foundation for understanding web development as both a technical system and a psychological environment shaped by how people read, think, and interact with digital content. This essay examines web development through a psychological perspective and through the practical considerations that influence how websites are structured, designed, and experienced.
 
 ---
 
@@ -18,7 +18,7 @@ Accessibility is another essential dimension. The W3C’s guidelines emphasise s
 
 ### 🧰 Practical Considerations
 
-Practical web development involves balancing structure, presentation, and behaviour. HTML provides meaning, CSS shapes the visual experience, and JavaScript introduces interaction. Effective layouts rely on spacing, alignment, and proportion, while typography influences readability and tone. Interaction patterns guide users through tasks and support intuitive navigation. Performance is also a practical concern. Research shows that slow loading pages increase frustration and reduce trust, while fast, lightweight pages create a sense of ease and reliability (Akamai, 2017; Google Web.dev, 2018–2024).
+Practical web development involves balancing structure, presentation, and behaviour. HTML provides meaning, CSS shapes the visual experience, and JavaScript introduces interaction. Effective layouts rely on spacing, alignment, and proportion, while typography influences readability and tone. Interaction patterns guide users through tasks and support intuitive navigation. Performance is also a practical concern. Research shows that slow loading pages increase frustration and reduce trust, while fast, lightweight pages create a sense of ease and reliability.
 
 For example, my published websites, The Poets Codex and An Instrument Notebook, demonstrate how practical decisions about structure, design, and behaviour shape the user experience. The Poets Codex offers both light and dark modes because it is a reading focused environment where visual comfort supports comprehension. In contrast, An Instrument Notebook maintains a single theme because its atmosphere is central to the experience, and altering the visual palette would disrupt its intended mood. These examples show how context dependent design influences practical implementation.
 
@@ -36,40 +36,31 @@ Web development has become a versatile medium that supports expression, communic
 
 ---
 
-### References
+#### References  
 
-Akamai. (2017). State of Online Performance Report.  
-https://www.akamai.com/resources/research/state-of-online-performance
+Berners Lee, T. (1989). *Information Management: A Proposal*. CERN.  
+https://www.w3.org/History/1989/proposal.html  
 
-Berners Lee, T. (1989). Information Management: A Proposal. CERN.  
-https://www.w3.org/History/1989/proposal.html
+Lie, H. W., & Bos, B. (1996). *Cascading Style Sheets, Level 1*. W3C Recommendation.  
+https://www.w3.org/TR/CSS1  
 
-Eich, B. (1995). JavaScript Creation Notes. Netscape Communications.  
-https://brendaneich.com
+MDN Web Docs. (2024). *Web technology history archive*.  
+https://developer.mozilla.org/en-US/docs/Web  
 
-Google Web.dev. (2018–2024). Performance and UX Research.  
-https://web.dev/learn
+Nielsen Norman Group. (2006). *F‑shaped pattern for reading web content*.  
+https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content  
 
-Lie, H. W., and Bos, B. (1996). Cascading Style Sheets, Level 1. W3C Recommendation.  
-https://www.w3.org/TR/CSS1
+Nielsen Norman Group. (1998–2024). *UX research findings*.  
+https://www.nngroup.com/articles  
 
-MDN Web Docs. (2024). Web Technology History Archive.  
-https://developer.mozilla.org/en-US/docs/Web
+Norman, D. (1988). *The design of everyday things*.  
+https://www.jnd.org/books/the-design-of-everyday-things  
 
-Nielsen Norman Group. (2006). F Shaped Pattern for Reading Web Content.  
-https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content
+Pirolli, P., & Card, S. (1999). *Information foraging theory*.  
+https://www2.eecs.berkeley.edu/Pubs/TechRpts/1999/CSD-99-1057.pdf  
 
-Nielsen Norman Group. (1998–2024). UX Research Findings.  
-https://www.nngroup.com/articles
+Sweller, J. (1988). *Cognitive load theory*.  
+https://doi.org/10.1007/BF00375122  
 
-Norman, D. (1988). The Design of Everyday Things.  
-https://www.jnd.org/books/the-design-of-everyday-things
-
-Pirolli, P., and Card, S. (1999). Information Foraging Theory.  
-https://www2.eecs.berkeley.edu/Pubs/TechRpts/1999/CSD-99-1057.pdf
-
-Sweller, J. (1988). Cognitive Load Theory.  
-https://doi.org/10.1007/BF00375122
-
-W3C. (1996–2024). Web Standards and Accessibility Guidelines (WCAG).  
-https://www.w3.org/WAI/standards-guidelines
+W3C. (1996–2024). *Web standards and accessibility guidelines (WCAG)*.  
+https://www.w3.org/WAI/standards-guidelines  

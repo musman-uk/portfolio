@@ -8,7 +8,7 @@ Web development has grown from a simple document linking system into a global me
 
 ### 👤 Psychological Perspective
 
-Web development is deeply influenced by how people perceive, process, and interact with information. Research by the Nielsen Norman Group shows that users scan webpages in predictable patterns, often following an F shaped layout that prioritises the upper and left regions of the screen (Nielsen Norman Group, 2006). This behaviour highlights the importance of visual hierarchy, clear headings, and structured content. Cognitive load theory further explains that users can process only a limited amount of information at once, and that excessive complexity reduces comprehension and increases frustration (Sweller, 1988). Effective design therefore reduces unnecessary cognitive effort by presenting information in a logical and predictable manner.
+Web development is deeply influenced by how people perceive, process, and interact with information. Research by the Nielsen Norman Group shows that users scan webpages in predictable patterns, often following an F shaped layout that prioritises the upper and left regions of the screen (Nielsen Norman Group, 2017). This behaviour highlights the importance of visual hierarchy, clear headings, and structured content. Cognitive load theory further explains that users can process only a limited amount of information at once, and that excessive complexity reduces comprehension and increases frustration (Sweller, 1988). Effective design therefore reduces unnecessary cognitive effort by presenting information in a logical and predictable manner.
 
 Human Computer Interaction literature emphasises the role of affordances and mental models in guiding user behaviour. Norman’s work demonstrates that users rely on familiar cues to understand how to interact with digital elements (Norman, 1988). When interfaces align with these expectations, users experience smoother navigation and reduced cognitive strain. Information foraging theory adds that users behave like seekers of information, evaluating the value of content based on cues such as headings, link labels, and layout (Pirolli and Card, 1999). These psychological principles shape modern design practices, encouraging clarity, predictability, and meaningful structure.
 
@@ -47,7 +47,7 @@ https://www.w3.org/TR/CSS1
 MDN Web Docs. (2024). *Web technology history archive*.  
 https://developer.mozilla.org/en-US/docs/Web  
 
-Nielsen Norman Group. (2006). *F‑shaped pattern for reading web content*.  
+Nielsen Norman Group. (2017). *F‑shaped pattern for reading web content*.  
 https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content  
 
 Nielsen Norman Group. (1998–2024). *UX research findings*.  
@@ -56,11 +56,8 @@ https://www.nngroup.com/articles
 Norman, D. (1988). *The design of everyday things*.  
 https://www.jnd.org/books/the-design-of-everyday-things  
 
-Pirolli, P., & Card, S. (1999). *Information foraging theory*.  
-https://www2.eecs.berkeley.edu/Pubs/TechRpts/1999/CSD-99-1057.pdf  
+Pirolli, P., & Card, S. (1999). *Information foraging*. Psychological Review, 106(4), 643–675.  
+https://www.researchgate.net/publication/229101074_Information_Foraging  
 
-Sweller, J. (1988). *Cognitive load theory*.  
-https://doi.org/10.1007/BF00375122  
-
-W3C. (1996–2024). *Web standards and accessibility guidelines (WCAG)*.  
-https://www.w3.org/WAI/standards-guidelines  
+Sweller, J. (1988). *Cognitive load during problem solving: Effects on learning*. Cognitive Science, 12(2), 257–285.  
+https://doi.org/10.1016/0364-0213(88)90023-7  

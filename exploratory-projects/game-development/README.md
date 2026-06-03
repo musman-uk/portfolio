@@ -61,7 +61,7 @@ and speed. C# later became central to Unity, offering a higher level, more
 accessible approach to scripting. These languages influence how mechanics are
 implemented, how systems communicate, and how efficiently games run.
 
-My published games, such as *A Quiet Tree* and *Lanterns Trail*, reflect the
+My published games, such as *Quiet Tree* and *Lanterns Trail*, reflect the
 practical considerations of small scale game development. *A Quiet Tree* focuses
 on stillness and atmosphere, using minimal interaction and gentle visuals to
 create a moment of calm. Its simplicity is intentional, allowing the environment

@@ -13,13 +13,13 @@ arrival of the first home video game console, designed by Ralph Baer and laying
 the foundation for commercial game systems (Baer, 1972). These early
 developments established games as a new form of digital expression, shaped by
 both technological constraints and creative experimentation. This essay examines
-game development through the psychology of play, the practical craft of building
-games, and the exploratory projects that informed my early understanding of the
-medium.
+game development through the psychology of play, the technical foundations that
+support modern games, and the design tensions that shape how interactive
+experiences are created.
 
 ---
 
-### 🧠 Psychology of Play and Interaction
+### 🧠 Psychology of Play
 
 Games rely on how players perceive, learn, and respond to systems. Cognitive
 psychology shows that players form mental models to understand how a game
@@ -42,7 +42,7 @@ moments of discovery.
 
 ---
 
-### 🕹️ Practical Craft and Game Mechanics
+### 🕹️ Game Engines, Systems, and Mechanics
 
 Practical game development involves balancing mechanics, visuals, sound, and
 performance. Early engines such as the DOOM Engine in 1993 and the Quake Engine
@@ -50,9 +50,9 @@ in 1996 introduced new possibilities for rendering, movement, and level design,
 influencing how developers approached game structure (Kushner, 2003). The
 release of Unreal Engine in 1998 marked a significant shift toward tool driven
 development, providing editors and scripting systems that supported more complex
-worlds (2026, GameCritX). Unity, introduced in 2005, expanded
-accessibility by offering a cross platform engine with a focus on usability and
-rapid iteration (Retro Reversing, 2026).
+worlds (2026, GameCritX). Unity, introduced in 2005, expanded accessibility by
+offering a cross platform engine with a focus on usability and rapid iteration
+(Retro Reversing, 2026).
 
 Programming languages also shaped the evolution of game development. C,
 introduced in 1972, supported early systems programming, while C++ became the
@@ -61,18 +61,9 @@ and speed. C# later became central to Unity, offering a higher level, more
 accessible approach to scripting. These languages influence how mechanics are
 implemented, how systems communicate, and how efficiently games run.
 
-My published games, such as *Quiet Tree* and *Lanterns Trail*, reflect the
-practical considerations of small scale game development. *A Quiet Tree* focuses
-on stillness and atmosphere, using minimal interaction and gentle visuals to
-create a moment of calm. Its simplicity is intentional, allowing the environment
-to take precedence over mechanics. *Lanterns Trail* explores movement and light,
-using contrast and motion to guide the player through a small, self contained
-world. Both projects demonstrate how mechanics, visuals, and mood must align to
-create a coherent experience.
-
 ---
 
-### 📣 Game Design Tensions and Interpretive Challenges
+### 📣 Balancing Game Design Tensions
 
 Game development involves navigating the tension between creativity and
 constraint. While modern engines allow for ambitious ideas, effective games
@@ -80,9 +71,31 @@ often emerge from clear limitations, whether technical, aesthetic, or
 conceptual. Psychological principles emphasise readability and player
 understanding, yet expressive design sometimes challenges these boundaries.
 Developers must interpret these tensions within the context of each project,
-deciding when to simplify, when to guide, and when to allow ambiguity. The
-history of game development shows that meaningful experiences often arise from
-the interplay between technological possibility and thoughtful design.
+deciding when to simplify, when to guide, and when to allow ambiguity.
+
+Some games limit player freedom to preserve narrative integrity. In *Scarface*
+(2006), the player cannot harm civilians because Tony Montana’s refusal to harm
+innocents is not a minor detail but a defining boundary that even shapes his
+downfall in the film. Removing that boundary would mean the player is no longer
+playing Tony Montana, only a loose imitation. Similar constraints appear in the
+*Batman: Arkham* series, where lethal force is prohibited to maintain fidelity
+to the character, and in *Assassin’s Creed*, where harming civilians breaks the
+historical and thematic framing of the world. These examples show how design
+must balance expressive freedom with coherence, identity, and narrative
+authenticity.
+
+My published games, such as *Quiet Tree* and *Lanterns Trail*, reflect the
+practical considerations of small scale game development. *A Quiet Tree* focuses
+on stillness and atmosphere, using minimal interaction and gentle visuals to
+create a moment of calm. Its simplicity is intentional, allowing the environment
+to take precedence over mechanics. *Lanterns Trail* explores movement and light,
+using contrast and motion to guide the player through a small, self contained
+world. My focus on small, cohesive games reflects a deliberate choice to keep
+scope clear, respect my current ability, and prioritise finishing and shipping
+complete experiences. I prefer a small, coherent project over a larger, unfocused
+one, because clarity of scale supports clarity of design. These projects
+demonstrate how mechanics, visuals, and mood must align to create a coherent
+experience.
 
 ---
 
@@ -90,14 +103,14 @@ the interplay between technological possibility and thoughtful design.
 
 Game development is a medium defined by interaction, emotion, and intentional
 design. Its history spans early laboratory experiments, pioneering consoles, and
-the evolution of powerful engines that continue to shape the field. My
-published games aim to contribute to this tradition by focusing on atmosphere,
-movement, and the quiet emotional spaces that small games can create. They
-reflect an understanding that effective digital experiences emerge not only from
-technical skill but from sensitivity to how players perceive, interpret, and
-respond to interactive worlds. Game development remains an ongoing discipline
-shaped by curiosity, iteration, and the desire to craft experiences that
-resonate with players.
+the evolution of powerful engines that continue to shape the field. My published
+games aim to contribute to this tradition by focusing on atmosphere, movement,
+and the quiet emotional spaces that small games can create. They reflect an
+understanding that effective digital experiences emerge not only from technical
+skill but from sensitivity to how players perceive, interpret, and respond to
+interactive worlds. Game development remains an ongoing discipline shaped by
+curiosity, iteration, and the desire to craft experiences that resonate with
+players.
 
 ---
 

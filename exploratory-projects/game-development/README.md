@@ -73,29 +73,25 @@ understanding, yet expressive design sometimes challenges these boundaries.
 Developers must interpret these tensions within the context of each project,
 deciding when to simplify, when to guide, and when to allow ambiguity.
 
-Some games limit player freedom to preserve narrative integrity. In *Scarface*
-(2006), the player cannot harm civilians because Tony Montana’s refusal to harm
-innocents is not a minor detail but a defining boundary that even shapes his
-downfall in the film. Removing that boundary would mean the player is no longer
-playing Tony Montana, only a loose imitation. Similar constraints appear in the
-*Batman: Arkham* series, where lethal force is prohibited to maintain fidelity
-to the character, and in *Assassin’s Creed*, where harming civilians breaks the
-historical and thematic framing of the world. These examples show how design
-must balance expressive freedom with coherence, identity, and narrative
-authenticity.
+Some games limit player freedom to preserve authenticity, and to remain coherent. In *Scarface*
+(2006), the player cannot harm civilians because the character they play - Tony Montana,
+refusal to harm civillians is not a minor detail but a defining boundary established in the 
+film the game is based on - Scarface(1983). Removing that boundary would mean the player is no
+longer truly playing Tony Montana. Similar constraints appear in the *Batman: Arkham* series, where 
+lethal force is prohibited to maintain established canon to the character, and in *Assassin’s Creed*, 
+where harming civilians breaks the historical and thematic framing of the world. These examples show 
+how gameplay design must balance expressive freedom whilst being true to the both the material it is based
+on, and remaining coherent to its own internal established rules.
 
-My published games, such as *Quiet Tree* and *Lanterns Trail*, reflect the
-practical considerations of small scale game development. *A Quiet Tree* focuses
-on stillness and atmosphere, using minimal interaction and gentle visuals to
+My published games, such as *Quiet Tree* and *Lanterns Trail*, alzo reflect the
+practical considerations of game development, albeit on a smaller scale. *A Quiet Tree* 
+focuses on stillness and atmosphere, using minimal interaction and gentle visuals to
 create a moment of calm. Its simplicity is intentional, allowing the environment
 to take precedence over mechanics. *Lanterns Trail* explores movement and light,
 using contrast and motion to guide the player through a small, self contained
-world. My focus on small, cohesive games reflects a deliberate choice to keep
-scope clear, respect my current ability, and prioritise finishing and shipping
-complete experiences. I prefer a small, coherent project over a larger, unfocused
-one, because clarity of scale supports clarity of design. These projects
-demonstrate how mechanics, visuals, and mood must align to create a coherent
-experience.
+world. I believe players would prefer small coherent experiences over a larger, 
+unfocused ones, because when the game has a clear purpose and design - the mechanics,
+visuals, and mood that is in tune with this will then be able to create a coherent experience.
 
 ---
 

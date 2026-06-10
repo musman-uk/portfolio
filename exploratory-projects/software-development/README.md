@@ -74,13 +74,6 @@ Cloud platforms and containerisation tools further support reproducibility and
 scalability, allowing developers to deploy applications consistently across
 environments.
 
-My own projects, such as LogTidy and FrictionDetect, reflect these practices.
-Both tools emphasise clarity, predictable behaviour, and a minimalist command‑
-line experience. They use Rust for its safety guarantees, Git for version
-control, and GitHub Actions for automated builds. Their design prioritises
-fixed‑schema output, clear documentation, and a workflow that supports both
-human readability and machine processing.
-
 ---
 
 ### ⚖️ Balancing Software Design Tensions

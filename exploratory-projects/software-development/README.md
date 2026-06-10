@@ -5,9 +5,9 @@
 Software development is a discipline shaped by logic, creativity, and the
 practical need to build systems that solve real problems. Its foundations were
 established in the mid‑twentieth century, when early programming languages such
-as Fortran (1957) and COBOL (1959) introduced the idea that software could be
+as Fortran in 1957 and COBOL in 1959 introduced the idea that software could be
 written, structured, and maintained independently of the machines that executed
-it (Backus, 1957; Hopper, 1959). The development of Unix in 1969 and the C
+it (Backus, 1957; Hopper, 1952). The development of Unix in 1969 and the C
 programming language in 1972 further transformed the field by promoting
 portability, modularity, and the philosophy of small, composable tools
 (Ritchie and Thompson, 1974). These ideas continue to influence modern software
@@ -132,13 +132,13 @@ and thoughtfully designed.
 #### References
 
 Backus, J. (1957). *The Fortran Automatic Coding System*. IBM.  
-https://www.ibm.com/ibm/history/exhibits/701/701_fortran.html
+https://archive.org/details/fortran-automated-coding
 
-Hopper, G. (1959). *The Education of a Computer*.  
-https://archive.computerhistory.org/resources/text/Grace_Hopper/Grace_Hopper_TheEducationOfAComputer.pdf
+Hopper, G. (1952). *The Education of a Computer*.  
+https://dl.acm.org/doi/10.1145/609784.609818
 
 Ritchie, D., and Thompson, K. (1974). *The UNIX Time‑Sharing System*.  
-https://www.bell-labs.com/usr/dmr/www/cacm74.pdf
+https://dl.acm.org/doi/10.1145/361011.361061
 
 Newell, A., and Simon, H. (1972). *Human Problem Solving*.  
 https://archive.org/details/humanproblemsolv0000newe
@@ -146,5 +146,5 @@ https://archive.org/details/humanproblemsolv0000newe
 Reason, J. (1990). *Human Error*. Cambridge University Press.  
 https://doi.org/10.1017/CBO9781139062367
 
-Torvalds, L. (2005). *Git Source Code Management*.  
-https://git-scm.com
+Torvalds, L. (2005). *Git - A Short History of Git
+https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git

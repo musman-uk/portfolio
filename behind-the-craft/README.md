@@ -9,3 +9,4 @@
 | 🗄️ Portfolio Documentation     | Codification of documentation standards               | Documentation discipline embedded into workflow practice    | [View](portfolio-documentation/README.md) |
 | ⚙️ Portfolio Automation        | Checks, syncs, and mirrors safeguarding portfolio updates | Reliable and reversible workflow protecting creativity and delivery | [View](portfolio-automation/README.md) |
 | ♻️ Portfolio Restructure       | Refinement of structure, naming, and navigation        | Clearer clusters, improved scannability, and stronger narrative flow | [View](portfolio-restructure/README.md) |
+| ⏳ Retrospective Cycle II      | Review of six published works and the insights gained from creating them | Clearer understanding of craft evolution across games, tools, and web artefacts | [View](retrospective-cycle-ii/README.md) |

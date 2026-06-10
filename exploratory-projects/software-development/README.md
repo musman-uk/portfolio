@@ -94,17 +94,16 @@ precision.
 
 Another tension arises between rapid development and long‑term maintainability.
 Shortcuts may accelerate early progress but introduce technical debt that
-complicates future work. Practices such as modular design, automated testing,
-and clear documentation help mitigate these risks, but they require discipline
-and thoughtful planning.
+complicates future work (Brooks, 1995). Practices such as modular design,
+automated testing, and clear documentation help mitigate these risks, but they
+require discipline and thoughtful planning.
 
-Open‑source development introduces its own challenges. Projects must remain
-approachable to contributors, which requires clear structure, readable code, and
-documentation that communicates intent. My own preference for small, cohesive
-tools reflects a desire to keep scope manageable, respect my current ability,
-and prioritise finishing and shipping complete artefacts. A small, well‑defined
-project can be extended over time, while an overly ambitious one risks becoming
-unfocused and difficult to maintain.
+Open‑source development introduces its own challenges (Raymond, 2000). Projects
+must remain approachable to contributors, which requires clear structure,
+readable code, and documentation that communicates intent. My own preference for
+small, cohesive tools reflects a desire to keep scope manageable, prioritise shipping coherent artefacts. 
+A small, well‑defined project can be extended over time, while an overly ambitious one risks 
+becoming unfocused and difficult to maintain.
 
 These tensions are not obstacles but guiding forces. They shape how software is
 designed, how it evolves, and how developers interpret the needs of users and
@@ -119,7 +118,7 @@ creating meaningful tools.
 Software development is a discipline that blends logic, creativity, and
 practical problem solving. Its history spans early programming languages, the
 Unix philosophy, and the evolution of modern tools that support collaboration
-and automation. My own work aims to contribute to this tradition by emphasising
+and automation. My published tools aims to contribute to this sector by emphasising
 clarity, safety, and cohesive design. These principles reflect an understanding
 that effective software emerges not only from technical skill but from the
 ability to reason about systems, navigate constraints, and build tools that
@@ -148,3 +147,9 @@ https://doi.org/10.1017/CBO9781139062367
 
 Torvalds, L. (2005). *Git - A Short History of Git
 https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git
+
+Brooks, F. P. (1995). *The Mythical Man‑Month*. Addison‑Wesley.  
+https://www.researchgate.net/publication/220689892_The_Mythical_Man-Month_Essays_on_Software_Engineering
+
+Raymond, E. S. (2000). *The Cathedral and the Bazaar*.  
+https://firstmonday.org/ojs/index.php/fm/article/view/1472/1387

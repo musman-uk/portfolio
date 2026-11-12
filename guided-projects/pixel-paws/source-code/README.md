@@ -3,8 +3,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🐾 Pixel Paws</title>
   <style>
+    html, body {
+      height: 100%;
+      overflow: hidden;
+   }
+
     /* Global styles: simple, playful palette and centered layout to keep focus on the pets */
     body {
       font-family: Arial, sans-serif;
@@ -75,11 +81,11 @@
       position: fixed;
       bottom: 8px;
       right: 12px;
-      font-size: 0.8em;
-      color: #ffffff; /* solid white for clarity */
-      text-shadow: 0 0 2px rgba(0,0,0,0.8); /* crisp outline for readability */
+      font-size: 0.70em;
+      color: #858181; 
       font-family: Arial, sans-serif;
-      font-weight: 500;
+      margin: 10px;
+      text-align: left;
     }
   </style>
 </head>
@@ -112,7 +118,9 @@
 
   <!-- Attribution footer -->
   <footer>
-    Originally created and hosted via Mimo
+     © Mohammed Usman<br>
+     <br>
+    Created with Mimo <br>
   </footer>
 
   <script>
@@ -180,7 +188,7 @@
       }
     }
 
-    // Game loop: decreases fed levels every 5 seconds to simulate time passing
+    // Fed levels intervals: decreases fed levels every 5 seconds to simulate time passing
     setInterval(() => {
       pet1.decreaseFedLevel();
       pet2.decreaseFedLevel();
@@ -191,3 +199,4 @@
   </script>
 </body>
 </html>
+```

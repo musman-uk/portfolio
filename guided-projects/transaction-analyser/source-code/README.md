@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>📊 Transaction Analyser</title>
   <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
   <style>
@@ -141,9 +142,9 @@ def analyse_transactions(transactions):
 Type "help", "credits", "license" or "copyright"
 for more information.`;
     }
-    updateHeader(); setInterval(updateHeader, 1000); // refresh every second so minutes flip on time
+    updateHeader(); setInterval(updateHeader, 1000);
 
-    /* Initialize Pyodide and preload Python code to avoid first-command delay */
+    /* Initialize Pyodide and preload Python code */
     let pyodide;
     async function initPyodide(){
       pyodide=await loadPyodide();
@@ -153,14 +154,14 @@ for more information.`;
     }
     window.addEventListener("load",()=>{ initPyodide(); });
 
-    /* Append text to output and auto-scroll to bottom */
+    /* Append text to output and auto-scroll */
     function appendAndStick(text) {
       const out = document.getElementById("output");
       out.textContent += text;
       out.scrollTop = out.scrollHeight;
     }
 
-    /* Command router: maps user input to Python functions or built-in responses */
+    /* Command router */
     async function runCommand(raw) {
       const cmd = raw.trim().toLowerCase();
       let output = "";
@@ -173,13 +174,14 @@ for more information.`;
       } else if (cmd === "help") {
         output = "Options:\n\nprint = show summary totals\nanalyse = show dataset, averages, largest values\nstop = end program";
       } else if (cmd === "credits") {
-        output = "This was originally created on Mimo.";
+        output =
+          "© Mohammed Usman\n\n" +
+          "Created with Mimo\n\n" ;
       } else if (cmd === "copyright") {
         output = "Copyright (c) 2001-2025 Python Software Foundation.\nAll Rights Reserved.";
       } else if (cmd === "license") {
         output = "Python is distributed under the PSF License.\nSee https://docs.python.org/3/license.html for details.";
       } else if (cmd === "stop") {
-        // Reset message instead of actually quitting, to keep demo interactive
         output = "Program stopped.\n\nOptions:\n\n1. Print summary (type 'print')\n\n2. Analyse transactions (type 'analyse')\n\n3. Stop program (type 'stop')";
       } else {
         output = "Invalid choice";
@@ -188,7 +190,7 @@ for more information.`;
       appendAndStick(`\n>>> ${cmd}\n\n${output}`);
     }
 
-    /* Capture Enter key to submit commands; clear line after execution */
+    /* Capture Enter key */
     const cmdEl=document.getElementById("command");
     cmdEl.addEventListener("keydown", async e=>{
       if(e.key==="Enter"){
@@ -199,7 +201,7 @@ for more information.`;
       }
     });
 
-    /* Cursor visibility: shown briefly on movement, hidden again for immersion */
+    /* Cursor visibility */
     let cursorTimer=null;
     window.addEventListener("mousemove",()=>{
       document.body.style.cursor="default";
@@ -209,4 +211,4 @@ for more information.`;
   </script>
 </body>
 </html>
-
+```

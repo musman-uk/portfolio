@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🖼️ Interactive Gallery</title>
   <style>
     /* Global styles: neutral font and warm background to keep focus on the gallery content */
@@ -11,6 +12,9 @@
       padding: 0;
       margin: 0;
       background-color: antiquewhite;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     h1 {
@@ -79,15 +83,16 @@
 
     /* Footer: fixed credit, styled subtly so it remains visible without competing with content */
     footer {
-      position: fixed;
+      position: relative;
       bottom: 8px;
-      right: 12px;
-      font-size: 0.8em;
-      color: #ffffff;
-      text-shadow: 0 0 2px rgba(0,0,0,0.8);
+      font-size: 0.70em;
+      color: #a2a0a7;
+      margin: 10px;
       font-family: Arial, sans-serif;
-      font-weight: 500;
-    }
+      margin-top: auto;
+      align-self: flex-end;
+      text-align: left;
+}
   </style>
 </head>
 <body>
@@ -120,7 +125,9 @@
 
   <!-- Attribution footer -->
   <footer>
-    Originally created and hosted via Mimo
+      © Mohammed Usman<br>
+     <br>
+      Created with Mimo <br>
   </footer>
 
   <script>
@@ -139,3 +146,4 @@
   </script>
 </body>
 </html>
+```

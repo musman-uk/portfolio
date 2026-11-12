@@ -11,34 +11,34 @@ projects themselves.
 
 ### 🎛️ Meta Analysis  
 
-**The Poets Codex**  
-Working on The Poets Codex revealed how structure, aesthetics, and narrative can coexist within a technical system.  
+**The Poets Octavo**  
+Working on The Poets Octavo revealed how structure, aesthetics, and narrative can coexist within a technical system.  
 The project showed me that a static site can feel expressive when its architecture is intentional and its design language  
 is coherent. It also reminded me that technical work can carry emotional tone. The manuscript inspired aesthetic  
 demonstrated that code and creativity are not separate domains. They can inform one another in subtle and meaningful  
 ways. The Codex became a lesson in how design choices shape atmosphere, and how atmosphere shapes interpretation.  
 
-**Instrumental Notes**  
-Instrumental Notes taught me that simplicity can create a sense of calm when it is supported by clear structure.  
+**An Instrument Notebook**  
+An Instrument Notebook taught me that simplicity can create a sense of calm when it is supported by clear structure.  
 The project revealed how a minimal interface can still feel complete when its purpose is well defined. It also  
 highlighted the value of timelessness. By avoiding trends and unnecessary decoration, the site became a quiet space  
 that invites reflection rather than demanding attention. The process reinforced my belief that digital spaces can  
 be gentle, and that gentleness can be a design choice rather than an absence of ambition.  
 
-**A Quiet Tree**  
-Publishing A Quiet Tree reinforced the idea that small games can carry emotional weight through restraint.  
+**A Quiet Apple Tree**  
+Publishing A Quiet Apple Tree reinforced the idea that small games can carry emotional weight through restraint.  
 The project revealed how atmosphere, pacing, and stillness can create meaning without complex mechanics.  
 It also taught me that a game does not need to be large to feel intentional. The quietness of the experience  
 became a reminder that some projects succeed by offering a moment of pause rather than a sequence of challenges.  
-A Quiet Tree showed me that minimal interaction can still create a sense of presence when the environment is  
+A Quiet Apple Tree showed me that minimal interaction can still create a sense of presence when the environment is  
 designed with care.  
 
-**Lanterns Trail**  
-Lanterns Trail deepened my understanding of how movement and contrast guide player perception.  
+**A Gentle Lantern's Trail**  
+A Gentle Lantern's Trail deepened my understanding of how movement and contrast guide player perception.  
 The project revealed how light can function as both mechanic and navigation tool, and how small spaces can  
 feel expansive when designed with clarity. Completing the game taught me the importance of finishing.  
 The act of bringing a small world to completion provided more insight into scope, coherence, and discipline  
-than any unfinished prototype could. Lanterns Trail became a lesson in how visual rhythm and spatial design  
+than any unfinished prototype could. A Gentle Lantern's Trail became a lesson in how visual rhythm and spatial design  
 shape the player’s emotional experience.  
 
 **LogTidy**  

@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>✅ To Do List</title>
   <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
   <style>
@@ -147,7 +148,14 @@ def remove_task():
         if(low==="2"){ appendAndStick(await pyRunAndCapture("remove_task()")); return; }
         if(low==="3"){ await pyodide.runPythonAsync("todo_list.clear()"); appendAndStick("Your To Do List is empty"+MENU_TEXT); return; }
         if(low==="help"){ appendAndStick("Type the number of an option to execute it.\n\n1 = Add a task\n2 = Remove the last task\n3 = Quit the program"); return; }
-        if(low==="credits"){ appendAndStick("This was originally created on Mimo."); return; }
+        if(low==="credits"){
+          appendAndStick(
+            "Created with Mimo\n\n" +
+            "© Mohammed Usman\n\n" 
+
+          );
+          return;
+        }
         if(low==="license"){ appendAndStick("Python is distributed under the PSF License.\nSee https://docs.python.org/3/license.html for details."); return; }
         if(low==="copyright"){ appendAndStick("Copyright (c) 2001-2025 Python Software Foundation.\nAll Rights Reserved."); return; }
       }
@@ -193,3 +201,4 @@ def remove_task():
   </script>
 </body>
 </html>
+```

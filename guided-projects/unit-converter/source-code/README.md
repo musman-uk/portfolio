@@ -3,8 +3,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>🔢 Unit Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔄 Unit Converter</title>
   <style>
+    html, body {
+      height: 100%;
+      overflow: hidden;
+   }
     /* Page foundation: dark background for strong contrast, consistent padding, and a neutral sans-serif font for readability */
     body {
       background-color: darkgreen;
@@ -16,6 +21,7 @@
     /* Title styled as a card: white background and rounded corners ensure visibility against the dark page */
     h1 {
       background-color: white;
+      width: 250px;
       padding: 20px;
       border-radius: 20px;
     }
@@ -25,7 +31,7 @@
       background-color: white;
       color: black;
       border-radius: 20px;
-      width: 300px;
+      width: 200px;
       min-height: 30px;
       padding: 20px;
     }
@@ -49,15 +55,16 @@
       background-color: #eee;
     }
 
-    /* Footer credit: fixed in bottom-right, styled subtly so attribution is visible but doesn’t distract from main UI */
+    /* Footer credit: styled subtly so attribution is visible but doesn’t distract from main UI */
     footer {
       position: fixed;
       bottom: 8px;
       right: 12px;
-      font-size: 0.75em;
-      color: rgba(255,255,255,0.7); /* translucent white keeps it legible without dominating */
-      text-shadow: 0 0 3px rgba(0,0,0,0.6); /* ensures readability even if background is light */
+      font-size: 0.70em;
+      color: rgba(197, 190, 190, 0.7); 
       font-family: Arial, sans-serif;
+      margin: 10px;
+      text-align: left;
     }
   </style>
 </head>
@@ -81,7 +88,9 @@
 
   <!-- Attribution footer -->
   <footer>
-    Originally created and hosted via Mimo
+    © Mohammed Usman<br>
+     <br>
+    Created with Mimo<br>
   </footer>
 
   <script>
@@ -127,4 +136,4 @@
   </script>
 </body>
 </html>
-
+```

@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🏆 Score Keeper</title>
   <!-- React + ReactDOM via CDN: chosen for simplicity so the demo runs without a build step -->
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
@@ -10,6 +11,10 @@
   <!-- Babel included to transpile JSX in-browser; acceptable for demos, not production -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <style>
+    html, body {
+      height: 100%;
+      overflow: hidden;
+   }
     /* Base page: light, neutral palette and centered text keep focus on the score UI */
     body {
       background-color: lightcyan;
@@ -71,20 +76,22 @@
       position: fixed;
       bottom: 8px;
       right: 12px;
-      font-size: 0.8em;
-      color: #ffffff;
-      text-shadow: 0 0 2px rgba(0,0,0,0.8);
+      font-size: 0.70em;
+      color: rgba(149, 156, 162, 0.747);
       font-family: Arial, sans-serif;
-      font-weight: 500;
+      margin: 10px;
+      text-align: left;
     }
   </style>
 </head>
 <body>
   <div id="root"></div>
 
-  <!-- Attribution footer for transparency -->
+  <!-- Attribution footer -->
   <footer>
-    Originally created and hosted via Mimo
+    © Mohammed Usman<br>
+     <br>
+    Created with Mimo <br>
   </footer>
 
   <script type="text/babel">
@@ -158,3 +165,4 @@
   </script>
 </body>
 </html>
+```

@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🔐 Caesar Cipher</title>
   <style>
     /* Global styles: serif font for a classical feel, dark theme for contrast and readability */
@@ -12,6 +13,9 @@
       color: #AAB8C2;
       margin: 0;
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     /* Headings: light text with underline to separate sections visually */
@@ -30,6 +34,7 @@
     #output {
       margin: 20px;
       font-size: 1.1em;
+      overflow-wrap: break-word;
     }
 
     /* Inputs and textarea: styled to match dark theme, with clear focus state for accessibility */
@@ -52,16 +57,17 @@
       outline: none;
     }
 
-    /* Footer: fixed credit, styled subtly so it remains visible without distracting from the tool */
+    /* Footer: now bottom-right on desktop, bottom-left on mobile */
     footer {
-      position: fixed;
+      position: relative;
       bottom: 8px;
-      right: 12px;
-      font-size: 0.8em;
-      color: #ffffff;
-      text-shadow: 0 0 2px rgba(0,0,0,0.8);
+      font-size: 0.70em;
+      color: #656467;
       font-family: Arial, sans-serif;
-      font-weight: 500;
+      margin: 5px;
+      margin-top: auto;
+      align-self: flex-end;
+      text-align: left;
     }
   </style>
 </head>
@@ -79,6 +85,7 @@
     rows="4"
     cols="50"
     placeholder="Enter your text here..."
+    maxlength="500"
   ></textarea>
 
   <!-- Output: dynamically updated with translated text -->
@@ -87,7 +94,9 @@
 
   <!-- Attribution footer -->
   <footer>
-    Originally created and hosted via Mimo
+    © Mohammed Usman<br>
+     <br>
+    Created with Mimo <br>
   </footer>
 
   <script>
@@ -113,3 +122,4 @@
   </script>
 </body>
 </html>
+```

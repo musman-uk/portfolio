@@ -2,29 +2,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>📊 Transaction Analyser</title>
+  <title>✅ To Do List</title>
   <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
   <style>
-    /* Full-screen terminal look; cursor hidden by default for immersion */
+    /* Full-screen terminal aesthetic; cursor hidden to emphasize keyboard-driven interaction */
     html, body { height:100%; margin:0; cursor:none; }
     body {
-      background:#000; color:#fff;
-      font-family:"Courier New", monospace;
+      background:#000; color:#fff; font-family:"Courier New",monospace;
       font-size:0.9em; overflow:hidden;
     }
 
-    /* Terminal layout: header at top, scrollable output, fixed input line */
+    /* Column layout: header, scrollable output, fixed input line */
     #terminal {
       display:flex; flex-direction:column; height:100%;
-      padding:14px 20px 20px 20px; box-sizing:border-box;
+      padding:14px 20px 20px 20px; box-sizing:border-box; background:#000;
     }
 
-    /* Header mimics Python REPL banner */
+    /* Header mirrors a Python REPL banner; left-aligned for authenticity */
     #header { margin-bottom:1em; white-space:pre-wrap; text-align:left; }
 
-    /* Output area: hides scrollbars for realism, spacer prevents overlap with input */
+    /* Output hides native scrollbars for immersion; bottom spacer prevents overlap with input */
     #output {
       flex:1 1 auto; white-space:pre-wrap; overflow-y:auto;
       scrollbar-width:none; padding-bottom:12px;
@@ -32,14 +31,13 @@
     #output::-webkit-scrollbar { display:none; }
     #output::after { content:""; display:block; height:64px; }
 
-    /* Input line: prompt + editable command span */
+    /* Prompt + editable command area; custom block cursor added when ready */
     #input-line {
       flex:0 0 auto; display:inline-flex; align-items:center;
       margin-top:8px; padding-top:4px; line-height:1em;
     }
     #prompt, #command {
-      font-family:"Courier New", monospace;
-      font-size:0.9em; line-height:1em;
+      font-family:"Courier New", monospace; font-size:0.9em; line-height:1em;
       display:inline-flex; align-items:center;
     }
     #prompt { margin-right:6px; }
@@ -47,9 +45,9 @@
       outline:none; white-space:pre; caret-color:transparent;
       min-width:1ch; flex:1 1 auto;
     }
-    /* Zero-width space keeps line height stable when empty */
+    /* Zero-width space prevents the empty contenteditable from collapsing */
     #command:empty::before { content:"\200B"; visibility:hidden; }
-    /* Custom blinking block cursor for terminal authenticity */
+    /* Block cursor mimics terminal feel more faithfully than a text caret */
     #command.ready::after {
       content:""; display:inline-block; width:8px; height:1em;
       background:#fff; animation:blink 1s steps(1) infinite; margin-left:0;
@@ -60,154 +58,146 @@
 <body>
   <div id="terminal">
     <div id="header"></div>
-
     <div id="output">
-Welcome to Transaction Analyser
+Welcome to To Do List
 
 Options:
 
-1. Print summary (type 'print')
+1. Add Task
 
-2. Analyse transactions (type 'analyse')
+2. Remove Task
 
-3. Stop program (type 'stop')
+3. Quit
+
+Enter Your Choice, 1, 2, or 3
     </div>
-
     <div id="input-line">
       <span id="prompt">>>> </span>
       <span id="command" contenteditable="true"></span>
     </div>
   </div>
 
-  <!-- Python logic: dataset + functions for summary and analysis -->
   <script type="text/python" id="py-code">
-data = [
-  (749.17, "Investment Return"),
-  (-11.54, "Utilities"),
-  (-247.58, "Online Shopping"),
-  (981.17, "Investment Return"),
-  (-410.65, "Rent"),
-  (310.60, "Rent"),
-  (563.70, "Gift"),
-  (220.79, "Salary"),
-  (-49.85, "Car Maintenance"),
-  (308.49, "Salary"),
-  (-205.55, "Car Maintenance"),
-  (870.64, "Salary"),
-  (-881.51, "Utilities"),
-  (518.14, "Salary"),
-  (-264.66, "Groceries")
-]
+todo_list = []
 
-def print_summary(transactions):
-    # Aggregate totals for deposits and withdrawals
-    deposits = [t[0] for t in transactions if t[0] >= 0]
-    withdrawals = [t[0] for t in transactions if t[0] <= 0]
-    total_deposited, total_withdrawn = sum(deposits), sum(withdrawals)
-    balance = total_deposited + total_withdrawn
-    print("Summary:")
-    print(f"  Deposited: {total_deposited:.2f}  Withdrawn: {total_withdrawn:.2f}  Balance: {balance:.2f}\n")
+def add_task(task):
+    todo_list.append(task)
+    print(f"Task '{task}' added")
 
-def analyse_transactions(transactions):
-    # Print all transactions for transparency
-    print("Transactions:")
-    for amount, desc in transactions:
-        print(f"  {amount:.2f}  {desc}")
-    print()
-
-    # Calculate averages separately for withdrawals and deposits
-    withdrawals = [t[0] for t in transactions if t[0] <= 0]
-    deposits = [t[0] for t in transactions if t[0] >= 0]
-    avg_withdrawal = sum(withdrawals)/len(withdrawals) if withdrawals else 0
-    avg_deposit = sum(deposits)/len(deposits) if deposits else 0
-
-    # Sort to easily extract largest withdrawal and deposit
-    transactions.sort()
-    largest_withdrawal, largest_deposit = transactions[0], transactions[-1]
-
-    print(f"  Avg withdrawal: {avg_withdrawal:.2f}  Avg deposit: {avg_deposit:.2f}")
-    print(f"  Largest withdrawal: {largest_withdrawal}")
-    print(f"  Largest deposit: {largest_deposit}\n")
+def remove_task():
+    if todo_list:
+        removed = todo_list.pop()
+        print(f"Task '{removed}' removed")
+    else:
+        print("Your To Do List is empty")
   </script>
 
   <script>
-    /* Header: emulates Python REPL banner with live timestamp */
-    function formatDate() {
-      const now = new Date();
-      return `${now.toDateString()} ${now.getHours().toString().padStart(2,"0")}:${now.getMinutes().toString().padStart(2,"0")}`;
-    }
-    function updateHeader() {
-      document.getElementById("header").textContent =
-`Python 3.15.0 (main, ${formatDate()}) [Clang 14.0.0]
-Type "help", "credits", "license" or "copyright"
-for more information.`;
-    }
-    updateHeader(); setInterval(updateHeader, 1000);
+    const cmdEl=document.getElementById("command"), outEl=document.getElementById("output");
 
-    /* Initialize Pyodide and preload Python code */
+    // Auto-sticks to bottom unless the user scrolls up; threshold avoids jitter near the end
+    let autoStick=true;
+    function appendAndStick(txt){
+      outEl.textContent+=txt;
+      if(autoStick) outEl.scrollTop=outEl.scrollHeight;
+    }
+    outEl.addEventListener("scroll",()=>{
+      autoStick=Math.abs(outEl.scrollHeight-outEl.scrollTop-outEl.clientHeight)<4;
+    });
+
+    // Input hygiene: remove invisible characters and normalize whitespace so commands parse reliably
+    function sanitize(raw){
+      return raw.replace(/[\u200B\u200C\u200D]/g,"")
+                .replace(/\u00A0/g," ")
+                .replace(/\r?\n/g,"")
+                .trim();
+    }
+
+    // Pyodide boot: load runtime, then preload the Python functions to avoid first-command latency
     let pyodide;
     async function initPyodide(){
       pyodide=await loadPyodide();
       await pyodide.runPythonAsync(document.getElementById("py-code").textContent);
-      document.getElementById("command").classList.add("ready");
-      document.getElementById("command").focus();
-    }
-    window.addEventListener("load",()=>{ initPyodide(); });
-
-    /* Append text to output and auto-scroll */
-    function appendAndStick(text) {
-      const out = document.getElementById("output");
-      out.textContent += text;
-      out.scrollTop = out.scrollHeight;
+      cmdEl.classList.add("ready");
+      cmdEl.focus();
     }
 
-    /* Command router */
-    async function runCommand(raw) {
-      const cmd = raw.trim().toLowerCase();
-      let output = "";
-      pyodide.setStdout({ batched: s => output += s });
+    // Capture Python stdout to keep UI output consistent with terminal expectations
+    async function pyRunAndCapture(code){
+      let buf=""; pyodide.setStdout({batched:s=>buf+=s});
+      await pyodide.runPythonAsync(code);
+      pyodide.setStdout({batched:()=>{}});
+      return buf;
+    }
 
-      if (cmd === "print") {
-        await pyodide.runPythonAsync("print_summary(data)");
-      } else if (cmd === "analyse") {
-        await pyodide.runPythonAsync("analyse_transactions(data)");
-      } else if (cmd === "help") {
-        output = "Options:\n\nprint = show summary totals\nanalyse = show dataset, averages, largest values\nstop = end program";
-      } else if (cmd === "credits") {
-        output =
-          "© Mohammed Usman\n\n" +
-          "Created with Mimo\n\n" ;
-      } else if (cmd === "copyright") {
-        output = "Copyright (c) 2001-2025 Python Software Foundation.\nAll Rights Reserved.";
-      } else if (cmd === "license") {
-        output = "Python is distributed under the PSF License.\nSee https://docs.python.org/3/license.html for details.";
-      } else if (cmd === "stop") {
-        output = "Program stopped.\n\nOptions:\n\n1. Print summary (type 'print')\n\n2. Analyse transactions (type 'analyse')\n\n3. Stop program (type 'stop')";
-      } else {
-        output = "Invalid choice";
+    // Keep menu text reusable to restore state after clearing the list
+    const MENU_TEXT=`\n\nOptions:\n\n1. Add Task\n\n2. Remove Task\n\n3. Quit\n\nEnter Your Choice, 1, 2, or 3`;
+    let awaitingTask=false;
+    // Single-source keywords prevent accidental fallthrough and make intent explicit
+    const specials=new Set(["1","2","3","help","credits","license","copyright"]);
+
+    // Command router: echo input, branch to menu actions, or request task text
+    async function processCommand(raw){
+      const original=sanitize(raw), low=original.toLowerCase();
+      appendAndStick(`\n>>> ${original}\n\n`);
+      if(!low) return;
+
+      if(specials.has(low)){
+        awaitingTask=false;
+        if(low==="1"){ appendAndStick("Enter task"); awaitingTask=true; return; }
+        if(low==="2"){ appendAndStick(await pyRunAndCapture("remove_task()")); return; }
+        if(low==="3"){ await pyodide.runPythonAsync("todo_list.clear()"); appendAndStick("Your To Do List is empty"+MENU_TEXT); return; }
+        if(low==="help"){ appendAndStick("Type the number of an option to execute it.\n\n1 = Add a task\n2 = Remove the last task\n3 = Quit the program"); return; }
+        if(low==="credits"){
+          appendAndStick(
+            "Created with Mimo\n\n" +
+            "© Mohammed Usman\n\n" 
+
+          );
+          return;
+        }
+        if(low==="license"){ appendAndStick("Python is distributed under the PSF License.\nSee https://docs.python.org/3/license.html for details."); return; }
+        if(low==="copyright"){ appendAndStick("Copyright (c) 2001-2025 Python Software Foundation.\nAll Rights Reserved."); return; }
       }
-
-      appendAndStick(`\n>>> ${cmd}\n\n${output}`);
+      if(awaitingTask){
+        appendAndStick(await pyRunAndCapture(`add_task(${JSON.stringify(original)})`));
+        awaitingTask=false;
+        return;
+      }
+      appendAndStick("Input not recognized, please type a valid input");
     }
 
-    /* Capture Enter key */
-    const cmdEl=document.getElementById("command");
-    cmdEl.addEventListener("keydown", async e=>{
+    // Enter submits commands; clearing content keeps the input line visually stable
+    cmdEl.addEventListener("keydown",async e=>{
       if(e.key==="Enter"){
         e.preventDefault();
         const raw=cmdEl.innerText;
         cmdEl.textContent="";
-        await runCommand(raw);
+        await processCommand(raw);
       }
     });
 
-    /* Cursor visibility */
+    // REPL banner time-stamped to feel alive without distracting updates
+    function formatDate(){
+      const n=new Date();
+      return `${n.toDateString()} ${String(n.getHours()).padStart(2,"0")}:${String(n.getMinutes()).padStart(2,"0")}`;
+    }
+    function updateHeader(){
+      document.getElementById("header").textContent=
+        `Python 3.15.0 (main, ${formatDate()}) [Clang 14.0.0]\nType "help", "credits", "license", "copyright"\nfor more information.`;
+    }
+    updateHeader(); setInterval(updateHeader,1000);
+
+    // Cursor appears briefly on movement to signal focus, then hides to maintain terminal immersion
     let cursorTimer=null;
     window.addEventListener("mousemove",()=>{
       document.body.style.cursor="default";
       clearTimeout(cursorTimer);
       cursorTimer=setTimeout(()=>{ document.body.style.cursor="none"; },1200);
     });
+
+    // Initialize after load to avoid race conditions with DOM readiness
+    window.addEventListener("load",()=>{ initPyodide(); });
   </script>
 </body>
 </html>

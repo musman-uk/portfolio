@@ -150,8 +150,8 @@ def remove_task():
         if(low==="help"){ appendAndStick("Type the number of an option to execute it.\n\n1 = Add a task\n2 = Remove the last task\n3 = Quit the program"); return; }
         if(low==="credits"){
           appendAndStick(
-            "Created with Mimo\n\n" +
-            "© Mohammed Usman\n\n" 
+            "© Mohammed Usman\n\n" +
+            "Created with Mimo \n\n" 
 
           );
           return;

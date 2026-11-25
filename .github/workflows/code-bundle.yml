@@ -1,0 +1,66 @@
+name: Bundle Code
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set bundle filename
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          echo "BUNDLE_FILE=${REPO_NAME,,}-code.txt" >> "$GITHUB_ENV"
+
+      - name: Generate code bundle
+        run: |
+          python3 - << 'EOF'
+          import os
+          from pathlib import Path
+
+          out_name = os.environ["BUNDLE_FILE"]
+          repo = os.environ["GITHUB_REPOSITORY"]
+          ref = os.environ.get("GITHUB_REF_NAME", "main")
+
+          allowed_exts = {".md", ".html", ".css", ".js", ".mjs", ".json"}
+          skip_dirs = {".git", ".github", "node_modules"}
+          skip_files = {"package-lock.json"}
+
+          files = []
+          for path in sorted(Path(".").rglob("*")):
+              if not path.is_file():
+                  continue
+              if any(part in skip_dirs for part in path.parts):
+                  continue
+              if path.name in skip_files or path.name == out_name or path.name.endswith("-code.txt"):
+                  continue
+              if path.name.endswith((".min.js", ".min.css")):
+                  continue
+              if path.suffix.lower() in allowed_exts:
+                  files.append(path)
+
+          # Place README.md first, then group remaining Markdown and web files by folder
+          files.sort(key=lambda p: (0 if p.as_posix() == "README.md" else 1, p.as_posix()))
+
+          with open(out_name, "w", encoding="utf-8") as out:
+              out.write(f"# Code Bundle: {repo} ({ref})\n\n")
+              for path in files:
+                  out.write(f"{'=' * 60}\n")
+                  out.write(f"FILE: {path.as_posix()}\n")
+                  out.write(f"{'=' * 60}\n\n")
+                  text = path.read_text(encoding="utf-8", errors="replace")
+                  out.write(text.rstrip() + "\n\n")
+          EOF
+
+      - name: Upload bundle as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.BUNDLE_FILE }}
+          path: ${{ env.BUNDLE_FILE }}

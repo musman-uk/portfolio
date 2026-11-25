@@ -60,7 +60,7 @@ As for me, perhaps some things are too deep to put in Markdown, but there is muc
 
 Just like this message, though my gratitude may not be seen directly, it is always there.
 
-– Mohammed Usman
-  محمد عثمان
+محمد عثمان
+Mohammed Usman
 
 -->

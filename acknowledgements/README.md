@@ -46,15 +46,18 @@
 
 ### 💡 AI Collaborators  
 
-- **Gemini** – assists with brainstorming, problem‑solving, refinement and media generation across projects.  
-- **Microsoft Copilot** – assists with ideas, drafts, acceleration and polish.  
+
+- **Gemini** – assists with brainstorming, prototyping, problem‑solving, code acceleration and media generation.  
+- **Microsoft Copilot** – assists with ideas, drafts, acceleration and polish.
 
 
 <!--
 
+Dear reader,
+
 I felt it fitting to keep this message a little hidden, so that anyone who finds it has truly discovered it for themselves.
 
-It is my hope, dear reader, that you too are able to acknowledge and appreciate all that has been a part of your journey into who you are, and are trying to be.
+It is my hope that you too are able to acknowledge and appreciate all that has been a part of your journey into who you are, and are trying to be.
 
 As for me, perhaps some things are too deep to put in Markdown, but there is much more that I am thankful for – including the people in my life who have been integral to who I am, and am trying to be.
 

@@ -1,7 +1,7 @@
 <!--
-                                                        اَلسَّلَامُ عَلَيْكُمْ
-                                                        As-salamu alaykum
-                                                        Peace be upon you
+                                                        اَلسَّلَامُ عَلَيْكُمْ، ساتھی قاری
+                                                        As-salamu alaykum, saathi qari
+                                                        Peace be upon you, fellow reader
 -->
 
 # Welcome to my portfolio 📂

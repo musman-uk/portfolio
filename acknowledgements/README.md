@@ -24,12 +24,6 @@
 
 ---
 
-### 💡 AI Collaborator  
-
-- **Microsoft Copilot** – assists with ideas, drafts, acceleration and polish, extending my thinking and work.  
-
----
-
 ### 🧱 Resources  
 
 - **GitHub Documentation** – reference for workflows, actions and repository management.  
@@ -37,20 +31,36 @@
 - **Stack Overflow** – reference for troubleshooting and implementation details.  
 - **MDN Web Docs** – reference for HTML, CSS and JavaScript standards and behaviour.  
 - **Python Documentation** – reference for syntax, standard library modules and language behaviour.  
-- **Git Documentation** – reference for commands, branching, merging and repository operations.
-- **Pixabay** – provides freely usable sound assets.
-- **Gemini** – outputs AI imagery and sound.
+- **Git Documentation** – reference for commands, branching, merging and repository operations.  
+- **Pixabay** – provides freely usable sound assets.  
 
 ---
 
 ### 📡 Hosting & Deployment  
 
-- **GitHub Pages** – hosts and deploys guided projects and published websites.
--  **gd.games** – provides a platform for sharing and playing published games.
+- **GitHub Pages** – hosts and deploys guided projects and published websites.  
+- **gd.games** – provides a platform for sharing and playing published games.  
 - **itch.io** – provides a platform to host and distribute published games.  
 
 ---
 
-### 🌟 Special Thanks  
+### 💡 AI Collaborators  
 
-- **My Mum** – For the support, encouragement and inspiration in pursuing this path I am genuinely passionate about.
+- **Gemini** – assists with brainstorming, problem‑solving, refinement and media generation across projects.  
+- **Microsoft Copilot** – assists with ideas, drafts, acceleration and polish.  
+
+
+<!--
+
+I felt it fitting to keep this message a little hidden, so that anyone who finds it has truly discovered it for themselves.
+
+It is my hope, dear reader, that you too are able to acknowledge and appreciate all that has been a part of your journey into who you are, and are trying to be.
+
+As for me, perhaps some things are too deep to put in Markdown, but there is much more that I am thankful for – including the people in my life who have been integral to who I am, and am trying to be.
+
+Just like this message, though my gratitude may not be seen directly, it is always there.
+
+– Mohammed Usman
+  محمد عثمان
+
+-->

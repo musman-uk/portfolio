@@ -1,3 +1,9 @@
+<!--
+                                                        اَلسَّلَامُ عَلَيْكُمْ
+                                                        As-salamu alaykum
+                                                        Peace be upon you
+-->
+
 # Welcome to my portfolio 📂
 
 ## ☰ Contents
@@ -14,4 +20,3 @@
 | 🤝 [Acknowledgements](acknowledgements/README.md) | Gratitude for all that is informing my craft |
 
 <sub>© Mohammed Usman</sub>
-
